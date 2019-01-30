@@ -1,0 +1,52 @@
+Friday, January 25, 2019
+Finished Section 1 of git Course.
+1. Lecture : Welcome and Course Goals, Course Overview was good to know at start.
+2. Lecture : About the Author and Course Audience were unnecessary things.
+3. I found Lecture : Why Command Line exciting, because I was comfortable with using command line.	
+4. Lecture : Why Source Control, It was difficult to understand so many things at the start of the course.
+5. Lecture : Why Git was new information to know.
+
+Finished Section 2 of git Course.
+1. In the Lecture 11 of Git installation : I found that, git is already installed on my machine with version 2.17.0
+2. As told by Sir, I skipped Section 3 and 4.
+
+Saturday, January 26, 2019
+Finished Section 5 of git Course.
+1. In Lecture 22 : Author used command mate hipster.txt but this command works on MAC OS only. So I used gedit hipster.txt for Linux.
+2. Before using command git commit I was asked to tell them who I am So ran following commands :
+$ git config --global user.email shripad000@gmail.com
+$ git config --global user.name shripad
+3. Lecture 23 : Adding git to existing project was 1 line command git add . and that inline commit was fast and simple then normal git commit.
+4. Lecture 24 : Starting on GitHub by joining an existing project, I created my account on GitHub with username shripadvk, rest procedure was simple to do.
+5. Lecture 25 : Basic Git Workflow (add, commit, pull & push), Which I found fascinating while doing practical on my machine.
+6. Lecture 26 : Tracked Files was good to keep the track of files yet to be committed or yet to be added. git status command shows the status as well as suggestion how to add or commit new file.
+7. Lecture 27 : Editing Files, difference between already staged file and unstaged modified file was bit tricky to understand rest was the same.
+8. Lecture 28 : Recursive Add, this command git add . was already shown by author just the fact that git can't show modified files inside the folders was new.
+9. Lecture 29 : Backing out Changes was useful in development stage where you innovatively make changes in the code now your working code has errors. Here this git checkout -- filename.txt command will be useful.
+10. Lecture 30 : Renaming and Moving files was bit tricky to understand how it is working inside git workflow. But commands were simple to understand as well as use in practical.
+11. Lecture 31 : Deleting Files, git mv command works similar to bash mv command. Neither git nor bash can't retrive deleted files.
+12. Lecture 32 : History, git log command is useful to review our own work as well as look at commands used in that session.
+13. Lecture 33 : Git Alias was user defined global keywords to save some efforts of typing whole command everytime required.
+14. Lecture 34 : Ignoring Unwanted files and folders, This feature don't seem to be working on my machine for robots.txt file but it's working for log folder. 
+15. Lecture 35 : cleanup and back to origin, this practical was repetition for me as I already pushed my Docker project and learned how to pull from Github and push to GitHub.
+
+"git remote add origin https://github.com/shripadvk/repository_name.git" this command is required to change the repository.
+"git push -u origin master" this command is used to push to own GitHub account.
+before pushing make sure to "git pull origin master" and check message "Already up to date"
+
+Monday, January 28, 2019
+I was waiting for email confirmation for new GitHub account -> shripad@4alpha.in
+
+Tuesday, January 29, 2019
+I got email confirmation for new GitHub account but I felt sick and I could perform push and pull operations today.
+
+Wednesday, January 30, 2019
+1. First of all I pushed folder created at the time of Udemy training Section 5.
+2. Here I realized that I made mistake I should have used pull command before push.
+3. Then I read instructions from slack again where only push and pull commands where asked to be pushed on GitHub.
+4. Again I pushed source code of section 5 in new Folder by my name Shripad.
+5. Then I got message on slack "@shripad I saw that you have init repo and pushed changes to server, now add your code in your folder"
+you could use slack app to see notifications in realtime.
+6. I got the message right but I wasn't sure about what is meant by see notifications in realtime So I googled it first. Then I clicked on Bell at left top besides 4alpha -> your notification preference -> Notify me about -> All new messages.
+
+started Section 7 of git Course.
