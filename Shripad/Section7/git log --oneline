@@ -1,0 +1,22 @@
+This command is used to get commit reference ids and related operation's description.
+
+After this command output will look like this :
+6321eaa (HEAD -> master) deleted .htaccess file
+0510b4b Adding Readme file to section7
+27c23ea (origin/master) Proper Folders for each section of Udemy Course and git_shripad.txt file for my training logs
+82ba969 Proper Folders for each section of Udemy Course and git_shripad.txt file for my training logs
+032d149 Proper Folders for each section of Udemy Course and git_shripad.txt file for my training logs
+87e824c Update README.md
+b594798 Update README.md
+17f5e04 Creating Folder and adding push and pull command txt files in it
+e0bf612 Merge branch 'master' of https://github.com/4alpha/assignment-2019 These are pulled files.
+5e8b177 Adding my push and pull commands to repository
+cbcc66c Update README.md
+3c57c6f Update README.md
+6634777 Update README.md
+54d5a24 Update README.md
+7f4fede Adding my repo to hub
+
+Now you can compare the difference between 2 commit ids. like $ git diff b594798 87e824c which will show you all the modifications made between those 2 commits on terminal.
+
+Similar to $ git diff b594798 87e824c, command $ git difftool b594798 87e824c will visually show you all the modifications made from 1st commit id till 2nd commit id entered in the command.

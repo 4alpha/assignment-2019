@@ -56,4 +56,7 @@ Which wasn't pre-installed so I followed instructions from https://stackoverflow
 3. Lecture 46 : Comparing Working Directory with Git Repository, only difference in my case was HEAD attribute is added So new command was $ git difftool HEAD which gave exact output as $ git difftool command from previous lecture.
 4. Lecture 47 : Comparing Staging Area with Git Repository, it works similar to previous lecture i.e. visually see the modifications using command git difftool --staged HEAD. Now I got the point why my output didn't change from Lecture 45,46 and this 47 because I didn't perform single add or commit.
 5. Lecture 48 : Limiting Comparisons to One File, workes similar to git diff command. The only attribute added is $ git difftool --path/filename
-6. Lecture 49 : 
+6. Lecture 49 : Comparing Between Commits, was all about how to compare changes between commits made earlier using command $ git diff commitid1 commitid2. Command required to get commit ids is $ git log --oneline.
+7. Lecture 50 : Comparing Between Local and Remote Master Branches, command $ git diff master origin/master shows differences between last commit at local system and last commit on GitHub repository.
+8. Lecture 51 : Comparison Section Cleanup was as usual at the end of each section first check $ git status then $ git add . 
+after that $ git commit -m "Message". Then first $ git pull to check whether we are up-to-date. And at the end $ git push origin master.

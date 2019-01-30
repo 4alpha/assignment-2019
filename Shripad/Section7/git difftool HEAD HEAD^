@@ -1,0 +1,3 @@
+First of all HEAD^ = HEAD - 1
+
+This command compares difference between last commit and 2nd last commit (the commit done before the last commit).

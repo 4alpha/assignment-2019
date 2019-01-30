@@ -1,0 +1,11 @@
+$ git diff master origin/master
+
+master = master at HEAD (local repository)
+
+origin/master = origin / master at GitHub.
+
+This command is used to show differences on terminal between last commit on local repository and last commit on GitHub repository.
+
+$ git difftool master origin/master
+
+This command is used to visually show modifications between last commit on local repository and last commit on GitHub repository.
