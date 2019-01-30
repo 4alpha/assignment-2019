@@ -1,0 +1,3 @@
+This command is used to see modifications in the file visually between Working Directory and Git Repository on terminal.
+
+This command shows output exactly similar to $ git difftool command.

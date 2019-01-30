@@ -1,0 +1,5 @@
+This command is used to show differences made between Working Directory and Staging Area in the file.
+
+With git status command you can only see which file is modified.
+
+But with git diff command you can actually see the changes made in the file on terminal.

@@ -1,0 +1,5 @@
+This command is used to show differences made in the specified file between, Working Directory and Staging Area.
+
+You can also provide path to file. ex. $ git difftool --~/.gitconfig
+
+This command shows similar output to git diff command incase only 1 file is changed after last commit.

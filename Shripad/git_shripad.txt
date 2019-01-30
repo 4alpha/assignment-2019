@@ -38,7 +38,7 @@ Monday, January 28, 2019
 I was waiting for email confirmation for new GitHub account -> shripad@4alpha.in
 
 Tuesday, January 29, 2019
-I got email confirmation for new GitHub account but I felt sick and I could perform push and pull operations today.
+I got email confirmation for new GitHub account but I felt sick and could not perform push and pull operations today.
 
 Wednesday, January 30, 2019
 1. First of all I pushed folder created at the time of Udemy training Section 5.
@@ -50,4 +50,10 @@ you could use slack app to see notifications in realtime.
 6. I got the message right but I wasn't sure about what is meant by see notifications in realtime So I googled it first. Then I clicked on Bell at left top besides 4alpha -> your notification preference -> Notify me about -> All new messages.
 
 Finished Section 7 of git Course.
-1. 
+1. Lecture 44 : Git Repository Setup was all about how to write README.md file it's formatting and conventions.
+2. Lecture 45 : Comparing Working Directory with Staging Area was all about see the modifications in the file using command git diff. but difftool command is used for visually see the comparison.
+Which wasn't pre-installed so I followed instructions from https://stackoverflow.com/questions/6412516/configuring-diff-tool-with-gitconfig
+3. Lecture 46 : Comparing Working Directory with Git Repository, only difference in my case was HEAD attribute is added So new command was $ git difftool HEAD which gave exact output as $ git difftool command from previous lecture.
+4. Lecture 47 : Comparing Staging Area with Git Repository, it works similar to previous lecture i.e. visually see the modifications using command git difftool --staged HEAD. Now I got the point why my output didn't change from Lecture 45,46 and this 47 because I didn't perform single add or commit.
+5. Lecture 48 : Limiting Comparisons to One File, workes similar to git diff command. The only attribute added is $ git difftool --path/filename
+6. Lecture 49 : 
