@@ -49,4 +49,5 @@ Wednesday, January 30, 2019
 you could use slack app to see notifications in realtime.
 6. I got the message right but I wasn't sure about what is meant by see notifications in realtime So I googled it first. Then I clicked on Bell at left top besides 4alpha -> your notification preference -> Notify me about -> All new messages.
 
-started Section 7 of git Course.
+Finished Section 7 of git Course.
+1. 
