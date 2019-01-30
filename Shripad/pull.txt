@@ -1,0 +1,3 @@
+$ git remote add origin https://github.com/4alpha/assignment-2019.git
+
+$ git pull origin master
