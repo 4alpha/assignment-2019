@@ -1,13 +1,15 @@
-# This repository is created at the time of doing practicals from section 5 of Udemy Course.
+# What is asked to do...
 
-## Purpose
+I have created repo for assignments for you all
+https://github.com/4alpha/assignment-2019
 
-Sample website with plenty of files for demos
+you need to create folder inside it and just add commit and push source code
 
-### How to add Repository
+do not push / commit large files like docker images, bin, video, images etc
+only source code should be checked in it
 
-$ git pull origin master //Which I forget to do while pushing this repository
+your local structure could be like this
+cloned copy will reside here /home/<username>/code/assignment-2019/
 
-$ git remote add origin https://github.com/4alpha/assignment-2019.git
-
-$ git push -u origin master
+your individual folder will reside init
+"/<username>/html etc"
