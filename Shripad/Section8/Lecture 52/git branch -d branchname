@@ -1,0 +1,5 @@
+This command is used to delete the branch from list of brach we are working on.
+
+* point to the current working branch. and you can't delete the working branch you have to be in different branch to delete current branch.
+
+Ex. Delete my_new_branch from master branch.

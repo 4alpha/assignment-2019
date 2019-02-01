@@ -60,3 +60,14 @@ Which wasn't pre-installed so I followed instructions from https://stackoverflow
 7. Lecture 50 : Comparing Between Local and Remote Master Branches, command $ git diff master origin/master shows differences between last commit at local system and last commit on GitHub repository.
 8. Lecture 51 : Comparison Section Cleanup was as usual at the end of each section first check $ git status then $ git add . 
 after that $ git commit -m "Message". Then first $ git pull to check whether we are up-to-date. And at the end $ git push origin master.
+
+Thursday, January 31, 2019
+Finished Section 8 of git Course.
+1. Lecture 52 : Branching Basics was all about how to create new branch, rename the existing branch as well as delete the branch.
+2. Lecture 53 : Happy Path/Fast Forward Merges, this lecture focus upon how to merge one branch into another. Merging branch overwrites the data or working branch.
+3. Lecture 54 : Happy Path/Disable Fast forward Merges, This worked similar to previous lecture, I didn't trace any change in output where as this time terminal said that "Merge made by the 'recursive' strategy".
+4. Lecture 55 : Automatic Merges, This works similar to previous two methods only difference is whichever branch has last commit those changes will be reflected to master branch at the time of automatic merge.
+5. Lecture 56 : Conflicting Merges and Resolution, I didn't get any conflict while doing practical on this. But I already handled this conflict scenario while I pulled something from GitHub. So I am still somewhere not clear when exactly conflicts occure. But Now I know how to remove them.
+
+Friday, February 1, 2019
+Starting Section 10 of git Course.

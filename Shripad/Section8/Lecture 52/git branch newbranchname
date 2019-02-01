@@ -1,0 +1,3 @@
+This command is used to create new branch locally.
+
+To rename the currently working branch use command $ git branch -m newbranchname
