@@ -1,0 +1,5 @@
+This command is used to merge other branch into the currently working branch.
+
+Example. $ git checkout master
+	 $ git merge test
+Basically it overwrites the data from test branch into the master branch.

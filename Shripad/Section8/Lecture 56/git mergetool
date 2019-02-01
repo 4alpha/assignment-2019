@@ -1,0 +1,11 @@
+This command is used to visually see the differences between multiple branch commits.
+
+Where you can choose final modification among the available options.
+
+Once it's done. you commit the changes using $ git commit -m "Commit after solving conflicts"
+
+After that you will get untracked file with extension .orig This file holds all the conflicts incase you want to change the data after commit.
+
+You can simply add this filename into .gitignore file
+
+And do final commit.

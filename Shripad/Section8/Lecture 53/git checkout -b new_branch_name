@@ -1,0 +1,5 @@
+This command is used to create new branch and well as switch to newly created branch.
+
+This command is merges 2 distinct commands $ git branch newbranchname and $ git checkout newbranchname.
+
+

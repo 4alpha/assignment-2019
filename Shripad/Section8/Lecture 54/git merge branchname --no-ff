@@ -1,0 +1,6 @@
+This command is used to merge other branch into the currently working branch with extra attribute no fast forward merge.
+
+Example. $ git checkout master
+	 $ git merge test --no-ff
+
+Basically it overwrites the data from test branch into the master branch.
