@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require('db_connect.php');
 $inputmailID=$_POST['mail'];
 $inputpassword=$_POST['pword'];
@@ -19,7 +19,7 @@ if ($result->num_rows > 0)
 	$agegroup = $row['agegroup'];
 	$mailID = $row['email'];
 	$Number=$row['contact'];
-	$passcode=$row['pword'];
+	$passcode=$row['pword'];	
 }
 else 
 {
@@ -131,9 +131,17 @@ h3 {
 <div class='bgimg-1'>
   <div class='caption'>
   <span class='border'>That's it from our side!</span>
-  <br><br><form action='Sign_in.html' method='post'>
-  <input type='submit' value='Log Out...' style='height:50px; width:150px; border: 2px solid red; border-radius: 4px;background-color: #00BFFF;'/>
-  </form>
+  <br><br>
+	<form>
+  <input type='button' value='Log Out...' onclick='log_out()' style='height:50px; width:150px; border: 2px solid red; border-radius: 4px;background-color: #00BFFF;'/>
+ 	</form>
+	<script>
+	function log_out() {
+	  alert('Logged out !!'); 
+		location.href='Sign_in.html';"; 
+		session_destroy();	
+	echo " }
+	</script>
 </div>
 </div>
 
