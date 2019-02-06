@@ -40,7 +40,13 @@ function DeleteUserQualification(id) {
             id: id
         },
         function (data, status) {
-                // reload Users by using readQualificationRecords();
+                // reload Users by using readQualificationRecords();		
+		var data1=data.toUpperCase();
+		//console.log("Deleted degree in uppercase "+data);
+		var o = new Option(data1, data);
+		/// jquerify the DOM object 'o' so we can use the html method
+		$(o).html(data1);
+		$("#add_new_qualification_record_modal #degree").append(o);
                 readQualificationRecords();
             }
             );
