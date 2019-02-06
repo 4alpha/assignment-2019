@@ -16,7 +16,7 @@ function addQualificationRecord() {
         
         // read records again
         readQualificationRecords();
-        
+        $("#degree option[value="+degree+"]").remove();
         // clear fields from the popup
         $("#college_name").val("");
         $("#percentage").val("");
