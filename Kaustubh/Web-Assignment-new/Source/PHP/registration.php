@@ -6,15 +6,56 @@ $email=$_POST['email'];
 $gender=$_POST['gender'];
 $pass=$_POST['pass1'];
 $pass2=$_POST['pass2'];
+
+#Validation variables
+$fname_error="";
+$sname_error="";
+$email_error="";
+$pass_error="";
+$empty_error="";
+
 if(empty($fname) || empty($sname) || empty($email) || empty($gender) || empty($pass) || empty($pass2))
 {
-	echo "Please fill empty fields";
+	$empty_error.= "<br/>Please fill empty fields";
 }
-else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-	echo "Invalid email";
+else
+{
+	if(!preg_match("/^[a-zA-Z]*$/",$fname))
+	{
+		$fname_error.="<br/>First name should include characters only";
+	}
+	if(!preg_match("/^[a-zA-Z]*$/",$sname))
+	{
+		$sname_error.="<br/>Surname/last name should include characters only";
+	}
+	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) 
+	{
+		$email_error.="<br/>Invalid email";
+	}
+	if (strcmp($pass, $pass2)!=0) 
+	{
+		$pass_error.="<br/>Password Mismatch";
+	}
 }
-else if (strcmp($pass, $pass2)!=0) {
-	echo "Password Mismatch";
+if(!empty($fname_error) || !empty($sname_error) || !empty($email_error) || !empty($pass_error) || !empty($empty_error))
+{
+	if(!empty($empty_error))
+		echo $empty_error;
+
+	else
+	{
+	 if(!empty($fname_error))
+		echo $fname_error;
+
+	 if(!empty($sname_error))
+		echo $sname_error;
+			
+	 if(!empty($email_error))
+		echo $email_error;
+
+	 if(!empty($pass_error))
+		echo $pass_error;
+	}
 }
 else
 {

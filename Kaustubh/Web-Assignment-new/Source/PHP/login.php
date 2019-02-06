@@ -32,7 +32,7 @@ else
         }
         else
         {
-            echo"false";
+            echo"Invalid login credentials";
         }
     }
     catch(PDOException $e)
