@@ -122,7 +122,7 @@ include_once("config.php");
 
                   <div class="form-group">
                     <label for="passyear">Passing Year</label>
-                    <input type="number"  min="2000" max="2018" maxlength="4" minlength="4" id="upassyear" placeholder="for eg 2017" required="required" class="form-control" />
+                    <input type="number"  min="2000" max="2018" maxlength="4" minlength="4" id="upassyear" placeholder="for eg 2017" required="required" class="form-control" onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
                   </div>
                   
                 </div>
