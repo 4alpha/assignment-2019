@@ -1,6 +1,5 @@
 <?php
 session_start();
-#$user_id=$_SESSION['uid'];
 include_once("config.php");
 // check request
 if(isset($_POST['id']) && isset($_POST['id']) != "")
