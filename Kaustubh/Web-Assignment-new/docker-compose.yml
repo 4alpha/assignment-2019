@@ -3,9 +3,7 @@ services:
   mysql:
     image: mysql:8.0
     container_name: mysql-server-new
-    command: --default-authentication-plugin=mysql_native_password
-    volumes:
-    - .:/application
+    command: --default-authentication-plugin=mysql_native_password    
     restart: always
     environment: 
     - MYSQL_ROOT_PASSWORD=root
@@ -14,11 +12,14 @@ services:
     - MYSQL_PASSWORD=pass
     ports: 
     - "8082:3306"
+    volumes:
+    - .:/application    
+    - ./Source/SQL-Scripts/demo.sql:/docker-entrypoint-initdb.d/dump.sql
   
   website:
     container_name: php72
     build:
-      context: ./Source
+      context: ./Source/Web-Dockerfile
     volumes: 
     - ./Source/PHP:/var/www/html/
     ports: 
