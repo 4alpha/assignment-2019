@@ -3,7 +3,7 @@
     function Login($email,$pass) {
         require('config.php');
 
-        $sql = "SELECT * FROM passport WHERE email='$email' AND password='$pass'";
+        $sql = "SELECT * FROM passport WHERE email='$email' AND passwd='$pass'";
         $result = mysqli_query($conn, $sql);
         if ($result->num_rows > 0) {
 			$row = $result->fetch_assoc();
@@ -45,7 +45,7 @@
         $address = $insertArr['address'];
         $mobile = $insertArr['mobile'];
 
-        $sql = "INSERT INTO passport(email, password, application_for, type_of_application, booklet, name, surname, picture, gender, place, birth_date, pan, address, mobile_no)VALUES ('$email','$pass','$applying','$application_for','$booklet','$name','$surname','$profile','$gender','$place','$dob','$pan','$address','$mobile')";
+        $sql = "INSERT INTO passport(email, passwd, application_for, type_of_application, booklet, name, surname, picture, gender, place, birth_date, pan, address, mobile_no)VALUES ('$email','$pass','$applying','$application_for','$booklet','$name','$surname','$profile','$gender','$place','$dob','$pan','$address','$mobile')";
         if (mysqli_query($conn, $sql)) {
             echo "<script> alert('Data Saved');
             location.href='login.html'; 
