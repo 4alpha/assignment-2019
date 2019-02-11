@@ -16,15 +16,16 @@ var frm=$("#loginform");
         url: frm.attr('action'),
         data: data,
         success: function(html){
-          if(html=='false') {		 
-              alert("Invalid Username and Password");
+          if(html==="Invalid login credentials")
+	  {		 
+ 	      alert("Invalid Username and Password \nTry again");
               frm.trigger("reset");
               console.log(html);   
               $("#message").html("");    
           }
           else
           {
-              alert("Success");
+              alert("Login Succesful");
               window.location.replace('user_dashboard.php');
               console.log(html);
                $("#message").html("");

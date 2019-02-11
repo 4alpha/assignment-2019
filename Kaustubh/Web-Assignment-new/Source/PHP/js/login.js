@@ -16,8 +16,9 @@ var frm=$("#loginform");
         url: frm.attr('action'),
         data: data,
         success: function(html){
-          if(html=='false') {		 
-              alert("Invalid Username and Password");
+          if(html==="Invalid login credentials")
+	  {
+              alert("Invalid Username and Password \ntry again");
               frm.trigger("reset");
               console.log(html);       
           }
