@@ -33,8 +33,7 @@
 <div class="jumbotron" id="jumbotron">
 <?php
 		
-	echo "Connection Successful !! ";		
-	require('CreateTable.php');
+	echo "Connection Successful :)  ";		
 ?>
 	<br><a href="Sign_in.html">Go to Main Project</a>
 </div> 
