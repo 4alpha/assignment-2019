@@ -176,7 +176,11 @@
 			}
 			if ($profile) {
 				$fileName = "photo_" . time() . "." . $imageFileType;
+				echo $target_dir;				
 				$target_dir .= $fileName;
+
+				echo $filename;
+				echo $target_dir;
 
 				if (!move_uploaded_file($_FILES["profilepic"]["tmp_name"], $target_dir)) {
 					$errorMsg .= "Error in uploading file.";
