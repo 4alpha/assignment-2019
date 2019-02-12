@@ -139,8 +139,9 @@
 			<textarea class="form-control" rows="5" cols="60" name="address" required>
 			</textarea>
 
+			<!-- pattern="[0-9] {10}" -->
 			<label for="mobile">Mobile Number</label>
-			<input type="number" class="form-control" name="mobile" pattern="[0-9] {10}" required>
+			<input type="number" class="form-control" name="mobile" id="mobile" required>
 			<br>
 			<br>
 
