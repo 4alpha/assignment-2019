@@ -3,7 +3,6 @@ function validate() {
     //call to check email validation
     isEmpty(email);
 
-    //check passis empty
     if (!isEmail(email)) {
         alert('Please enter valid email address.');
         return false;
@@ -20,7 +19,7 @@ function validate() {
 function validateRegistration() {
     var email = $('#email').val();
     var pass = $('#pass').val();
-    var mobile = $('#mobile').val();
+    var mob = $('#mob').val();
     //email validation
     if ('' === $('#email').val()) {
         alert('please enter email.');
@@ -41,7 +40,7 @@ function validateRegistration() {
         return false;
     }
 
-    if (!isMobile(mobile)) {
+    if (!isMobile(mob)) {
         alert('Mobile number should start from 7/8/9');
         return false;
     }
@@ -58,7 +57,7 @@ function isEmail(email) {
     return regex.test(email);
 }
 
-function isMobile(mobile) {
+function isMobile(mob) {
     var regex = /^[789]\d{9}$/;
-    return regex.text(mobile);
+    return regex.test(mob);
 }
