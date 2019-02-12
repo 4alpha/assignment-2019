@@ -7,7 +7,7 @@
 		Application For Passport
 	</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-	    crossorigin="anonymous">
+	 crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -23,9 +23,12 @@
 					<b> Government of India, Ministry of External Affairs </b>
 				</h3>
 			</center>
-			<b>Please read the passport Instruction Booklet Carefully before filling the form. Furnishing of incorrect instruction/ supression
-				of information would lead to rejection of application and would attract penal provision as prescribed under the Passport
-				Act, 1967. Please produce your original documents at the time of submission of your form. All fields marked with (*)
+			<b>Please read the passport Instruction Booklet Carefully before filling the form. Furnishing of incorrect
+				instruction/ supression
+				of information would lead to rejection of application and would attract penal provision as prescribed under the
+				Passport
+				Act, 1967. Please produce your original documents at the time of submission of your form. All fields marked with
+				(*)
 				are mandatory to fill.</b>
 		</div>
 
@@ -68,10 +71,10 @@
 				</font>
 			</div>
 
-			<label for="name">Applicants Given Name(Given Name Means FIrst NAme FOllowed By Middle Name (if any))
+			<label for="name">Applicants First Name
 				<sup>*</sup>
 			</label>
-			<input type="text" class="form-control" name="user_name" pattern="[a-zA-Z]*" required>
+			<input type="text" class="form-control" name="user_name" required>
 
 			<label for="surname">Surname</label>
 			<input type="text" class="form-control" name="surname" pattern="[a-zA-Z]*"> <br><br>
@@ -114,7 +117,7 @@
 			<input type="date" class="form-control" name="dob" required>
 
 			<label for="pan">Pan If Available:</label>
-			<input type="text" class="form-control" name="pan" pattern="[A-Z]{4}[0-9]{4}">
+			<input type="text" class="form-control" name="pan" pattern="^([a-zA-Z])([0-9])([a-zA-Z])?$">
 
 			<label for="exampleInputEmail1">Email address
 				<sup>*</sup>
@@ -125,7 +128,8 @@
 				<sup>*</sup>
 			</label>
 			<input type="password" class="form-control" name="user_password" id="pass" required>
-			<small id="passwordHelp" class="form-text text-muted">Password must contain atleast one uppercase,one lowercase alphabate and one numeric </small>
+			<small id="passwordHelp" class="form-text text-muted">Password must contain atleast one uppercase,one lowercase
+				alphabate and one numeric </small>
 
 			<br>
 			<div>
@@ -139,9 +143,9 @@
 			<textarea class="form-control" rows="5" cols="60" name="address" required>
 			</textarea>
 
-			<!-- pattern="[0-9] {10}" -->
+			<!--  pattern="[0-9] {10}" -->
 			<label for="mobile">Mobile Number</label>
-			<input type="number" class="form-control" name="mobile" id="mobile" required>
+			<input type="number" class="form-control" name="mobile" id="mob" required>
 			<br>
 			<br>
 
@@ -150,9 +154,12 @@
 
 			<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
 			<script src="js/validate.js" type="text/javascript"></script>
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"> </script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"> </script>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			 crossorigin="anonymous"> </script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			 crossorigin="anonymous"> </script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+			 crossorigin="anonymous"> </script>
 		</form>
 	</div>
 </body>
@@ -180,10 +187,7 @@
 				echo $target_dir;				
 				$target_dir .= $fileName;
 
-				echo $filename;
-				echo $target_dir;
-
-				if (!move_uploaded_file($_FILES["profilepic"]["tmp_name"], $target_dir)) {
+							if (!move_uploaded_file($_FILES["profilepic"]["tmp_name"], $target_dir)) {
 					$errorMsg .= "Error in uploading file.";
 				}
 			}
@@ -194,6 +198,25 @@
 			</script>";
 		}
 
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			$email = test_input($_POST["user_email"]);
+			$surname = test_input($_POST["surname"]);
+			$pan = test_input($_POST["pan"]);
+		}		
+
+		$name = $_POST["user_name"];
+		if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+  		    $nameErr = "Only letters and white space allowed"; 
+                }
+
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$emailErr = "Invalid email format"; 
+		}
 		insert($_POST,$profile);
-	}		
+	}	
+
+	function test_input($data) {
+		$data = trim($data);	//removes white spaces
+		return $data;
+	}	
 ?>
