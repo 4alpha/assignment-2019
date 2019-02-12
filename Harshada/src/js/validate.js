@@ -20,6 +20,7 @@ function validate() {
 function validateRegistration() {
     var email = $('#email').val();
     var pass = $('#pass').val();
+    var mobile = $('#mobile').val();
     //email validation
     if ('' === $('#email').val()) {
         alert('please enter email.');
@@ -40,7 +41,10 @@ function validateRegistration() {
         return false;
     }
 
-
+    if (!isMobile(mobile)) {
+        alert('Mobile number should start from 7/8/9');
+        return false;
+    }
     return true;
 }
 
@@ -52,4 +56,9 @@ function checkPassword(pass) {
 function isEmail(email) {
     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     return regex.test(email);
+}
+
+function isMobile(mobile) {
+    var regex = /^[789]\d{9}$/;
+    return regex.text(mobile);
 }
