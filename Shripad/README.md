@@ -1,6 +1,9 @@
 # Reports
 
+--------------------------------------------------------------------------------
+
 ## Week : 11 Feb. to 15 Feb.
+________________________________________________________________________________
 
 ### adding init.sql file to docker-compose.yml for creating database at startup.
 ### worked on "try not to go back after logging out" for my project (half success).
@@ -19,10 +22,18 @@
 ### Box Model.
 ### Bootstrap Introduction.
 
-## College (Project portability,HTML & PHP Standards,DOM,Web API,Media Queries,CSS layout)
+________________________________________________________________________________
 
+## College 
+```sh
+(Project portability,HTML & PHP Standards,DOM,Web API,Media Queries,CSS layout)
+```
+##### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Week : 18 Feb. to 22 Feb.
+
+--------------------------------------------------------------------------------
+
 * [Looked at GitHub-tips link](#git_tips)
 
 
@@ -30,4 +41,9 @@
 ### git_tips
 https://github.com/git-tips/tips
 
-## College (GitHub tips,)
+## College 
+```sh
+(GitHub tips,)
+```
+
+##### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
