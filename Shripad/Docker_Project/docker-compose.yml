@@ -1,0 +1,30 @@
+version: '2'
+
+services:
+  mysql:
+        image: mysql:8.0
+        container_name: mysql-server-80
+        command: --default-authentication-plugin=mysql_native_password
+        volumes:
+          - .:/src
+          - ./scripts/init.sql:/docker-entrypoint-initdb.d/init_SQL.sql
+        restart: always
+        environment:
+          - MYSQL_ROOT_PASSWORD=passwd
+          - MYSQL_DATABASE=my_db
+          - MYSQL_USER=shripad
+          - MYSQL_PASSWORD=passwd
+        ports:
+          - "6306:3306"
+  php:
+    container_name: my-php
+    image: mysql
+    build:
+      context: ./
+    volumes:
+      - ./Bootstrap:/var/www/html/Bootstrap/
+      - ./src:/var/www/html/
+    ports:
+      - 8080:80
+    depends_on:
+      - mysql

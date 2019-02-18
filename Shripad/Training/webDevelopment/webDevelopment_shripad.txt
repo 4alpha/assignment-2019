@@ -1,0 +1,108 @@
+Thursday, January 3, 2019
+Finished Section 1 of Web Development Course i.e. Getting Started
+1. First introduction was unnecessary.
+2. Second Lecture about how to get free stuff was nice. But I am not going to purchase anything so it's of no use for me. 
+3. I followed Getting Started on Mac as Sir told us to follow Mac it's similar to Linux.
+4. Lecture 5 : How to ask great questions was too obvious. And I already knew all points.
+5. And Frequently asked Questions wasn't that frequent.
+
+
+Friday, January 4, 2019
+Finished Section 2 of Web Development Course i.e. HTML5.
+1. First few videos till image tag were too basic and boring for me.
+2. While formatting text, alternatives of legacy tags was new to know. 
+3. I didn't knew that we can provide online link of internet image in the img tag.
+4. HTML entities were interesting.
+5. <iframe> tag was superior but google don't allow to use it.
+6. Lecture 36 : Putting it all together was nice practice.
+7. I skipped free hosting lectures as We don't need it right now.
+8. I skipped Setting up FTP as well, as it was linked to hosting lecture.
+9. I downloaded HTML tags file from W3Schools.
+10. Quiz 1 : You got 8 out of 8 correct on the first attempt.
+
+
+Saturday, January 5, 2019
+Finished Section 3 of Web Development Course i.e. CSS3.
+1. In the Demo, use of CSS website in the first lecture was attractive.
+2. Inline CSS was new to know, specially color and font-size attributes.
+3. Internal CSS was again much better then inline CSS, As you have to mention the formatting information only once and it will be reflected throughout the page where that tag is used.
+4. Class and ID concept was easy to understand. ID can be used only once per section (<div> tag)
+5. Colorzilla Chrome Extension was NICE. As you don't have to google for color codes.
+6. positioning was tricky part that when to use absolute,relative and fixed. But it's easy to implement.
+7. margin was alternative or better option for positioning.
+8. padding is internal margin in div tag. padding should be mentioned above the width tag.
+9. border tag is good for formatting and better presentation. 
+10. Quiz 2 :  You got 7 out of 8 correct on the first attempt.
+
+
+Sunday, January 6, 2019
+Finished Section 4 of Web Development Course i.e. Javascript.
+1. Google Chrome Console was fairly new as well as useful to understand the mistatkes made in the HTML file.
+2. Lecture 90 : Accessing Elements, Changing the text in the Paragraph from script using document.getElementById() was not that useful in my point of view.
+3. Lecture : Responding to a Click, That's what I was looking for, The text should be changed only in response of some action. That's achieved here using document.getElementById().onclick=function(){ }
+4. Next Lecture was upon text concatenation. I think this will be useful for user interaction like Good Morning will be static and It will be concatinated with username.
+5. In the next lecture, Changing text color or fontSize was pretty obvious but making text disappear was something new.
+6. Mini Challenge of Disappearing Circles was fun. I managed to do it on my own.
+7. In lecture 100 : I learned how to retrive text from textbox and print it on the screen or send it in alert message.
+8. Next Lecture : Array was very interesting. As I knew basics of C and that's what used in JS just in different manner.
+9. Next Lecture : If else Statements was too easy.
+10. Game : How many Fingers, was too much fun. I managed to do it on my own.
+11. Next Lecture : For Loop was easy except that <div> part where you are adding array items to HTML.
+12. Next Lecture : While Loop was exactly similar to For loop with slight new things i.e. Just replacing fingers game with While loop was bit tricky part.
+13. Next Lecture : Functions was photocopy of C language functions, Which I found easy.our 
+14. Next Lecture : External links concept was similar to CSS just linking it to HTML file has little change.
+15. Quiz 3 : You got 8 out of 8 correct on the first attempt. //JS is browser based so code doesn't need to be uploaded to webspace to run.
+
+Finished Section 5 of Web Development Course i.e. jQuery.
+1. Lecture 122 : What is jQuery, was all about the real life uses of jQuery.
+2. Installing jQuery on our machine and to check is jQuery working was little hard then previous two sections.
+3. Next Lecture : Detecting a Click, Concept was same but method names and attributes were dirrerent.
+4. Lecture 127 : Changing Website Content, Concept was similar to JS but function names and symbols were different.
+5. Lecture 135 : AJAX was again some alternative funtions to existing concepts. New one was use of $ to interact with HTML.
+6. Quiz 4 : You got 6 out of 8 correct on the first attempt. //$("div").css("background-color","red");
+
+
+Monday, January 7, 2019
+Finished Section 6 of Web Development Course i.e. Bootstrap.
+1. Lecture The Grid System was all about how to create responsive websites which was easy with predefined classes.
+2. Next Lecture : Introducing Navbars was all about navigation bars on the website at the top. Which was very interesting to know but again it's all done using predefined classes, same for forms and Tables.
+3. Next Lecture : Bootstrap Components : This was something new to learn as all attributes of components wasn't predefined. there was some room to change values of attributes instead of putting class name.
+4. Next Lecture : Modals, Popovers & Tooltips was something to make User interactions more attractive. Which was easy with some predefined classes.
+5. Next Lecture Scrollspy : 
+6. Quiz 5 : You got 4 out of 5 correct on the first attempt.
+
+Finished Section 8 of Web Development Course i.e. PHP.
+1. Introduction with PHP was already known, same as Hello World program.
+2. Next Lectures Arrays, If statements, For loop, while loop was already learnt in T.Y. So It's was repetitive for me.
+3. Next Lecture GET & POST variables has some information that I wasn't in your B.CS course. 
+4. Next Lecture : Sending Email with PHP was for Practical in T.Y.B.CS So It was just revision.
+5. Quiz 7 : You got 9 out of 10 correct on the first attempt.
+
+Finished Section 10 of Web Development Course i.e. APIs.
+1. Lecture : What is an API, is used as medium between your application and someone else's application. 
+2. Next Lecture : What's the Weather, was all about how to connect to Weather Forecast Websites through the API they defined on their websites. We just have to copy paste the API they provided into our PHP file and then echo the result using json_decode().
+3. Next Lecture : The Google Maps API, this lecture focused on How to use Google Maps API to get maps on our website.
+4. Next Lecture : Geocoding with Google Maps,  
+5. Quiz 9 : You got 9 out of 10 correct on the first attempt.
+
+
+Tuesday, January 8, 2019
+Finished Section 11 of Web Development Course i.e. Mobile Apps.
+1. 
+2. 
+3. 
+4. 
+5. 
+
+Finished Section 12 of Web Development Course i.e. HTML5 and CSS3 Special Features.
+1. Lecture 260 : Introduction to HTML 5 / CSS 3, Nothing special here, just basic intro.
+2. Lecture 261 : What is HTML5, This was basic introducion about newer version of HTML, Things newly introduced to HTML and Things which has been removed from previous versions.
+3. Lecture 262 : HTML5 Form Features, 
+4. Rest Lectures was told us to be skipped.
+
+Finished Section 13 of Web Development Course i.e. Python.
+1. Introduction to Python was not that new, Because I learned python in last Semester.
+2. Next Lectures : Why Python was informative for understanding real life example and working of Python.
+3. Next Lecture : Hello World in Python was too much basic. 
+4. Next Lecture : Variables, Arrays, Loops, if statements was already learnt in last semester so it was just a revision.
+5. Next Lecture : Functions in Python, Similar to above lectures Function was also learnt very recently so I found it easy.

@@ -1,0 +1,88 @@
+Friday, December 21, 2018
+Finished Section 1 of Docker Mastery Course.
+1. I didn't get Black Friday 2018 Update concept.
+2. Course Roadmap was quite huge. Quite Vast
+3. Lecture Why Docker was very informative with those statistics provided.
+4. Continuing the Same Lecture Why Now was kind of motivation to learn Docker.
+5. Let's Meet Bret talk was unnecessary.
+
+
+Saturday, December 22, 2018
+Finished Section 2 of Docker Mastery Course.
+1. Information about Docker Editions was importent But as We Already installed Docker on Linux I guess I will stick to it.
+2. I skipped Lecture 11 Docker Windows Options Because As I mentioned above We already have Docker installed.
+3. Again I skipped Lecture 12 & 13 As they were related to Docker Windows.
+4. I watched Linux installation as What is required for this Course.
+5. Then I came to know that We didn't install docker-machine in previous course. So I installed it now following the Lecture.
+
+
+Sunday, December 23, 2018
+Finished Section 3 of Docker Mastery Course.
+1. In lecture 19 : We checked our Machine's running Docker verions and is installation was successful.
+2. In lecture 20 : --detach wasn't working, So I followed this https://github.com/dotnet/dotnet-docker/issues/567
+3. In the Assignment Question, I was able to run nginx and httpd on my own. And learned mysql from Assignment Answers.
+4. In the next Assignment Question I was able to find curl version of Ubuntu and learned centos from Assignment Answers.
+5. In the last Assignment Question I didn't understand whole question So I was unable to do it. I learned all from Assignment Answer.
+
+
+Monday, December 24, 2018
+Finished Section 4 of Docker Mastery Course.
+1. Lecture 37 : Docker Hub Registery images was quite attractive and user friendly.
+2. In Lecture 38 : Images and Their Layers, The Pictorial Representation was bit hard to understand for me.
+3. In lecture 39, I faced problem while listing images from Docker Where as pull command was working properly So I was unable to perform tag operations.
+4. while Running Docker Builds or Extending Official Images previous problem was still there So I couldn't perform this too But learned how to do it from lecture.
+5. While Performing Assignment, Creating Dockerfile and running it upto 6/9 steps was successful. And It got error at COPY and rest all collapsed. Even my nginx isn't working on localhost.
+
+
+Tuesday, December 25, 2018
+Finished Section 5 of Docker Mastery Course.
+1. Lecture 45 : Container Lifetime was easy to understand.
+2. Lecturer 46 : Data Volumes Here my docker started working normal again Hence I was able to have practical regarding commands.
+3. Resource Link for this Course : https://github.com/BretFisher/udemy-docker-mastery
+4. I followed Assignment Answer Video and it was easy to upgrade database with named volumes.
+5. Again in the next Assignment I followed the answers video and learned how to run containers with bind mounts.
+
+
+Wednesday, December 26, 2018
+Finished Section 6 of Docker Mastery Course.
+1. Lecture 53 : Docker-compose was basic overview of this section and I understood the outline as well as yaml file format and tags.
+2. pcat command wasn't installed on my machine and terminal didn't give any instructions how to install it so I used cat command instead.
+3. docker-compose up was very easy but the message shown on the web screen was different in my browser and in the video but terminal was showing proper entries so it was running properly.
+4. In the Drupal assignment I wasn't able to exec docker-compose up. I tried all the solution from Q&A linked to that video, tried all type of indentation, But It was showing error : ERROR: Named volume "drupal-profiles:/var/www/html/profiles:rw" is used in service "drupal" but no declaration was found in the volumes section.
+5. My Assignment was interesting. all the docker commands run properly and I understood the Answer, but at the logic it was showing error.
+
+
+Thursday, December 27, 2018
+Finished Section 7 of Docker Mastery Course.
+1. First Lecture was theoretical knowledge and I found bit difficult to understand.
+2. Second Lecture was practical of creating service which was easy compared to theory.
+3. Third was Link to UI change for service create/update.
+4. Fourth was link to Docker Machine bug with swarm.
+5. I used play with docker option for 3 node swarm cluster, and it worked fine.
+
+
+Friday, December 28, 2018
+Finished Section 8 of Docker Mastery Course.
+1. Lecture 64 : Overlay networking was easy on play-with-docker.
+2. Lecuture 65 : Routing Mesh was simple to understand. And worked fine on play-with-docker
+3. In next assignment : Creating multi node web app look great And again workrd on play-with-docker
+4. Using secrets in swarm services was quite fascinating. But at the end of the lecture He didn't tell how to delete secrets created in the service.
+5. In next Assignment : Creating Stack with Secrets and deploy, It was getting worst when I copied the YAML file into play-with-docker's node 1. So I was unable to perform Stack operation on my Machine. But understood how it is done in lecture.
+
+
+Saturday, December 29, 2018
+Finished Section 9 of Docker Mastery Course.
+1. Now it became more hard to work on play-with-docker and follow the lecture. Now my secrets files aren't on Node 1 So it's not showing secret on docker-compose command.
+2. In the next lecture : Full App Lifecycle : information taught by instuctor was easy to understand. Still I didn't get the bug he was talking at the end of the video.
+3. I just noticed my Hard Drive memory has been drastically occupying whenever I run Docker Commands. I it was 18 GB at start of the course now it's only 6 GB left. And I tried all the ways to clear the temp or cache as told on youtube and google but my drive is still occupied.
+4. Lecture 76: Service Updates was informative, as it was talking about current scenarios happening in docker.
+5. Last Lecture was about Healthchecks : It's precaution method to run Dokcer servies / Docker commands properly without fail.
+
+
+Sunday, December 30, 2018
+Finished Section 10 of Docker Mastery Course.
+1. Lecture 78 : Digging Docker Hub Deeper,The Information about Docker Hub was repetitive.
+2. Lecture 79 : Docker Store and the difference between docker store and docker hub was something new.
+3. Lecture 80 : Docker Cloud,It's nice to have platform which has paid service for better options and you can have their free trial too so if you don't like the service you can decide not to get paid version and money will be saved because of free trial.
+4. Lecture 81 : Docker Registry is more suitable for small scale purposes. Functionality is limited and Better options are available for Docker Registry still it's good to know about it
+5. Last Assignment : Using Docker Registry with Swarm, I performed same commands on play-with-Docker and it worked fine. I think instructor introduced play-with-docker bit late.

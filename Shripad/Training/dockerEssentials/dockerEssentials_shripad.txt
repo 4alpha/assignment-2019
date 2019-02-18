@@ -1,0 +1,95 @@
+Friday, December 7, 2018
+1. Completed Project External Assessment in the college.
+2. I texted on WhatsApp group that we all done with college procedures and University exams.
+3. No response from Sir today.
+
+Saturday, December 8, 2018
+1. We are said to complete Docker Essentials.
+2. But We don't know from Where.
+3. So I asked on WhatsApp Group from where we are supposed to complete Docker.
+4. Not responded yet.
+
+Sunday, December 9, 2018
+1. We were told to complete Docker from Udemy.
+
+Monday, December 10, 2018
+Finished Section 1 of Docker Essentials Course. (2 Hours)
+1. I couldn't install nginx on my debian virtualbox machine. As instructions given in the video were for ubuntu.
+2. Again Same Problem, I couldn't install Docker on my debian virtualbox machine. As instructions given in the video were for ubuntu. But I tried to install by myself by following instructions given in this video https://www.youtube.com/watch?v=wrZYgnhwlgQ
+But it didn't work for me.
+3. Quiz 1 : You got 4 out of 5 correct on the first attempt.
+
+Tuesday, December 11, 2018
+Finished Section 2 of Docker Essentials Course. (2 Hours)
+1. Same problem continues. That lectures are given for ubuntu and we are running Debian.
+2. I talked about the above issue on the WhatsApp group.
+3. Solution is to install Ubuntu.
+
+Wednesday, December 12, 2018
+1. I started from basic how to make bootable for dual boot.
+2. I end up corrupting Roommate's Pen Drive (16 GB pendrive become total size 2 MB).
+3. Now that took whole day to understand what exactly happened how to resolve the issue.
+4. Which Application is safe to use for making bootable.
+5. At the End PowerISO was the answer.
+
+Thursday, December 13, 2018
+1. So now bootable is ready.
+2. Trainer from Udemy was using Ubuntu 16.04 and Ubuntu Latest release was Ubuntu 18.04. So I thought Video might be bit old now. So lets install Ubuntu 18.04 instead of 16.04.
+3. So I started installing Ubuntu 18.04 And It gave me network error while installing at first attempt.
+4. I waited for few hours for fast internet connection and tried again.
+5. This time everything worked fine, and I successfully installed Ubuntu on my Laptop today.
+
+Friday, December 14, 2018
+1. As I started following instructions from Udemy lecture. I got multiple issues regarding nginx installation.
+2. So I googled for solution. And Followed instructions from Youtube Video "How to install and configure nginx web server on Ubuntu 18.04"
+3. After that, Again I started following instructions from Udemy lecture regarding Docker installation. And again I faced errors when I entered commands from Lecture.
+4. So again, I googled for solution. And Followed instructions from Youtube Video "How to install Docker on Ubuntu 18.04"
+5. At the end of the day both nginx and docker are running successfully on my machine.
+
+Saturday, December 15, 2018
+Finished Section 2 of Docker Essentials Course with Practical.
+1. I tried vi editor instead of nano and it worked absolutely Fine.
+2. In Demo 13 The Folder They provided had Dockerfile in it but spelling was incorrect. So I renamed it with mv command.
+3. In Demo 15 Apache Web Server didn't get installed on my system as it was expected from Lecture.
+4. So I installed Apache Web Server Manually with the help of this video https://www.youtube.com/watch?v=TZlZohtwagI
+5. Quiz 2 : You got 5 out of 5 correct on the first attempt.
+
+Sunday, December 16, 2018
+Finished Section 3 of Docker Essentials Course.
+1. As shown in lecture 1 : Created Docker Hub Account. With DockerID shripadvk.
+2. As shown in Demo 18 I created repository "first_repo-nginx". Logged in from Terminal to Docker Hub and pushed images to the repository.
+3. While saving Docker image inspect result in the file it was throwing Error : No such image: ubuntu. Where I had 2 ubuntu images. Later it works when I add tag after ubuntu (i.e. ubuntu:12.04)
+4. As taught in Demo 25 I was unable to map port 8080:80 again to nginx. As I installed Apache manually and mapped port 8080:80 to it.
+5. Quiz 3 : You got 4 out of 5 correct on the first attempt.
+
+Monday, December 17, 2018
+Finished Section 4 of Docker Essentials Course.
+1. Working with Docker Network works practically Fine on my Machine. Where I accidentally created my-brige instead of my-bridge.
+2. But While Connect Disconnect and Inspect Networks it was showing Apache Homepage on localhost:80 So I deleted it from /var/www/html/index.html
+3. Then I was able to see Welcome Nginx page again on port localhost:80
+4. In the Connect Disconnect and Inspect Demo, My Previous Containers were deleted in the last demo, by using remove command So I created new container cong_nginx mapped it with my_brige network. and deleted at the end.
+5. Quiz 4 : You got 5 out of 5 correct on the first attempt.
+
+Finished Section 5 of Docker Essentials Course.
+6. Lecture 33 Working with Volumes was simple. And it's completed without any errors.
+7. Mounting Volumes to containers seems easy, I understood the command but I didn't get how exactly that backup worked.
+8. Quiz 5 : You got 4 out of 5 correct on the first attempt.
+
+Tuesday, December 18, 2018
+Finished Section 6 of Docker Essentials Course.
+1. First Demo of Installing Docker Compose was quick. Just Downloading took more time then normal.
+2. Second Demo about Structure of Compose file, I personally found helpful as you can always check for your system details like name, password, database name here.
+3. For Lecture 38 : file name in the S6 directory was composs-docker.yaml which should be compose-docker.yaml So I renamed it with mv command. Still it didn't work. showing ERROR: Named volume "wordpress-files:/var/www/html:rw" is used in service "wordpress" but no declaration was found in the volumes section. Further Harshada Corrected the File and it worked.
+4. While Running mysql as Client in docker run command it was showing error "Access denied" And Mistake was I typed spaces instead of underscore in $MYSQL
+5. Quiz 6 : You got 4 out of 5 correct on the first attempt.
+
+Wednesday, December 19, 2018
+Finished Section 7 of Docker Essentials Course.
+1. Harshada was ahead of me, and She told me that Sir told her to skip Section 7.
+2. Her problem : She was running Ubuntu on Virtualbox and in Section 7 They asked to install Virtualbox.
+3. When I come at Section 7, Virtualbox got successfully installed on my system But Further installation wasn't told in lecture.
+4. So instead of skipping section 7 I completed All Lectures But didn't perform anything on virtualbox.
+5. Quiz 7 : You got 5 out of 5 correct on the first attempt.
+
+Thursday, December 20, 2018
+Finished Section 8 : Docker GUI with Kitematic, of Docker Essentials Course.

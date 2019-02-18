@@ -1,0 +1,42 @@
+Saturday, October 27, 2018
+Finished Day 1 of Linux Course. (3 Hours)
+1. Downloading 1.99 GB Debian9 ISO file with Chrome Browser was lengthy procedure. (1 hour)
+2. While installing Debian9 on VirtualBox in between step where data starts copying into disk it was giving me huge spikes while I was watching other youtube videos. I have never faced single lag while using Chrome on my system, having 8GB RAM. (30 Min.s)
+3. Introduction and Applications (Distro) of Linux was interesting one while I already knew some of the information. (30 Min.s)
+4. I found out that "Background-And-Introduction.pdf" and "Linux-Distros.pdf" from Day 1 is supposed to be PPT as it acts like PPT. Check it out.
+5. I didn't actually get the real use of puTTY SSH software on Windows as it's totally Commend Line.
+6. I was unable to mount Pen Drive to VirtualBox. Simple Solution is you download and intall Externsion Pack. While in my case it was showing error "unable to find path where VirtualBox is installed" and another thing is, downloaded externsion pack and VirtualBox should be in same directory. I researched alot on that, then I found that your VirtualBox has to installed at Default Location (C Drive) then only Extension Pack finds your default location of VirtualBox. (1 hour)
+
+Sunday, October 28, 2018
+Finished Day 2 of Linux Course. (2 Hours)
+1. Linux Directory Structure Video Was the interesting one. For every Directory I paused my Video and Checked my Home directory or corresponding directories. (30 Min.s)
+2. I was Familiar with Basic Linux Commands and I followed following webpage to learn some more commands of man.(30 Min.s)
+https://www.computerhope.com/unix/uman.htm
+3. I was Familiar with Directory Commands and I think not having Trash Folder in Linux is disadvantage. (15 Min.s)
+4. I didn't understood how to identify the symbolic links at start so I searched it on internet. Then I realize (Previously I thought -la is to show Hidden Files only) in command "ls -la", 'a' stands for all file which also includes symbolic links. (30 Min.s)
+5. In Quiz 1 : "You got 9 out of 10 correct on the first attempt."
+
+Monday, October 29, 2018
+Finished Day 3 of Linux Course. (2 Hours)
+1. File And Directory Permissions lecture was very interesting to know. And Use of touch command is Cheeky one. (15 Min.s)
+2. While trying vi editor, On my system INSERT mode was not working. I found solution here : https://askubuntu.com/questions/256308/vi-insert-mode-doesnt-work-in-ubuntu-12-10 (30 Min.s)
+3. I found out Emacs Editor bit difficult for me or I am used to vi editor since I am using it from F.Y. (15 Min.s)
+4. Locate Command was disabled by default. I found solution here (15 Min.s) : https://www.tecmint.com/install-locate-command-to-find-files-in-centos/
+5. In Quiz 2 : "You got 3 out of 3 correct on the first attempt."
+
+Tuesday, October 30, 2018
+Finished Day 4 of Linux Course. (2 Hours 30 Min.s)
+1. In first video he said, as you learned before verbose (where he never mentioned verbose before) so I got information about verbose over internet here (30 Min.s): https://www.computerhope.com/jargon/v/verbose-mode.htm
+2. I didn't understand last part of I/O Redirection. Specially ">" related commands were difficult to understand. (30 Min.s)
+This helped me : https://www.guru99.com/linux-redirection.html
+3. Customizing The Shell Prompt was interesting. (15 Min.s)
+4. I found Shell Aliases quite usefull for debugging purpose as you can create shortcut for compile and run command within least characters.
+5. In Quiz 3 : "You got 5 out of 5 correct on the first attempt."
+
+Wednesday, October 31, 2018
+Finished Day 5 of Linux Course. (2 Hours 30 Min.s)
+1. I found Environment Variables very useful. It can be used to minimize programmer's efforts as well as it also holds information globally throughout all programs. Ex. Date and Time variables can be used in thread scheduling.
+2. I think cron services is very useful to automate some tasks.
+3. I already knew the Tab autocompletion and Shell history with exclamation mark syntax was new information for me.	
+4. In package managar lecture, RPM was new to me where I was familiar with DEB.
+5. In Quiz 4 : "You got 4 out of 5 correct on the first attempt."

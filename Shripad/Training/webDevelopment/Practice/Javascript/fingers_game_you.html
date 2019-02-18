@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <title>
+        Game
+        </title>
+    </head>
+    <body>
+        <p id="One"> How many fingers I am holding Up ? </p>
+        <input type="text" id="txt">
+        <br>
+        <button id="myB"> Guess </button>
+    
+        <script type="text/javascript">                 
+            var no;
+            document.getElementById("myB").onclick = function(){
+               no = Math.floor(Math.random() * 6); 
+               //exclues 6 and generates between 0 to 5
+            if(document.getElementById("txt").value == no)
+                    alert("Wow ! You are Correct :)");
+                else
+                    alert("Wrong :( Please Try again... BTW I was holding "+ no);        
+            console.log(no);
+            }
+            </script>
+    </body>
+</html>

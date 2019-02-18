@@ -1,0 +1,161 @@
+body {
+ background-color: #ffffff;
+ color: #000000;
+}
+
+table {
+ width: 100%;
+}
+
+td {
+ text-align: center;
+ vertical-align: top;
+}
+
+.code {
+ background-color: #FFE6BF;
+ color: #000000;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: left;
+}
+
+.contents {
+ border-color: #B36B00;
+ border-style: solid;
+ border-width: thick;
+ color: #B36B00;
+ background-color: #FFE6BF;
+ text-align: left;
+}
+
+.description {
+ background-color: #FFE6BF;
+ color: #000000;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: justify;
+}
+
+.descriptionTable {
+ border-color: #B36B00;
+ border-spacing: 0;
+ border-style: solid;
+ border-width: 1px;
+ vertical-align: top;
+}
+
+.descriptionTable caption {
+ background-color: #B36B00;
+ border-color: #B36B00;
+ border-spacing: 0;
+ border-style: solid;
+ border-width: 1px;
+ color: #FFFFFF;
+ font-weight: bold;
+}
+
+.descriptionTable th {
+ border-color: #B36B00;
+ border-spacing: 0;
+ border-style: solid;
+ border-width: 1px;
+ text-align: center;
+}
+
+.descriptionTable td {
+ border-color: #B36B00;
+ border-spacing: 0;
+ border-style: solid;
+ border-width: 1px;
+ text-align: left;
+ text-indent: 0.5em;
+ vertical-align: top;
+}
+
+.e {
+ margin: 1em;
+ text-align: left;
+ font-style: italic;
+}
+
+.example {
+ background-color:#FFE6BF;
+ color: #000000;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: left;
+}
+
+.normalizer {
+ width: 280px;
+}
+
+.normalizerDescription {
+ width: 330px;
+}
+
+.normalizerSyntax {
+ width: 120px;
+}
+
+.normalizerEmpty {
+ width: 0px;
+ height: 1em;
+}
+
+.note {
+ font-weight: bold
+}
+
+.p {
+ text-align: justify;
+ text-indent: 2em;
+}
+
+.rules {
+ font-weight: bold
+}
+
+.servo {
+ background-color:#efCCFF;
+ color: #000000;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: left;
+}
+
+.strong {
+ font-weight: bold;
+}
+
+.syntax {
+ background-color: #FFE6BF;
+ color: #000000;
+ font-weight: bold;
+ padding-left: 1em;
+ padding-right: 1em;
+ text-align: left;
+}
+
+.titleMain {
+ background-color: #ffffff;
+ color: #B36B00;
+ font-size: 4em;
+ font-weight: bold;
+ text-align: left;
+}
+
+.titleChapter {
+ background-color: #B36B00;
+ color: #FFFFFF;
+ font-size: 1.5em;
+ text-align: center;
+}
+
+.titleSubChapter {
+ background-color: #FFCC80;
+ color: #B36B00;
+ font-size: 1.5em;
+ text-align: center;
+}
