@@ -1,20 +1,9 @@
 # What is asked to do...
-
-## Lineup
-
-### Getting Started
-### Layout -> Grid
-### Utilities for layout
-### Content
-### Utilities
-### Extend
-### Lastly All Components
-
-
-# Now Before implementing above, following points were asked to read
-
-## 4 Main topics from Web API :
-
+--------------------------------------------------------------------------------
+## Now Before implementing anything, following points were asked to read
+--------------------------------------------------------------------------------
+### 4 Main topics from Web API :
+--------------------------------------------------------------------------------
 * [Node](#Node)
 
 * [Event](#Event)
@@ -22,14 +11,56 @@
 * [Element](#Element)
 
 * [Document](#Document)
+--------------------------------------------------------------------------------
+## Lineup
+--------------------------------------------------------------------------------
+### Getting Started
+--------------------------------------------------------------------------------
+### Layout -> Grid
+--------------------------------------------------------------------------------
+### Utilities for layout
+--------------------------------------------------------------------------------
+### Content
+--------------------------------------------------------------------------------
+### Utilities
+--------------------------------------------------------------------------------
+### Extend
+--------------------------------------------------------------------------------
+### Lastly All Components :
+--------------------------------------------------------------------------------
+#### 	Alerts
+#### 	Badge
+#### 	Breadcrumb
+#### 	Buttons
+#### 	Button Group
+#### 	Card
+#### 	Carousel
+#### 	Collapse
+#### 	Dropdowns
+#### 	Forms
+#### 	Input group
+#### 	Jumbotron
+#### 	List group
+#### 	Model
+#### 	Navs
+#### 	Navbar
+####	Pagination
+####	Popovers
+#### 	Progress
+#### 	Scrollspy
+#### 	Tooltips
+--------------------------------------------------------------------------------
 
 
 ### Node
 https://developer.mozilla.org/en-US/docs/Web/API/Node
+--------------------------------------------------------------------------------
 ### Event
 https://developer.mozilla.org/en-US/docs/Web/API/Event
+--------------------------------------------------------------------------------
 ### Document
 https://developer.mozilla.org/en-US/docs/Web/API/Document
+--------------------------------------------------------------------------------
 ### Element
 https://developer.mozilla.org/en-US/docs/Web/API/Element
-
+--------------------------------------------------------------------------------
