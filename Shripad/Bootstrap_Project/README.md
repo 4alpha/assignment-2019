@@ -19,28 +19,28 @@
 ### Layout -> Grid  ✔️
 --------------------------------------------------------------------------------
 ### Utilities for layout :
-## -> Borders ✔️
-## -> Clearfix
-## -> Close icon
-## -> Colors
-## -> Display
-## -> Embed
-## -> Flex
-## -> Float
-## -> Image replacement
-## -> Position
-## -> Screenreaders
-## -> Sizing
-## -> Spacing
-## -> Text
-## -> Vertical align
-## -> Visibility
+## ▶ Borders ✔️
+## ▶ Clearfix
+## ▶ Close icon
+## ▶ Colors
+## ▶ Display
+## ▶ Embed
+## ▶ Flex
+## ▶ Float
+## ▶ Image replacement
+## ▶ Position
+## ▶ Screenreaders
+## ▶ Sizing
+## ▶ Spacing
+## ▶ Text
+## ▶ Vertical align
+## ▶ Visibility
 --------------------------------------------------------------------------------
 ### Content :
-## -> Typography  ✔️
-## -> Images  ✔️
-## -> Tables
-## -> Figures
+## ▶ Typography  ✔️
+## ▶ Images  ✔️
+## ▶ Tables
+## ▶ Figures
 --------------------------------------------------------------------------------
 ### Utilities
 --------------------------------------------------------------------------------
@@ -48,44 +48,44 @@
 --------------------------------------------------------------------------------
 ### Lastly All Components :
 --------------------------------------------------------------------------------
-#### 	Alerts
-#### 	Badge
-#### 	Breadcrumb
-#### 	Buttons
-#### 	Button Group
-#### 	Card
-#### 	Carousel
-#### 	Collapse
-#### 	Dropdowns
-#### 	Forms
-#### 	Input group
-#### 	Jumbotron
-#### 	List group
-#### 	Model
-#### 	Navs
-#### 	Navbar
-####	Pagination
-####	Popovers
-#### 	Progress
-#### 	Scrollspy
-#### 	Tooltips
+#### ▶	Alerts
+#### ▶	Badge
+#### ▶	Breadcrumb
+#### ▶	Buttons
+#### ▶	Button Group
+#### ▶	Card
+#### ▶	Carousel
+#### ▶	Collapse
+#### ▶	Dropdowns
+#### ▶	Forms
+#### ▶	Input group
+#### ▶	Jumbotron
+#### ▶	List group
+#### ▶	Model
+#### ▶	Navs
+#### ▶	Navbar
+#### ▶	Pagination
+#### ▶	Popovers
+#### ▶	Progress
+#### ▶	Scrollspy
+#### ▶	Tooltips
 --------------------------------------------------------------------------------
 
 # After finishing all this, You can start building Bootstrap Web page which should be designed with the use of all components listed above.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-## Further Links
+### Further Links
 --------------------------------------------------------------------------------
-### Node
+#### Node
 https://developer.mozilla.org/en-US/docs/Web/API/Node
 --------------------------------------------------------------------------------
-### Event
+#### Event
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 --------------------------------------------------------------------------------
-### Document
+#### Document
 https://developer.mozilla.org/en-US/docs/Web/API/Document
 --------------------------------------------------------------------------------
-### Element
+#### Element
 https://developer.mozilla.org/en-US/docs/Web/API/Element
 --------------------------------------------------------------------------------
