@@ -37,7 +37,7 @@ ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
 * [Looked at GitHub-tips link from Slack, and made few changes accordingly.](#git_tips)
-* [Then installed CLI for git-tips with the help of Google.] (#git_CLI installation)
+* [Then installed CLI for git-tips with the help of Google.](#git_CLI installation)
 
 
 ### git_tips
