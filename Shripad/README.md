@@ -37,15 +37,22 @@ ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
 * [Looked at GitHub-tips link from Slack, and made few changes accordingly.](#git_tips)
-* [Then installed CLI for git-tips with the help of Google.](#git_CLI installation)
+* [Then installed CLI for git-tips with the help of Google.](#git-tips_CLI)
 
+
+--------------------------------------------------------------------------------
 
 ### git_tips
+```sh
 https://github.com/git-tips/tips
+```
 
-### git_CLI installation
+### git-tips_CLI
+```sh
 https://www.npmjs.com/package/git-tip
+```
 
+--------------------------------------------------------------------------------
 
 ## College 
 ```sh
