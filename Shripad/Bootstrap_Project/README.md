@@ -1,6 +1,6 @@
 # What is asked to do...
 --------------------------------------------------------------------------------
-## Now Before implementing anything, following points were asked to read
+## Before implementing anything, following points were asked to read
 --------------------------------------------------------------------------------
 ### 4 Main topics from Web API :
 --------------------------------------------------------------------------------
@@ -51,7 +51,12 @@
 #### 	Tooltips
 --------------------------------------------------------------------------------
 
+# After finishing all this, You can start building Bootstrap Web page which should be designed with the use of all components listed above.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
+## Further Links
+--------------------------------------------------------------------------------
 ### Node
 https://developer.mozilla.org/en-US/docs/Web/API/Node
 --------------------------------------------------------------------------------
