@@ -35,10 +35,10 @@ ________________________________________________________________________________
 ## Week : 18 Feb. to 22 Feb.
 
 --------------------------------------------------------------------------------
-
+##### 18 Feb.
 * [Looked at GitHub-tips link from Slack, and made few changes accordingly.](#git_tips)
 * [Then installed CLI for git-tips with the help of Google.](#git-tips_CLI)
-
+##### 19 Feb.
 
 --------------------------------------------------------------------------------
 
