@@ -1,6 +1,8 @@
+--------------------------------------------------------------------------------
 # GitHub-tips
-
+--------------------------------------------------------------------------------
 ## Personal Clone Copy
+--------------------------------------------------------------------------------
 > Collection of `git-tips`, want to add your tips? Checkout [contributing.md](./contributing.md)
 
 [English](http://git.io/git-tips) | [中文](https://github.com/521xueweihan/git-tips) | [Русский](https://github.com/Imangazaliev/git-tips) | [한국어](https://github.com/mingrammer/git-tips) | [Tiếng Việt](https://github.com/hprobotic/git-tips) | [日本語](https://github.com/isotai/git-tips)
