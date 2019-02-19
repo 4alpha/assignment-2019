@@ -38,7 +38,7 @@ ________________________________________________________________________________
 ##### 18 Feb.
 * [Looked at GitHub-tips link from Slack, and made few changes accordingly.](#git_tips)
 * [Then installed CLI for git-tips with the help of Google.](#git-tips_CLI)
-* [Completed 'Getting Started', 'Grid Layout', 'Utilities Borders'](#bootstrap_18Feb)
+* [Completed 'Getting Started', 'Grid Layout', 'Utilities Borders' from Bootstrap Documentation.](#bootstrap_18_Feb)
 ##### 19 Feb.
 
 --------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ https://github.com/git-tips/tips
 https://www.npmjs.com/package/git-tip
 ```
 
-### bootstrap_18Feb
+### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
 ```
