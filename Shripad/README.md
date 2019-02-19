@@ -43,11 +43,11 @@ ________________________________________________________________________________
 * [Completed 'Getting Started', 'Grid Layout', 'Utilities Borders' from Bootstrap Documentation.](#bootstrap_18_Feb)
 --------------------------------------------------------------------------------
 ##### 19 Feb.
-* [I did some practicals on vim using cheatsheet.](#vim cheatsheet)
+* [I did some practicals on vim using cheatsheet.](#vim_cheatsheet)
 
-* [I read concept of flexbox.](#Concept of Flexbox)
+* [I read concept of flexbox.](#Concept_of_Flexbox)
 
-* [Well, Today We didn't manage to explain what we learnt so far, as a result we are asked to start reading from beginning.](#New Start 19 Feb.)
+* [Well, Today We didn't manage to explain what we learnt so far, as a result we are asked to start reading from beginning.](#New_Start_19_Feb.)
 
 --------------------------------------------------------------------------------
 
@@ -72,17 +72,17 @@ https://getbootstrap.com/docs/4.0/layout/grid/
 https://getbootstrap.com/docs/4.0/utilities/borders/
 ```
 
-### vim cheatsheet
+### vim_cheatsheet
 ```sh
 https://vim.rtorr.com/
 ```
 
-### Concept of Flexbox
+### Concept_of_Flexbox
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 ```
 
-### New Start 19 Feb.
+### New_Start_19_Feb.
 ```sh
 https://getbootstrap.com/docs/4.0/layout/overview/
 ```
