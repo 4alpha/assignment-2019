@@ -18,19 +18,23 @@
 --------------------------------------------------------------------------------
 ### Layout -> Grid ✔️
 --------------------------------------------------------------------------------
-### Utilities for layout ✔️ 
+### Utilities for layout :
+#### ▶ Changing Display 
+#### ▶ Flexbox options
+#### ▶ Margin and Padding
+#### ▶ Toggle visibility
 --------------------------------------------------------------------------------
 ### Content :
-#### ▶ Typography ✔️
-#### ▶ Images ✔️
+#### ▶ Typography 
+#### ▶ Images 
 #### ▶ Tables
 #### ▶ Figures
 --------------------------------------------------------------------------------
 ### Utilities :
-#### ▶ Borders ✔️
-#### ▶ Clearfix ✔️
-#### ▶ Close icon ✔️
-#### ▶ Colors
+#### ▶ Borders 
+#### ▶ Clearfix 
+#### ▶ Close icon 
+#### ▶ Colors 
 #### ▶ Display
 #### ▶ Embed
 #### ▶ Flex
