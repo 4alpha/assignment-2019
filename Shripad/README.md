@@ -37,9 +37,17 @@ ________________________________________________________________________________
 --------------------------------------------------------------------------------
 ##### 18 Feb.
 * [Looked at GitHub-tips link from Slack, and made few changes accordingly.](#git_tips)
+
 * [Then installed CLI for git-tips with the help of Google.](#git-tips_CLI)
+
 * [Completed 'Getting Started', 'Grid Layout', 'Utilities Borders' from Bootstrap Documentation.](#bootstrap_18_Feb)
+--------------------------------------------------------------------------------
 ##### 19 Feb.
+* [I did some practicals on vim using cheatsheet.](#vim cheatsheet)
+
+* [I read concept of flexbox.](#Concept of Flexbox)
+
+* [Well, Today We didn't manage to explain what we learnt so far, as a result we are asked to start reading from beginning.](#New Start 19 Feb.)
 
 --------------------------------------------------------------------------------
 
@@ -63,6 +71,23 @@ https://getbootstrap.com/docs/4.0/layout/grid/
 ```sh
 https://getbootstrap.com/docs/4.0/utilities/borders/
 ```
+
+### vim cheatsheet
+```sh
+https://vim.rtorr.com/
+```
+
+### Concept of Flexbox
+```sh
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+```
+
+### New Start 19 Feb.
+```sh
+https://getbootstrap.com/docs/4.0/layout/overview/
+```
+
+
 --------------------------------------------------------------------------------
 
 ## College 
