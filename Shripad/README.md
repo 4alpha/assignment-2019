@@ -50,6 +50,12 @@ ________________________________________________________________________________
 * [Well, Today We didn't manage to explain what we learnt so far, as a result we are asked to start reading from beginning.](#New_Start_19_Feb.)
 
 --------------------------------------------------------------------------------
+##### 20 Feb.
+* [As I reported yesterday, We are asked to start reading from beginning, So I completed overview section first. I gone though each and every sub point from overview and noted down important values.](#bootstrap_18_Feb)
+
+* [Then I completed Grid System. I note down and understood each and every sub point from grid system, Now I am bit confident about it.](#Grid_System)
+
+--------------------------------------------------------------------------------
 
 ### git_tips
 ```sh
@@ -87,12 +93,15 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_C
 https://getbootstrap.com/docs/4.0/layout/overview/
 ```
 
-
+### Grid_System
+```sh
+https://getbootstrap.com/docs/4.0/layout/grid/
+```
 --------------------------------------------------------------------------------
 
 ## College 
 ```sh
-(GitHub tips,)
+(GitHub tips,Grid System)
 ```
 
 --------------------------------------------------------------------------------
