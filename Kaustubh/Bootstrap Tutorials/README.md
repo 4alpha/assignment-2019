@@ -18,15 +18,18 @@
 --------------------------------------------------------------------------------
 ##### 20 Feb.
 * [Revised grid layout, Understood it's important concepts.]
+
 * [Revisited Margin and Padding utilities](#Margin-and-Padding) 
 --------------------------------------------------------------------------------
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
 ```
+
 ```sh
 https://getbootstrap.com/docs/4.0/layout/grid/
 ```
+
 ```sh
 https://getbootstrap.com/docs/4.0/utilities/
 ```
@@ -40,6 +43,7 @@ https://vim.rtorr.com/
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 ```
+
 ### Margin-and-Padding
 ```sh
 https://getbootstrap.com/docs/4.1/utilities/spacing/
