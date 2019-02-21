@@ -19,13 +19,14 @@
 ### Layout -> Grid ✔️
 --------------------------------------------------------------------------------
 ### Utilities for layout :
-#### ▶ Changing Display 
-#### ▶ Flexbox options
-#### ▶ Margin and Padding
-#### ▶ Toggle visibility
+#### ▶ Changing Display ➡ utilities/display ✔️ 
+#### ▶ Flexbox options ➡ utilities/flex/ ✔️
+#### ▶ Margin and Padding ➡ utilities/spacing/ ✔️ 
+#### ▶ Toggle visibility ➡ utilities/visibility/ ✔️
 --------------------------------------------------------------------------------
 ### Content :
-#### ▶ Typography 
+#### ▶ Reboot ✔️
+#### ▶ Typography ✔️
 #### ▶ Images 
 #### ▶ Tables
 #### ▶ Figures
@@ -35,18 +36,18 @@
 #### ▶ Clearfix 
 #### ▶ Close icon 
 #### ▶ Colors 
-#### ▶ Display
+#### ▶ Display ✔️
 #### ▶ Embed
-#### ▶ Flex
+#### ▶ Flex ✔️
 #### ▶ Float
 #### ▶ Image replacement
 #### ▶ Position
 #### ▶ Screenreaders
 #### ▶ Sizing
-#### ▶ Spacing
+#### ▶ Spacing ✔️
 #### ▶ Text
 #### ▶ Vertical align
-#### ▶ Visibility
+#### ▶ Visibility ✔️
 --------------------------------------------------------------------------------
 ### Extend
 --------------------------------------------------------------------------------

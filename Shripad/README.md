@@ -56,6 +56,14 @@ ________________________________________________________________________________
 * [Then I completed Grid System. I note down and understood each and every sub point from grid system, Now I am bit confident about it.](#Grid_System)
 
 --------------------------------------------------------------------------------
+##### 21 Feb.
+* [Completed reading Utilities for layout. There are few further references which I updated in Bootstrap README file](#Utilities_for_layout)
+
+* [I found Utilities for layout page less informative So I opened each link and completed reading all 4 sub points of utilites for layout.](#21_FEB_Utilities_for_layout)
+
+* [Started Content section. Completed Reading Reboot, didn't understand much about it.](#Reboot)
+
+--------------------------------------------------------------------------------
 
 ### git_tips
 ```sh
@@ -97,11 +105,35 @@ https://getbootstrap.com/docs/4.0/layout/overview/
 ```sh
 https://getbootstrap.com/docs/4.0/layout/grid/
 ```
+
+### Utilities_for_layout
+```sh
+https://getbootstrap.com/docs/4.0/layout/utilities-for-layout/
+```
+
+### 21_FEB_Utilities_for_layout
+```sh
+https://getbootstrap.com/docs/4.0/utilities/display/
+```
+```sh
+https://getbootstrap.com/docs/4.0/utilities/flex/
+```
+```sh
+https://getbootstrap.com/docs/4.0/utilities/spacing/
+```
+```sh
+https://getbootstrap.com/docs/4.0/utilities/visibility/
+```
+
+### Reboot
+```sh
+https://getbootstrap.com/docs/4.0/content/reboot/
+```
 --------------------------------------------------------------------------------
 
 ## College 
 ```sh
-(GitHub tips,Grid System)
+(GitHub tips,Grid System,utilities for layout, )
 ```
 
 --------------------------------------------------------------------------------
