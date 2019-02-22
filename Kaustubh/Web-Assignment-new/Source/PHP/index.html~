@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>     
+    <script src="js/registration.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Register</h2>
+    </div>
+    <form method="POST" id="registerform" action="registration.php">
+        <div class="input-group">
+            <label for="fname">First Name</label>
+            <input id="fname" class="form-control" type="text" name="fname" maxlength="30" required="required" onkeypress='return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))'></input><br>
+        </div>
+
+        <div class="input-group">
+            <label for="sname">Surname</label>
+            <input id="sname" class="form-control" type="text" name="sname" maxlength="30" required="required" onkeypress='return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))'></input><br>
+        </div>
+
+        <div class="input-group">
+            <label for="email">E-mail</label>
+            <input id="email" class="form-control" type="email" name="email" required="required"></input><br>
+        </div>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male" >Male</input>
+        <input type="radio" name="gender" value="female" >Female</input><br>
+
+        <div class="input-group">
+            <label for="pass1">Password</label>
+            <input id="pass1" class="form-control" type="password" name="pass1" maxlength="25" required="required"></input>
+        </div>
+
+        <div class="input-group">
+            <label for="pass2">Confirm Password</label>
+            <input id="pass2" class="form-control" type="password" name="pass2" maxlength="25" required="required"></input>
+        </div>
+
+        <input id="btn" name="submit" type="submit" value="Submit" class="btn btn-outline-primary"></input>
+        <input type="reset" value="Clear" class="btn btn-outline-primary"></input>
+        <p>
+            Already a member?<a href="user_login.php">Sign in</a>
+        </p>
+        <div id="message"></div>
+    </form> 
+</body>
+
+</html>
