@@ -75,7 +75,7 @@ ________________________________________________________________________________
 
 * [Completed reading Figures from Content Section. Noted importent tags from Figures.](#Figures)
 
-* [Started Utilities section.](#Reboot)
+* [Completed whole Utilities Section. As well as read Extend section.(lightly)](#Utilities_and_Extend)
 
 --------------------------------------------------------------------------------
 
@@ -170,11 +170,20 @@ https://getbootstrap.com/docs/4.0/content/tables/
 ```sh
 https://getbootstrap.com/docs/4.0/content/figures/
 ```
+
+### Utilities_and_Extend
+```sh
+https://getbootstrap.com/docs/4.1/utilities/
+```
+```sh
+https://getbootstrap.com/docs/4.1/extend/
+```
+
 --------------------------------------------------------------------------------
 
 ## College 
 ```sh
-(GitHub tips,Grid System,utilities for layout,Bootstrap Content)
+(GitHub tips,Grid System,utilities for layout,Bootstrap Content & Utilities)
 ```
 
 --------------------------------------------------------------------------------

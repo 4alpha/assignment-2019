@@ -33,24 +33,25 @@
 #### ▶ Figures ✔️
 --------------------------------------------------------------------------------
 ### Utilities :
-#### ▶ Borders 
-#### ▶ Clearfix 
-#### ▶ Close icon 
-#### ▶ Colors 
+#### ▶ Borders ✔️
+#### ▶ Clearfix ✔️
+#### ▶ Close icon ✔️ 
+#### ▶ Colors ✔️
 #### ▶ Display ✔️
-#### ▶ Embed
+#### ▶ Embed ✔️
 #### ▶ Flex ✔️
-#### ▶ Float
-#### ▶ Image replacement
-#### ▶ Position
-#### ▶ Screenreaders
-#### ▶ Sizing
+#### ▶ Float ✔️
+#### ▶ Image replacement ✔️
+#### ▶ Position ✔️
+#### ▶ Screenreaders ✔️
+#### ▶ Shadows ✔️
+#### ▶ Sizing ✔️
 #### ▶ Spacing ✔️
-#### ▶ Text
-#### ▶ Vertical align
+#### ▶ Text ✔️
+#### ▶ Vertical align ✔️
 #### ▶ Visibility ✔️
 --------------------------------------------------------------------------------
-### Extend
+### Extend ✔️
 --------------------------------------------------------------------------------
 ### Lastly All Components :
 --------------------------------------------------------------------------------
