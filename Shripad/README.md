@@ -64,6 +64,22 @@ ________________________________________________________________________________
 * [Started Content section. Completed Reading Reboot, didn't understand much about it.](#Reboot)
 
 --------------------------------------------------------------------------------
+##### 22 Feb.
+* [Completed reading Typography from Content Section. Noted importent classes from Typography as well.](#Typography)
+
+* [Completed reading Code from Content Section. Noted importent tags from Code.](#Code)
+
+* [Completed reading Images from Content Section. Noted the importent tags from Images, But didn't understand last subpoint from Images i.e. <picture> tag](#Images)
+
+* [Completed reading Tables from Content Section. Noted importent tags from Tables.](#Tables)
+
+* [Completed reading Figures from Content Section. Noted importent tags from Figures.](#Figures)
+
+* [Started Utilities section.](#Reboot)
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
 
 ### git_tips
 ```sh
@@ -129,11 +145,36 @@ https://getbootstrap.com/docs/4.0/utilities/visibility/
 ```sh
 https://getbootstrap.com/docs/4.0/content/reboot/
 ```
+
+### Typography
+```sh
+https://getbootstrap.com/docs/4.0/content/typography/
+```
+
+### Code
+```sh
+https://getbootstrap.com/docs/4.0/content/code/
+```
+
+### Images
+```sh
+https://getbootstrap.com/docs/4.0/content/images/
+```
+
+### Tables
+```sh
+https://getbootstrap.com/docs/4.0/content/tables/
+```
+
+### Figures
+```sh
+https://getbootstrap.com/docs/4.0/content/figures/
+```
 --------------------------------------------------------------------------------
 
 ## College 
 ```sh
-(GitHub tips,Grid System,utilities for layout, )
+(GitHub tips,Grid System,utilities for layout,Bootstrap Content)
 ```
 
 --------------------------------------------------------------------------------

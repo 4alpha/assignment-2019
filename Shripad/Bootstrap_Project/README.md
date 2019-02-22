@@ -16,7 +16,7 @@
 --------------------------------------------------------------------------------
 ### Getting Started ✔️
 --------------------------------------------------------------------------------
-### Layout -> Grid ✔️
+### Layout ➡ Grid ✔️
 --------------------------------------------------------------------------------
 ### Utilities for layout :
 #### ▶ Changing Display ➡ utilities/display ✔️ 
@@ -27,9 +27,10 @@
 ### Content :
 #### ▶ Reboot ✔️
 #### ▶ Typography ✔️
-#### ▶ Images 
-#### ▶ Tables
-#### ▶ Figures
+#### ▶ Code ✔️
+#### ▶ Images ✔️ 
+#### ▶ Tables ✔️
+#### ▶ Figures ✔️
 --------------------------------------------------------------------------------
 ### Utilities :
 #### ▶ Borders 
@@ -76,7 +77,9 @@
 #### ▶	Tooltips
 --------------------------------------------------------------------------------
 
-# After finishing all this, You can start building Bootstrap Web page which should be designed with the use of all components listed above.
+# After finishing all this we are asked to complete the assignment given by Mr. MUKUND.
+--------------------------------------------------------------------------------
+## After finishing the assignment, We can start building Bootstrap Web page which should be designed with the use of all components listed above.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
