@@ -30,6 +30,20 @@
 * [Bootstrap component : Nav](#Bootstrap-nav) 
 --------------------------------------------------------------------------------
 
+##### 22 Feb.
+* [Bootstrap component: navbar](#Bootstrap-component-navbar)
+
+* [Bootstrap component : pagination](#Bootstrap-component-pagination)
+
+* [Bootstrap component : progressbar](#Bootstrap-component-progressbar)
+
+* [Bootstrap component : scrollspy](#Bootstrap-component-scrollspy)
+
+* [Bootstrap component : spinner](#Bootstrap-component-spinner)
+
+* [Bootstrap component : toast](#Bootstrap-component-toast)
+--------------------------------------------------------------------------------
+
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
@@ -72,6 +86,34 @@ https://getbootstrap.com/docs/4.3/layout/utilities-for-layout/
 https://getbootstrap.com/docs/4.3/components/navs/
 ```
 
+### Bootstrap-component-navbar
+```sh
+https://getbootstrap.com/docs/4.3/components/navs/
+```
+
+### Bootstrap-component-pagination
+```sh
+https://getbootstrap.com/docs/4.3/components/navs/
+```
+
+### Bootstrap-component-progressbar
+```sh
+https://getbootstrap.com/docs/4.3/components/progress/
+```
+
+### Bootstrap-component-scrollspy
+```sh
+https://getbootstrap.com/docs/4.3/components/scrollspy/
+```
+
+### Bootstrap-component-spinner
+```sh
+https://getbootstrap.com/docs/4.3/components/spinners/
+```
+### Bootstrap-component-toast
+```sh
+https://getbootstrap.com/docs/4.3/components/toast/
+```
 --------------------------------------------------------------------------------
 
 ## College 
