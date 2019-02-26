@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <title> Bootstrap Assignment </title>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="pos-f-t w-100">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="row">
+            <div class="bg-info p-4 w-100">
+              <h4 class="text-white">Select the Document</h4>
+              <br><a href="#Page1" class="btn btn-secondary collapsed" data-toggle="collapse" aria-expanded="false">Collapse
+                1</a>
+              <br><a href="#Page2" class="btn btn-warning collapsed" data-toggle="collapse" aria-expanded="false">Collapse
+                2</a>
+              <br><a href="#Page3" class="btn btn-success collapsed" data-toggle="collapse" aria-expanded="false">Collapse
+                3</a>
+              <br><a href="" class="navbar-brand h2 text-danger">X</a>
+
+              <div id="Page1" class="collapse">
+                This div (Collapse 1) is hidden by default
+              </div>
+
+
+              <div id="Page2" class="collapse in">
+                This div (Collapse 2) is shown by default and can toggle
+              </div>
+
+              <div id="Page3" class="collapse in">
+                This div (Collapse 3) is shown by default and can toggle
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="navbar-brand mb-0">
+            <h2 class="text-danger">Navbar</h2>
+          </span>
+        </nav>
+      </div>
+    </div>
+    <div class="row mt-4"></div>
+    <div class="row mt-5"></div>
+    <div class="row">
+      <div class="alert alert-warning alert-dismissible fade show w-100" role="alert">
+        <strong>Greetings 🙂 </strong> This component is Alert Box.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <button type="button mr-auto" class="btn btn-primary" data-toggle="collapse" data-target="#BadgeDiv"
+        aria-expanded="false" aria-controls="BadgeDiv">
+        Badge Components <span class="badge badge-light">4</span>
+      </button>
+    </div>
+    <div class="row">
+      <div class="collapse" id="BadgeDiv">
+        <br> Carousal Content yet to be implmented.
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
