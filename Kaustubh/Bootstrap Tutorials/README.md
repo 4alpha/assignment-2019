@@ -44,6 +44,13 @@
 * [Bootstrap component : toast](#Bootstrap-component-toast)
 --------------------------------------------------------------------------------
 
+##### Tuesday 26 February 2019 
+
+* [Finished assignment based on Bootstrap navbar collapse](#Bootstrap-navbar-collapse)
+
+* [Finished tutorial on Bootstrap component Carousel](#Bootstrap-carousel)
+--------------------------------------------------------------------------------
+
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
@@ -114,6 +121,12 @@ https://getbootstrap.com/docs/4.3/components/spinners/
 ```sh
 https://getbootstrap.com/docs/4.3/components/toast/
 ```
+
+### Bootstrap-navbar-collapse
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/navbar_demo.html
+
+### Bootstrap-carousel
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/carousel-demo.html
 --------------------------------------------------------------------------------
 
 ## College 
