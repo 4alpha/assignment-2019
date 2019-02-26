@@ -59,7 +59,7 @@ ________________________________________________________________________________
 ##### 21 Feb.
 * [Completed reading Utilities for layout. There are few further references which I updated in Bootstrap README file](#Utilities_for_layout)
 
-* [I found Utilities for layout page less informative So I opened each link and completed reading all 4 sub points of utilites for layout.](#21_FEB_Utilities_for_layout)
+* [I found Utilities for layout page less informative So I opened each link and completed reading all 4 sub points of utilites for layout.](#Extra_Information_about_Utilities_for_layout)
 
 * [Started Content section. Completed Reading Reboot, didn't understand much about it.](#Reboot)
 
@@ -88,9 +88,14 @@ ________________________________________________________________________________
 ## Week : 25 Feb. to 1 Mar.
 --------------------------------------------------------------------------------
 ##### 25 Feb.
-* [Completed whole Components Section. Now going to search / start reading for assignment.](#Components)
+* [Completed Components Section till Card. Now going to search / start reading for assignment.](#Components)
 
+* [Completed Assignment given by Mr. Mukund. Now going to continue reading components for next assignment.](#Navbar)
+--------------------------------------------------------------------------------
+##### 26 Feb.
+* [Navbar Assignment checked by Mr. Mukund, Starting to built rough layout of my page together with reading next components](#Assignment)
 
+* [](#Navbar)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
@@ -146,7 +151,7 @@ https://getbootstrap.com/docs/4.0/layout/grid/
 https://getbootstrap.com/docs/4.0/layout/utilities-for-layout/
 ```
 
-### 21_FEB_Utilities_for_layout
+### Extra_Information_about_Utilities_for_layout
 ```sh
 https://getbootstrap.com/docs/4.0/utilities/display/
 ```
@@ -197,9 +202,20 @@ https://getbootstrap.com/docs/4.1/utilities/
 ```sh
 https://getbootstrap.com/docs/4.1/extend/
 ```
+
 ### Components
 ```sh
 https://getbootstrap.com/docs/4.1/components/
+```
+
+### Navbar
+```sh
+https://getbootstrap.com/docs/4.0/components/navbar/
+```
+
+### Assignment
+```sh
+https://github.com/4alpha/assignment-2019/tree/master/Shripad/Bootstrap_Project/Assignment
 ```
 
 --------------------------------------------------------------------------------

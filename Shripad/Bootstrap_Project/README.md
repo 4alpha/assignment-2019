@@ -55,11 +55,11 @@
 --------------------------------------------------------------------------------
 ### Lastly All Components :
 --------------------------------------------------------------------------------
-#### ▶	Alerts
-#### ▶	Badge
-#### ▶	Breadcrumb
-#### ▶	Buttons
-#### ▶	Button Group
+#### ▶	Alerts ✔️
+#### ▶	Badge ✔️
+#### ▶	Breadcrumb ✔️
+#### ▶	Buttons ✔️
+#### ▶	Button Group ✔️
 #### ▶	Card
 #### ▶	Carousel
 #### ▶	Collapse
