@@ -51,6 +51,11 @@
 * [Finished tutorial on Bootstrap component Carousel](#Bootstrap-carousel)
 --------------------------------------------------------------------------------
 
+#### Wednesday 27 February 2019 
+
+* [Started building a new web page which will consist all Bootstrap Components, Today I've added Bootstrap component viz. Button,Card, Carousel,Image,Media object,Navbar,Nav]
+--------------------------------------------------------------------------------
+
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
