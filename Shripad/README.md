@@ -97,6 +97,17 @@ ________________________________________________________________________________
 
 * [Started Working on Assignment given by Sir.](#Working_Assignment)
 --------------------------------------------------------------------------------
+##### 27 Feb.
+* [Started working on Assignment told by Sir, Completed adding components till Carousel.](#Working_Assignment)
+
+* [Helped Harshada removing link in her web page.](#)
+
+* [Working on adding card component to Web Page.](#Card)
+--------------------------------------------------------------------------------
+##### 28 Feb.
+
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
@@ -216,6 +227,11 @@ https://getbootstrap.com/docs/4.0/components/navbar/
 ### Assignment
 ```sh
 https://github.com/4alpha/assignment-2019/tree/master/Shripad/Bootstrap_Project/Assignment
+```
+
+### Card
+```sh
+https://getbootstrap.com/docs/4.1/components/card/
 ```
 
 ### Working_Assignment
