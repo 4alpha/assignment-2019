@@ -19,14 +19,26 @@
 </head>
 
 <body>
-    <nav class="navabar navbar-collapse navbar-light bg-light" role="navigation">      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-contents" aria-expanded="true" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>    
-</body>
+    <!--Using Navbar we display options using tablist and Bootstrap compnent Collapse-->
+    <div class="container-fluid">
+        <nav class="navabar navbar-collapse navbar-light bg-light" role="navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-contents"
+                aria-expanded="true" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div id="navbar-contents" class="collapse in">
+          
+        </nav>
+        <div class="nav justify-content-end ml-auto">
+                <!-- <li class="nav-item"> -->
+                    <button class="btn btn-info rounded mr-1" type="button">Signup</button>
+                <!-- </li> -->
+                <!-- <li class="nav-item"> -->
+                    <button class="btn btn-primary rounded mr-1" type="button">Sign in</button>
+                <!-- </li> -->
+                </div>
+    </div>
+    <div id="navbar-contents" class="collapse in mt-1 mb-1">
         <ul class="nav nav-tabs justify-content-center bg-dark">
             <li class="nav-item">
                 <a class="nav-link active rounded " href="#">Home</a>
@@ -39,4 +51,156 @@
             </li>
         </ul>
     </div>
+
+    <!--Display message using text-center-->
+    <div class="container-fluid text-center">
+        <h1 class="text-center">Eat
+            <span class="text-success">,</span>
+            Code
+            <span class="text-success">,</span><br />
+            Sleep
+            <span class="text-success">,</span>
+            Repeat
+        </h1>
+    </div>
+
+    <div class="container-fluid ">
+        <div class="row text-center pt-2 pb-2">
+            <div class="col-12">
+                <span class="line text"></span>
+                <h1>Expertise</h1>
+                <span class="line"></span>
+                <h3>We provide wide range of Expertise</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--  Bootstrap Component Media Object-->
+    <div class="container">
+        <div class="row center-col">
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="media">
+                    <img class="d-flex mr-3" src="/home/developer/Pictures/java-logo.png" alt="Java Icon" width="80px">
+                    <div class="media-body">
+                        <h5 class="mt-1 mb-1">Java Programming</h5>
+                        <span><small class="text-muted">JDK 8+</small></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="media">
+                    <img class="d-flex mr-3" src="/home/developer/Pictures/php-logo.png" alt="PHP Icon" width="80px">
+                    <div class="media-body">
+                        <h5 class="mt-1 mb-1">PHP Programming</h5>
+                        <span><small class="text-muted">PHP 7+</small></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="media">
+                    <img class="d-flex mr-3" src="/home/developer/Pictures/csharp-logo.png" alt="C# Icon" width="80px">
+                    <div class="media-body">
+                        <h5 class="mt-1 mb-1">C# Programming</h5>
+                        <span><small class="text-muted">.NET Framework 3.5+</small></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+                <div class="media">
+                    <img class="d-flex mr-3" src="/home/developer/Pictures/android-logo.png" alt="Android Icon" width="80px">
+                    <div class="media-body">
+                        <h5 class="mt-1 mb-1">Android</h5>
+                        <span><small class="text-muted">Version 4.1</small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Component; Card -->
+    <div class="container-fluid" style="margin-right: 0px; margin-left: 0px; padding-right: 0px; padding-left: 0px;">
+        <div class="row no-gutters">
+            <div class="card">
+                <img class="card-img-top" src="/home/developer/Pictures/steve-jobs.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Steve Jobs</h4>
+                    <span>
+                        <small class="text-muted">24 Feb, 1955- October 5, 2011</small>
+                    </span>
+                    <p class="card-text text-muted">Co-founder of &copy; Apple Inc. , &copy; Pixar Co</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="/home/developer/Pictures/tim-cook.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Tim Cook</h4>
+                    <span>
+                        <strong class="text-muted">CEO <span class="text-info">,</span> &copy; Apple, Inc</strong>
+                    </span>
+                    <p class="card-text text-muted">Ex COO</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="/home/developer/Pictures/phil-schiller.png">
+                <div class="card-body">
+                    <h4 class="card-title">Phill Schiller</h4>
+                    <span>
+                        <strong class="text-muted">Senior VP <span class="text-info">,</span> &copy; Apple, Inc</strong>
+                    </span>
+                    <p class="card-text text-muted">Working since 1995</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Component Carousel -->
+    <div class="container-fluid">
+        <div class="row text-center ">
+            <div class="col-12">
+                <h1 class="text-success">Inspiration</h1>
+
+                <div id="carouseldemo" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouseldemo" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouseldemo" data-slide-to="1"></li>
+                        <li data-target="#carouseldemo" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <blockquote class="blockquote">
+                                Talk is cheap. Show me the code.
+                                &Tilde; <cite>Linus Torvalds</cite>
+                            </blockquote>
+                        </div>
+
+                        <div class="carousel-item" data-interval="5000">
+                            <blockquote class="blockquote">
+                                You've baked a really lovely cake, but then you've used dog shit for frosting.
+                                &Tilde; <cite>Steve Jobs</cite>
+                            </blockquote>
+                        </div>
+
+                        <div class="carousel-item" data-interval="5000">
+                            <blockquote class="blockquote">
+                                Any fool can write code that a computer can understand. Good programmers write code
+                                that humans can understand.
+                                &Tilde; <cite>Martin Fowler</cite>
+                            </blockquote>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+
 </html>
