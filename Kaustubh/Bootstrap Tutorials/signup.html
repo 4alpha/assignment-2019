@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registeration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--truncate shows ... if a long text is unable to fit in given width-->
+    <h3 class="text-center text-info text-break  ">Welcome to registration</h1>
+        <div class="jumbotron">
+            <form>
+                <!-- It adds the form elements row-wise -->
+                <div class="form-row">
+                    <!-- Groups the form element -->
+                    <div class="form-group col-6 col-md-4 mb-2">
+                        <label>First Name</label>
+                        <input type="text" id="fname" class="form-control" placeholder="Kaustubh" required="required">
+                        <small class="form-text text-muted">Only First name</small>
+                    </div>
+                    <div class="form-group col-6 col-md-4 mb-2">
+                        <label>Last Name</label>
+                        <input type="text" id="lname" class="form-control" placeholder="Zagade" required="required">
+                        <small class="form-text text-muted">Only Last Name</small>
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center">
+                    <div class="col-6 col-md-4">
+                        <input type="text" id="usernametext1" name="usernametext1" class="form-control mb-2"
+                            placeholder="Username">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" id="usernametext2" name="usernametext2" placeholder="example">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <label>Your email</label>
+                        <input type="email" id="emailid" placeholder="something@example.com">
+                    </div>
+                </div>
+<!-- Address Info -->
+                <legend>Address Info</legend>
+                <div class="form-row">
+                    <div class="form-group col-12 col-md-4">
+                        <label>Address Line 1</label>
+                        <input type="text" class="form-control" id="address1" placeholder="Sadashiv Peth">
+                    </div>
+                    <div class="form-group col-12 col-md-4">
+                        <label>Address Line 2</label>
+                        <input type="text" class="form-control" id="address2" placeholder="Pune">
+                    </div>
+                    <!-- Form group which adjusts according to breakpoints -->
+                    <div class="form-group col-12 col-md-4">
+                        <label>Select City</label>
+                        <select class="custom-select mr-sm-2">
+                            <option selected>Choose...</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Solapur">Solapur</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-12 col-md-4">
+                        <label>Select State</label>
+                        <select class="custom-select mr-sm-2">
+                            <option selected>Choose...</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Gujarat">Gujarat</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-12 col-md-4">
+                        <label>Pincode</label>
+                        <input type="number" id="pincode" class="form-control" maxlength="4" minlength="4" required>
+                        <small class="form-text text-muted">Six digit pincode</small>
+                    </div>
+                </div>
+<!-- Using form-check-inline property to arrange all items in one line -->
+                <div class="form-check form-check-inline justify-content-center">
+                    <label class="form-check-label">Gender</label>
+                    <input type="radio" id="gender" class="form-check-input ml-2" value="Male">
+                    <label class="form-check-label">Male</label>
+                    <input type="radio" id="gender" class="form-check-input ml-2" value="Female">
+                    <label class="form-check-label">Female</label>
+                </div>
+                <br><br>
+                <div class="form-check form-check-inline justify-content-center">
+                    <label class="form-check-label">Hobbies</label><br>
+                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Drawing">
+                    <label class="form-check-label ml-auto">Drawing</label>
+                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Singing">
+                    <label class="form-check-label ml-auto">Singing</label>
+                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Coding">
+                    <label class="form-check-label ml-auto">Coding</label>
+                </div>
+                <br><br>
+                <div class="btn-group">
+                <button type="button" class="btn btn-primary rounded mr-2">Submit</button>
+                <!-- <input type="reset" class="spinner-grow spinner-grow-sm btn btn-warning" value="Reset"> -->
+                <!-- Using grow spinner in button -->
+                <button type="button" class="btn btn-warning rounded ml-auto">
+                    <span class="spinner-grow spinner-grow-sm" role="status"></span>Reset
+                </button>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>
