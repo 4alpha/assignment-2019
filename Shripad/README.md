@@ -105,8 +105,11 @@ ________________________________________________________________________________
 * [Working on adding card component to Web Page.](#Card)
 --------------------------------------------------------------------------------
 ##### 28 Feb.
+* [While working on Assignment, Completed adding components till 'Froms' before Lunch Time.](#Forms)
 
 
+
+* [While working on Assignment,Completed adding components till *********.](#Working_Assignment)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
@@ -232,6 +235,11 @@ https://github.com/4alpha/assignment-2019/tree/master/Shripad/Bootstrap_Project/
 ### Card
 ```sh
 https://getbootstrap.com/docs/4.1/components/card/
+```
+
+### Forms
+```sh
+https://getbootstrap.com/docs/4.3/components/forms/
 ```
 
 ### Working_Assignment

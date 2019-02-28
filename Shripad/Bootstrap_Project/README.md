@@ -60,22 +60,22 @@
 #### ▶	Breadcrumb ✔️
 #### ▶	Buttons ✔️
 #### ▶	Button Group ✔️
-#### ▶	Card
-#### ▶	Carousel
-#### ▶	Collapse
-#### ▶	Dropdowns
+#### ▶	Card ✔️
+#### ▶	Carousel ✔️
+#### ▶	Collapse ✔️
+#### ▶	Dropdowns ✔️
 #### ▶	Forms
 #### ▶	Input group
 #### ▶	Jumbotron
 #### ▶	List group
 #### ▶	Model
 #### ▶	Navs
-#### ▶	Navbar
+#### ▶	Navbar ✔️
 #### ▶	Pagination
 #### ▶	Popovers
 #### ▶	Progress
 #### ▶	Scrollspy
-#### ▶	Tooltips
+#### ▶	Tooltips ✔️
 --------------------------------------------------------------------------------
 
 # After finishing all this we are asked to complete the assignment given by Mr. MUKUND. ✔️
