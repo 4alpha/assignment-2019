@@ -56,6 +56,11 @@
 * [Started building a new web page which will consist all Bootstrap Components, Today I've added Bootstrap component viz. Button,Card, Carousel,Image,Media object,Navbar,Nav]
 --------------------------------------------------------------------------------
 
+#### Thursday 28 February 2019 
+
+* [Made few changes in view, Added form, spinner, checkboxes, select, radio button, button, form-row, form-inline, form-group, form relatedn layout]
+--------------------------------------------------------------------------------
+
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
