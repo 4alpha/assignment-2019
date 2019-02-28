@@ -19,32 +19,35 @@
 </head>
 
 <body>
-    <!--Using Navbar we display options using tablist and Bootstrap compnent Collapse-->
-    <div class="container-fluid">
-        <nav class="navabar navbar-collapse navbar-light bg-light" role="navigation">
+    <!--Using Navbar we display options using tablist and Bootstrap compnent Collapse-->    
+        <header class="navabar navbar-collapse navbar-light bg-light sticky-top d-flex justify-content-between" role="navigation">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-contents"
                 aria-expanded="true" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>                       
+            <ul class="navbar-nav flex-row ml-md-auto">
+                <li class="nav-item">
+                        <a class="nav-link btn btn-info rounded mr-1 mt-2 mb-1 pl-1 pr-2 text-white" href="signup.html" >Signup</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link btn btn-primary rounded mr-1 mt-2 mb-1 pt-pb-auto pl-1 pr-2 text-white"  href="#" >Sign in</a>
+                </li>
+            </ul>            
+        </header>                
+            
+        <!-- <li class="nav-item"> -->
 
-          
-        </nav>
-        <div class="nav justify-content-end ml-auto">
-                <!-- <li class="nav-item"> -->
-                    <button class="btn btn-info rounded mr-1" type="button">Signup</button>
-                <!-- </li> -->
-                <!-- <li class="nav-item"> -->
-                    <button class="btn btn-primary rounded mr-1" type="button">Sign in</button>
-                <!-- </li> -->
-                </div>
-    </div>
-    <div id="navbar-contents" class="collapse in mt-1 mb-1">
+        <!-- </li> -->
+        <!-- <li class="nav-item"> -->
+
+        <!-- </li> -->
+    <div id="navbar-contents" class="collapse in mt-1 mb-1 ">
         <ul class="nav nav-tabs justify-content-center bg-dark">
             <li class="nav-item">
                 <a class="nav-link active rounded " href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link rounded" href="#">About Us</a>
+                <a class="nav-link rounded" href="all-in-one-about-us.html">About Us</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
@@ -121,10 +124,10 @@
     </div>
 
     <!-- Bootstrap Component; Card -->
-    <div class="container-fluid" style="margin-right: 0px; margin-left: 0px; padding-right: 0px; padding-left: 0px;">
+    <div class="container-fluid">
         <div class="row no-gutters">
-            <div class="card">
-                <img class="card-img-top" src="/home/developer/Pictures/steve-jobs.jpg">
+            <div class="card col-12 col-md-6">
+                <img class="card-img-top" src="/home/developer/Pictures/steve-jobs.jpeg">
                 <div class="card-body">
                     <h4 class="card-title">Steve Jobs</h4>
                     <span>
@@ -134,7 +137,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card col-12 col-md-6">
                 <img class="card-img-top" src="/home/developer/Pictures/tim-cook.jpg">
                 <div class="card-body">
                     <h4 class="card-title">Tim Cook</h4>
@@ -145,7 +148,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card col-12 col-md-6">
                 <img class="card-img-top" src="/home/developer/Pictures/phil-schiller.png">
                 <div class="card-body">
                     <h4 class="card-title">Phill Schiller</h4>
@@ -155,6 +158,17 @@
                     <p class="card-text text-muted">Working since 1995</p>
                 </div>
             </div>
+
+            <div class="card col-12 col-md-6">
+                    <img class="card-img-top" src="/home/developer/Pictures/jony-ive.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Jonathan Ive</h4>
+                        <span>
+                            <strong class="text-muted">Senior VP, Industrial Design <span class="text-info">,</span> &copy; Apple, Inc</strong>
+                        </span>
+                        <p class="card-text text-muted">Working since 1992</p>
+                    </div>
+                </div>
         </div>
     </div>
 
