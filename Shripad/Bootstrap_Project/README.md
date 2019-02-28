@@ -64,14 +64,14 @@
 #### ▶	Carousel ✔️
 #### ▶	Collapse ✔️
 #### ▶	Dropdowns ✔️
-#### ▶	Forms
-#### ▶	Input group
-#### ▶	Jumbotron
-#### ▶	List group
-#### ▶	Model
-#### ▶	Navs
+#### ▶	Forms ✔️
+#### ▶	Input group ✔️
+#### ▶	Jumbotron ✔️
+#### ▶	List group ✔️
+#### ▶	Model ✔️
+#### ▶	Navs ✔️
 #### ▶	Navbar ✔️
-#### ▶	Pagination
+#### ▶	Pagination ✔️
 #### ▶	Popovers
 #### ▶	Progress
 #### ▶	Scrollspy

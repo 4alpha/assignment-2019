@@ -105,16 +105,18 @@ ________________________________________________________________________________
 * [Working on adding card component to Web Page.](#Card)
 --------------------------------------------------------------------------------
 ##### 28 Feb.
-* [While working on Assignment, Completed adding components till 'Froms' before Lunch Time.](#Forms)
+* [While working on Assignment, Completed adding components till 'Forms' before Lunch Time.](#Working_Assignment)
 
+* [Left working on Assignment and starting to focus on reading each and every component.](#Components)
 
+* [Completed Components Section till Pagination.](#Pagination) 
 
-* [While working on Assignment,Completed adding components till *********.](#Working_Assignment)
+* [Slowly going to construct a better web page on paper for assignment, which should consist the meaningful use of components.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
-(Bootstrap Components,)
+(Bootstrap Components,Extend,Implementing Grid System)
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -219,7 +221,7 @@ https://getbootstrap.com/docs/4.1/extend/
 
 ### Components
 ```sh
-https://getbootstrap.com/docs/4.1/components/
+https://getbootstrap.com/docs/4.3/components/
 ```
 
 ### Navbar
@@ -240,6 +242,11 @@ https://getbootstrap.com/docs/4.1/components/card/
 ### Forms
 ```sh
 https://getbootstrap.com/docs/4.3/components/forms/
+```
+
+### Pagination
+```sh
+https://getbootstrap.com/docs/4.3/components/pagination/
 ```
 
 ### Working_Assignment
