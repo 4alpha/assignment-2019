@@ -113,11 +113,25 @@ ________________________________________________________________________________
 
 * [Slowly going to construct a better web page on paper for assignment, which should consist the meaningful use of components.](#)
 --------------------------------------------------------------------------------
+##### 1 Mar.
+* [Finally completed all components. Now planning about how to construct web page which will consist all components.](#Components)
+
+* [Started designing Web Page structure on rough paper.](#)
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
-(Bootstrap Components,Extend,Implementing Grid System)
+(Bootstrap Components,Extend,Implementing Grid System for Web Page)
 ```
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+## Week : 18 Feb. to 22 Feb.
+--------------------------------------------------------------------------------
+##### 1 Mar.
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 

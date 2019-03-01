@@ -72,15 +72,17 @@
 #### ▶	Navs ✔️
 #### ▶	Navbar ✔️
 #### ▶	Pagination ✔️
-#### ▶	Popovers
-#### ▶	Progress
-#### ▶	Scrollspy
+#### ▶	Popovers ✔️
+#### ▶	Progress ✔️
+#### ▶	Scrollspy ✔️
+#### ▶  Spinners ✔️
+#### ▶  Toasts ✔️
 #### ▶	Tooltips ✔️
 --------------------------------------------------------------------------------
 
 # After finishing all this we are asked to complete the assignment given by Mr. MUKUND. ✔️
 --------------------------------------------------------------------------------
-## After finishing the assignment, We can start building Bootstrap Web page which should be designed with the use of all components listed above.
+## After finishing the assignment, We can start building Bootstrap Web page which should be designed with the use of all components listed above. ⏪
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
