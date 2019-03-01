@@ -20,114 +20,180 @@
 
 <body>
     <!--truncate shows ... if a long text is unable to fit in given width-->
-    <h3 class="text-center text-info text-break  ">Welcome to registration</h1>
-        <div class="jumbotron">
-            <form>
-                <!-- It adds the form elements row-wise -->
-                <div class="form-row">
-                    <!-- Groups the form element -->
-                    <div class="form-group col-6 col-md-4 mb-2">
-                        <label>First Name</label>
-                        <input type="text" id="fname" class="form-control" placeholder="Kaustubh" required="required">
-                        <small class="form-text text-muted">Only First name</small>
-                    </div>
-                    <div class="form-group col-6 col-md-4 mb-2">
-                        <label>Last Name</label>
-                        <input type="text" id="lname" class="form-control" placeholder="Zagade" required="required">
-                        <small class="form-text text-muted">Only Last Name</small>
-                    </div>
+    <h3 class="text-center text-info text-break  ">Welcome to registration</h3>
+    <div class="jumbotron">
+        <form method="POST">
+            <!-- It adds the form elements row-wise -->
+            <div class="form-row">
+                <!-- Groups the form element -->
+                <div class="form-group col-6 col-md-4 mb-2">
+                    <label>First Name</label>
+                    <input type="text" id="fname" class="form-control" placeholder="Kaustubh" required autofocus>
+                    <small class="form-text text-muted">Only First name</small>
+                </div>
+                <div class="form-group col-6 col-md-4 mb-2">
+                    <label>Last Name</label>
+                    <input type="text" id="lname" class="form-control" placeholder="Zagade" required="required">
+                    <small class="form-text text-muted">Only Last Name</small>
+                </div>
+            </div>
+
+            <div class="form-row align-items-center">
+                <div class="col-6 col-md-4">
+                    <input type="text" id="usernametext1" name="usernametext1" class="form-control mb-2" placeholder="Username">
+                </div>
+                <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                        <input type="text" id="usernametext2" name="usernametext2" placeholder="example">
+                    </div>             
+            </div>
+            <div class="form-row align-items-center">
+                <div class="col-auto mt-3">
+                    <label>Your email</label>
+                    <input type="email" id="emailid" placeholder="something@example.com">
+                </div>
+            </div>
+            <!-- Address Info -->
+            <legend>Address Info</legend>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-4">
+                    <label>Address Line 1</label>
+                    <input type="text" class="form-control" id="address1" placeholder="Sadashiv Peth">
+                </div>
+                <div class="form-group col-12 col-md-4">
+                    <label>Address Line 2</label>
+                    <input type="text" class="form-control" id="address2" placeholder="Pune">
+                </div>
+                <!-- Form group which adjusts according to breakpoints -->
+                <div class="form-group col-12 col-md-4">
+                    <label>Select City</label>
+                    <select class="custom-select mr-sm-2">
+                        <option selected>Choose...</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Solapur">Solapur</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
                 </div>
 
-                <div class="form-row align-items-center">
-                    <div class="col-6 col-md-4">
-                        <input type="text" id="usernametext1" name="usernametext1" class="form-control mb-2"
-                            placeholder="Username">
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">@</div>
-                            </div>
-                            <input type="text" id="usernametext2" name="usernametext2" placeholder="example">
-                        </div>
-                    </div>
+                <div class="form-group col-12 col-md-4">
+                    <label>Select State</label>
+                    <select class="custom-select mr-sm-2">
+                        <option selected>Choose...</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Gujarat">Gujarat</option>
+                    </select>
                 </div>
 
-                <div class="form-row align-items-center">
-                    <div class="col-auto">
-                        <label>Your email</label>
-                        <input type="email" id="emailid" placeholder="something@example.com">
-                    </div>
+                <div class="form-group col-12 col-md-4">
+                    <label>Pincode</label>
+                    <input type="number" id="pincode" class="form-control" maxlength="4" minlength="4" required>
+                    <small class="form-text text-muted">Six digit pincode</small>
                 </div>
-<!-- Address Info -->
-                <legend>Address Info</legend>
-                <div class="form-row">
-                    <div class="form-group col-12 col-md-4">
-                        <label>Address Line 1</label>
-                        <input type="text" class="form-control" id="address1" placeholder="Sadashiv Peth">
-                    </div>
-                    <div class="form-group col-12 col-md-4">
-                        <label>Address Line 2</label>
-                        <input type="text" class="form-control" id="address2" placeholder="Pune">
-                    </div>
-                    <!-- Form group which adjusts according to breakpoints -->
-                    <div class="form-group col-12 col-md-4">
-                        <label>Select City</label>
-                        <select class="custom-select mr-sm-2">
-                            <option selected>Choose...</option>
-                            <option value="Pune">Pune</option>
-                            <option value="Solapur">Solapur</option>
-                            <option value="Nashik">Nashik</option>
-                            <option value="Mumbai">Mumbai</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group col-12 col-md-4">
-                        <label>Select State</label>
-                        <select class="custom-select mr-sm-2">
-                            <option selected>Choose...</option>
-                            <option value="Maharashtra">Maharashtra</option>
-                            <option value="Goa">Goa</option>
-                            <option value="Karnataka">Karnataka</option>
-                            <option value="Gujarat">Gujarat</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group col-12 col-md-4">
-                        <label>Pincode</label>
-                        <input type="number" id="pincode" class="form-control" maxlength="4" minlength="4" required>
-                        <small class="form-text text-muted">Six digit pincode</small>
-                    </div>
-                </div>
-<!-- Using form-check-inline property to arrange all items in one line -->
-                <div class="form-check form-check-inline justify-content-center">
-                    <label class="form-check-label">Gender</label>
-                    <input type="radio" id="gender" class="form-check-input ml-2" value="Male">
-                    <label class="form-check-label">Male</label>
-                    <input type="radio" id="gender" class="form-check-input ml-2" value="Female">
-                    <label class="form-check-label">Female</label>
-                </div>
-                <br><br>
-                <div class="form-check form-check-inline justify-content-center">
-                    <label class="form-check-label">Hobbies</label><br>
-                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Drawing">
-                    <label class="form-check-label ml-auto">Drawing</label>
-                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Singing">
-                    <label class="form-check-label ml-auto">Singing</label>
-                    <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Coding">
-                    <label class="form-check-label ml-auto">Coding</label>
-                </div>
-                <br><br>
-                <div class="btn-group">
-                <button type="button" class="btn btn-primary rounded mr-2">Submit</button>
+            </div>
+            <!-- Using form-check-inline property to arrange all items in one line -->
+            <div class="form-check form-check-inline justify-content-center">
+                <label class="form-check-label">Gender</label>
+                <input type="radio" id="gender" class="form-check-input ml-2" value="Male">
+                <label class="form-check-label">Male</label>
+                <input type="radio" id="gender" class="form-check-input ml-2" value="Female">
+                <label class="form-check-label">Female</label>
+            </div>
+            <br><br>
+            <div class="form-check form-check-inline justify-content-center">
+                <label class="form-check-label">Hobbies</label><br>
+                <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Drawing">
+                <label class="form-check-label ml-auto">Drawing</label>
+                <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Singing">
+                <label class="form-check-label ml-auto">Singing</label>
+                <input type="checkbox" id="hobbies" class="form-check-input ml-2" value="Coding">
+                <label class="form-check-label ml-auto">Coding</label>
+            </div>
+            <br><br>
+            <div class="btn-group">
+                <button type="button" data-toggle="modal" data-target="#modalexample" class="btn btn-primary rounded mr-2">Submit</button>
                 <!-- <input type="reset" class="spinner-grow spinner-grow-sm btn btn-warning" value="Reset"> -->
                 <!-- Using grow spinner in button -->
-                <button type="button" class="btn btn-warning rounded ml-auto">
+                <!-- <button type="button" class="btn btn-warning rounded ml-auto">
                     <span class="spinner-grow spinner-grow-sm" role="status"></span>Reset
-                </button>
-                </div>
-            </form>
-        </div>
+                </button> -->
+                <input type="reset" value="Reset" class="btn btn-warning rounded ml-auto">
+                <span class="spinner-grow" role="status">
+                </span> <small class="text-muted">Waiting to submit the form</small>
+            </div>
+        </form>
+        <a href="signin.html" style="text-decoration:none;">Already have an account? Sign in</a>
+    </div>
 </body>
+
+<!-- Using Bootstrap modal which displays Terms and Conditions after clicking button -->
+<div id="modalexample" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="example" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modallabel">Terms &amp; Conditions</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&timesb;</span>
+                </button>
+            </div>
+            <div class="modal-body wrapper">
+                <ol class="list-style-none">
+                    <li>
+                        <h3>General</h3>
+                        <p class="text-justify">
+                            These Terms and Conditions ("Agreement") governs the use of the services ("Service") that
+                            are made available by Website.com Solutions Inc. ("Website.com", "we" or "us"). These Terms
+                            and Conditions represent the whole agreement and understanding between Website.com and the
+                            individual or entity who subscribes to our service ("Subscriber" or "you").
+
+                            PLEASE READ THIS AGREEMENT CAREFULLY. By submitting your application and by your use of the
+                            Service, you agree to comply with all of the terms and conditions set out in this
+                            Agreement. Website.com may terminate your account at any time, with or without notice, for
+                            conduct that is in breach of this Agreement, for conduct that Website.com believes is
+                            harmful to its business, or for conduct where the use of the Service is harmful to any
+                            other party.
+
+                            Website.com may, in its sole discretion, change or modify this Agreement at any time, with
+                            or without notice. Such changes or modifications shall be made effective for all
+                            Subscribers upon posting of the modified Agreement to this web address (URL):
+                            http://www.website.com/terms-and-conditions/. You are responsible to read this document
+                            from time to time to ensure that your use of the Service remains in compliance with this
+                            Agreement.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Services</h3>
+                        <p class="text-justify">
+                            Website.com offers Subscribers domain name registration, website hosting, and email hosting
+                            services for the duration of the service term purchased from Website.com.
+
+                            Services are provided on the basis of facility and equipment availability. Website.com
+                            reserves the right to modify, change, or discontinue any aspect of the Services at any
+                            time.
+
+                            Access to the web and email servers is terminated upon expiry of the Service.
+
+                            Details regarding your account can be found in your account control panel
+                            (https://www.website.com/sign-in/)
+                        </p>
+                    </li>
+
+                </ol>
+                <hr>
+                <!-- Using custom switches from custom control -->
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customcheckbox" checked>
+                    <label class="custom-control-label" for="customcheckbox">Accepting premium membership @ <span>&#8377;</span>
+                        199/month </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success rounded" role="button">Accept &amp; Continue</button>
+                <button type="button" class="btn btn-primary rounded" role="button" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 
 </html>
