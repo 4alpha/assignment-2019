@@ -61,6 +61,11 @@
 * [Made few changes in view, Added form, spinner, checkboxes, select, radio button, button, form-row, form-inline, form-group, form relatedn layout]
 --------------------------------------------------------------------------------
 
+#### Friday 01 March 2019 
+
+* [Created a new sign in page, understood few flexbox layout tricks, Added a custom-control switch (much like we use as checkbox in android, iOS devices), Added a Bootstrap modal dialog box (also understood modal class mistake which I've made). Also made a little changes in Card body of Bootstrap component Card. Asked to start learning about node.js from next week, Signing off from this week]
+--------------------------------------------------------------------------------
+
 ### bootstrap_18_Feb
 ```sh
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
