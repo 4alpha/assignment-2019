@@ -63,7 +63,7 @@
 
 #### Friday 01 March 2019 
 
-* [Created a new sign in page, understood few flexbox layout tricks, Added a custom-control switch (much like we use as checkbox in android, iOS devices), Added a Bootstrap modal dialog box (also understood modal class mistake which I've made). Also made a little changes in Card body of Bootstrap component Card. Asked to start learning about node.js from next week, Signing off from this week]
+* [Created a new sign in page, understood few flexbox layout tricks, Added a custom-control switch (much like we use as checkbox in android, iOS devices), Added a Bootstrap modal dialog box (also understood modal class mistake which I've made). Also made a little changes in Card body of Bootstrap component Card. Asked to start learning about node.js from next week, Signing off from this week](#this-week-work)
 --------------------------------------------------------------------------------
 
 ### bootstrap_18_Feb
@@ -135,6 +135,15 @@ https://getbootstrap.com/docs/4.3/components/spinners/
 ### Bootstrap-component-toast
 ```sh
 https://getbootstrap.com/docs/4.3/components/toast/
+```
+
+### this-week-work
+```sh
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/all-in-one.html
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/all-in-one-about-us.html
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/display-prop-for-all-screens.html
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/signin.html
+https://github.com/4alpha/assignment-2019/blob/master/Kaustubh/Bootstrap%20Tutorials/signup.html
 ```
 
 ### Bootstrap-navbar-collapse
