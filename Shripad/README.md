@@ -130,7 +130,19 @@ ________________________________________________________________________________
 ## Week : 4 Mar. to 8 Mar.
 --------------------------------------------------------------------------------
 ##### 4 Mar.
+* [Watched Vue.js Introduction Video from Creator of Vue "Evan You".](#Vue_Introduction)
 
+* [Added 4 Vue.js Courses on my Personal Udemy Account.](#Udemy_Courses)
+
+* [Worked on Boostrap Web page Assignment.](#)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+## College 
+```sh
+(Vue Introduction,)
+```
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -267,5 +279,16 @@ https://getbootstrap.com/docs/4.3/components/pagination/
 ```sh
 https://github.com/4alpha/assignment-2019/tree/master/Shripad/Bootstrap_Project/Assignment
 ```
+
+### Vue_Introduction
+```sh
+https://vuejs.org/
+```
+
+### Udemy_Courses
+```sh
+https://www.udemy.com/home/my-courses/learning/
+```
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
