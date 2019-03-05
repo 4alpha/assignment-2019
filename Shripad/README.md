@@ -139,7 +139,11 @@ ________________________________________________________________________________
 ##### 5 Mar.
 * [Watched Vue.js Introduction Video from Official Website, And did some practice as tought in the video.](#Introduction_Vue)
 
+* [Started First Course from Udemy : Pre-Vue.js](#Pre-Vue.js)
 
+* [Read information about Single Page Application, and understood some concepts related to it from Mr. SAURABH](#Difference_between_single_page_application_and_multiple_page_application)
+
+* [Completed till 3rd Section of Course from Udemy : Pre-Vue.js](#Pre-Vue.js)
 --------------------------------------------------------------------------------
 ##### 6 Mar.
 * [.](#)
@@ -309,6 +313,16 @@ https://www.udemy.com/home/my-courses/learning/
 ### Introduction_Vue
 ```sh
 https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/
+```
+
+### Difference_between_single_page_application_and_multiple_page_application
+```sh
+https://medium.com/@goldybenedict/single-page-applications-vs-multiple-page-applications-do-you-really-need-an-spa-cf60825232a3
+```
+
+### Pre-Vue.js
+```sh
+https://www.udemy.com/pre-vuejs-everything-you-need-to-know-before-you-start/learn/v4/content
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
