@@ -12,8 +12,19 @@
 
 --------------------------------------------------------------------------------
 
+### Tuesday 05 March 2019
+* [Synchronous programming]
+* [Finished Udemy Course](#Udemy-course-link)
+* [Started reading JS Official Documentation from MDN (Mozilla Developer Network)](#Mozilla-JS-Documentation)
+
+--------------------------------------------------------------------------------
+
 #Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
 ```
 
+#Mozilla-JS-Documentation
+```sh
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+```
