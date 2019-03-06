@@ -10,7 +10,12 @@ npm install -g @angular/cli
 ```sh
 ng new project-name
 ```
-### build project using 
+### build project using  
+before that go to in project folder  
 ```sh
 ng serve
+```
+### install bootstrap locally
+```sh
+npm install --save bootstrap@4
 ```
