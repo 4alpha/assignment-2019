@@ -19,6 +19,14 @@
 
 --------------------------------------------------------------------------------
 
+### Wednesday 06 March 2019 
+
+* [Javascript loops and iteration and done some demo examples for it]
+* [Javascript expressions and operations and examples]
+* [Nodejs core concepts: Blocking vs Non-blocking]
+* [Nodejs core concepts: Event loop, timers and process.nextTick()]
+--------------------------------------------------------------------------------
+
 #Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
