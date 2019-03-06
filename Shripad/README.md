@@ -146,7 +146,11 @@ ________________________________________________________________________________
 * [Completed till 3rd Section of Course from Udemy : Pre-Vue.js](#Pre-Vue.js)
 --------------------------------------------------------------------------------
 ##### 6 Mar.
-* [.](#)
+* [Started following instructions from Udemy Video and Built Hello World Web Page on JSFiddle and learnt how to write that file locally.](#Hello_World_in_Vue)
+
+* [After Lunch time Sir told me to Start React instead of Vue. And I am asked to deliver presentation on Main Concepts of React Documentation.](#React_Main_Concepts)
+
+* [Added few React Courses on my Personal Udemy Account.](#Udemy_Courses)
 
 --------------------------------------------------------------------------------
 ##### 7 Mar.
@@ -323,6 +327,16 @@ https://medium.com/@goldybenedict/single-page-applications-vs-multiple-page-appl
 ### Pre-Vue.js
 ```sh
 https://www.udemy.com/pre-vuejs-everything-you-need-to-know-before-you-start/learn/v4/content
+```
+
+### Hello_World_in_Vue
+```sh
+https://alligator.io/vuejs/hello-world-vuejs/
+```
+
+### React_Main_Concepts
+```sh
+https://reactjs.org/docs/getting-started.html
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
