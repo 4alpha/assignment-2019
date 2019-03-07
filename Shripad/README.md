@@ -159,7 +159,7 @@ ________________________________________________________________________________
 ##### 7 Mar.
 * [Completed Udemy Course React Basic.](#UdemyCourse_React_Basic)
 
-
+* [Read A re-introduction to JavaScript, before starting React as it was recommended.](#re-introduction_to_JavaScript)
 
 
 --------------------------------------------------------------------------------
@@ -358,6 +358,11 @@ https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5042056?star
 ### UdemyCourse_React_Basic
 ```sh
 https://udemy-certificate.s3.amazonaws.com/pdf/UC-XS3LLXJT.pdf
+```
+
+### re-introduction_to_JavaScript
+```sh
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 ```
 
 --------------------------------------------------------------------------------

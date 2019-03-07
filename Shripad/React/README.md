@@ -18,10 +18,10 @@ https://reactjs.org/docs/hello-world.html
 
 * [Completed Udemy Course How to start Developing in React. Didn't get much of the concepts from that course as course was designed for Mac Users still got some idea about NPM.](#UdemyCourse_How_to_start_Developing_in_React)
 
-* [Completed till Section 4 Lecture 11 of Udemy Course React Basic. Getting the logic behind the syntax and trying to remember it.](#UdemyCourse_React_Basic)
+* [Completed till Section 4 Lecture 11 of Udemy Course React Basic. Getting the logic behind the syntax and trying to remember it.](#Starting_React_Basic)
 --------------------------------------------------------------------------------
 ##### 7 March 2019
-* [Completed Udemy Course React Basic, This course was way better then Previous Course. In this course instructor showed one example of every basic thing to do in React (ex. Button,form,props,methods,alerts,refs,array etc.)](#UdemyCourse_React_Basic)
+* [Completed Udemy Course React Basic, This course was way better then Previous Course. In this course instructor showed one example of every basic thing to do in React (ex. Button, form, props, methods, alerts, refs, array etc.)](#UdemyCourse_React_Basic)
 
 
 --------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ https://reactjs.org/docs/getting-started.html
 https://udemy-certificate.s3.amazonaws.com/pdf/UC-9A0VF3ON.pdf
 ```
 
-### UdemyCourse_React_Basic
+### Starting_React_Basic
 ```sh
 https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5042056?start=0
 ```
