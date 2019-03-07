@@ -20,6 +20,11 @@ https://reactjs.org/docs/hello-world.html
 
 * [Completed till Section 4 Lecture 11 of Udemy Course React Basic. Getting the logic behind the syntax and trying to remember it.](#UdemyCourse_React_Basic)
 --------------------------------------------------------------------------------
+##### 7 March 2019
+* [Completed Udemy Course React Basic, This course was way better then Previous Course. In this course instructor showed one example of every basic thing to do in React (ex. Button,form,props,methods,alerts,refs,array etc.)](#UdemyCourse_React_Basic)
+
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
@@ -33,11 +38,16 @@ https://reactjs.org/docs/getting-started.html
 
 ### UdemyCourse_How_to_start_Developing_in_React
 ```sh
-https://www.udemy.com/certificate/UC-9A0VF3ON/
+https://udemy-certificate.s3.amazonaws.com/pdf/UC-9A0VF3ON.pdf
 ```
 
 ### UdemyCourse_React_Basic
 ```sh
 https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5042056?start=0
+```
+
+### UdemyCourse_React_Basic
+```sh
+https://udemy-certificate.s3.amazonaws.com/pdf/UC-XS3LLXJT.pdf
 ```
 --------------------------------------------------------------------------------
