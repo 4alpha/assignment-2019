@@ -29,6 +29,7 @@
 
 ### Thursday 07 March 2019
 * [Read a tutorial about nodejs](#Nodejs-tutorial)
+* [Read official documentation for core concepts]
 
 ## Udemy-course-link
 ```sh
