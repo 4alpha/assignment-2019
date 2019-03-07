@@ -161,6 +161,7 @@ ________________________________________________________________________________
 
 * [Read A re-introduction to JavaScript, before starting React as it was recommended.](#re-introduction_to_JavaScript)
 
+* [.](#7_March_React_Progress)
 
 --------------------------------------------------------------------------------
 ##### 8 Mar.
@@ -363,6 +364,13 @@ https://udemy-certificate.s3.amazonaws.com/pdf/UC-XS3LLXJT.pdf
 ### re-introduction_to_JavaScript
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+```
+
+### 7_March_React_Progress
+```sh
+https://reactjs.org/docs/hello-world.html
+https://reactjs.org/docs/introducing-jsx.html
+https://reactjs.org/docs/rendering-elements.html
 ```
 
 --------------------------------------------------------------------------------

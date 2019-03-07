@@ -23,6 +23,10 @@ https://reactjs.org/docs/hello-world.html
 ##### 7 March 2019
 * [Completed Udemy Course React Basic, This course was way better then Previous Course. In this course instructor showed one example of every basic thing to do in React (ex. Button, form, props, methods, alerts, refs, array etc.)](#UdemyCourse_React_Basic)
 
+* [Read A re-introduction to JavaScript, before starting React as it was recommended. Now going to start reading Main Concepts of React.](#re-introduction_to_JavaScript)
+
+* [Completed Hello World, Introducing JSX, Rendering Elements from React Docs.](#7_March_Before_Tea_Break)
+
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -49,5 +53,17 @@ https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5042056?star
 ### UdemyCourse_React_Basic
 ```sh
 https://udemy-certificate.s3.amazonaws.com/pdf/UC-XS3LLXJT.pdf
+```
+
+### re-introduction_to_JavaScript
+```sh
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+```
+
+### 7_March_Before_Tea_Break
+```sh
+https://reactjs.org/docs/hello-world.html
+https://reactjs.org/docs/introducing-jsx.html
+https://reactjs.org/docs/rendering-elements.html
 ```
 --------------------------------------------------------------------------------
