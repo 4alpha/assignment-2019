@@ -27,12 +27,20 @@
 * [Nodejs core concepts: Event loop, timers and process.nextTick()]
 --------------------------------------------------------------------------------
 
-#Udemy-course-link
+### Thursday 07 March 2019
+* [Read a tutorial about nodejs](#Nodejs-tutorial)
+
+## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
 ```
 
-#Mozilla-JS-Documentation
+## Mozilla-JS-Documentation
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+```
+
+## Nodejs-tutorial
+```sh
+https://openclassrooms.com/en/courses/2504541-ultra-fast-applications-using-node-js
 ```
