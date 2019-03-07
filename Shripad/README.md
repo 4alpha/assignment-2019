@@ -172,7 +172,7 @@ ________________________________________________________________________________
 
 ## College 
 ```sh
-(Vue.js Introduction, NPM, React Basics,)
+(Vue.js Introduction, NPM, React Basics,React Main Concepts)
 ```
 
 --------------------------------------------------------------------------------

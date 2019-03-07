@@ -25,8 +25,7 @@ https://reactjs.org/docs/hello-world.html
 
 * [Read A re-introduction to JavaScript, before starting React as it was recommended. Now going to start reading Main Concepts of React.](#re-introduction_to_JavaScript)
 
-* [Completed Hello World, Introducing JSX, Rendering Elements from React Docs.](#7_March_Before_Tea_Break)
-
+* [Completed Hello World, Introducing JSX, Rendering Elements from React Docs.](#7_March_React_Progress)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -60,7 +59,7 @@ https://udemy-certificate.s3.amazonaws.com/pdf/UC-XS3LLXJT.pdf
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 ```
 
-### 7_March_Before_Tea_Break
+### 7_March_React_Progress
 ```sh
 https://reactjs.org/docs/hello-world.html
 https://reactjs.org/docs/introducing-jsx.html
