@@ -32,6 +32,7 @@
 * [Read official documentation for core concepts]
 --------------------------------------------------------------------------------
 
+
 ### Friday 08 March 2019 
 * [Wrote a script that demostrates EventEmitter in nodejs, the script manages btwo different events viz request and close]
 * [Gave a presentation to seniors about nodejs]
