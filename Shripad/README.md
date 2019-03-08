@@ -178,7 +178,7 @@ ________________________________________________________________________________
 
 ## College 
 ```sh
-(Vue.js Introduction, NPM, React Basics,JSX,ReactDOM.render())
+(Vue.js Introduction, NPM, React Basics, JSX, ReactDOM)
 ```
 
 --------------------------------------------------------------------------------
