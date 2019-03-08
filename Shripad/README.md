@@ -161,18 +161,23 @@ ________________________________________________________________________________
 
 * [Read A re-introduction to JavaScript, before starting React as it was recommended.](#re-introduction_to_JavaScript)
 
-* [.](#7_March_React_Progress)
+* [Completed Hello World, Introducing JSX, some part of Rendering Elements from React Docs.](#7_March_React_Progress)
 
 --------------------------------------------------------------------------------
 ##### 8 Mar.
-* [.](#)
+* [Completed Rendering Elements and some part of components-and-props from React Docs.](#8_March_React_Progress)
 
+* [As I looked at Hello World program there were few keywords I didn't knew about. So I googled for more information about those and Now I understood every line of code from Hello World](#Hello_World)
+
+* [The discussion, Me and Harshada had regarding few concepts of React and Angular with Mr. MUKUND which was very productive, for presentation we were supposed to deliver.](#)
+
+* [Sir was on leave today but I gave presentation on whatever I learnt till today to everyone present in the office.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
 ## College 
 ```sh
-(Vue.js Introduction, NPM, React Basics,React Main Concepts)
+(Vue.js Introduction, NPM, React Basics,JSX,ReactDOM.render())
 ```
 
 --------------------------------------------------------------------------------
@@ -373,5 +378,16 @@ https://reactjs.org/docs/introducing-jsx.html
 https://reactjs.org/docs/rendering-elements.html
 ```
 
+### 8_March_React_Progress
+```sh
+https://reactjs.org/docs/rendering-elements.html
+https://reactjs.org/docs/components-and-props.html
+```
+
+### Hello_World
+```sh
+https://www.geeksforgeeks.org/reactjs-reactdom/
+https://www.geeksforgeeks.org/reactjs-introduction-jsx/
+```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
