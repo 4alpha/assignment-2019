@@ -30,6 +30,12 @@
 ### Thursday 07 March 2019
 * [Read a tutorial about nodejs](#Nodejs-tutorial)
 * [Read official documentation for core concepts]
+--------------------------------------------------------------------------------
+
+### Friday 08 March 2019 
+* [Wrote a script that demostrates EventEmitter in nodejs, the script manages btwo different events viz request and close]
+* [Gave a presentation to seniors about nodejs]
+--------------------------------------------------------------------------------
 
 ## Udemy-course-link
 ```sh
