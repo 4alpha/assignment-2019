@@ -43,7 +43,7 @@
 * [Asked to read more concept related to nodejs]
 * [Asked to prepare a demo assignment which provides http server using nodejs]
 * [Downloaded a Udemy course which gives overview about nodejs]
-* [Read a video which describes coding convention in nodejs]
+* [Watched a video which describes coding convention in nodejs]
 
 ## Udemy-course-link
 ```sh
