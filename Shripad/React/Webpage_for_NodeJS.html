@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Webpage for NodeJS</title>
+  <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
+  </script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <style>
+    body { 
+      background: url("React_Dark.jpeg") no-repeat center center fixed; 
+      webkit-background-size: cover; 
+      moz-background-size: cover; 
+      o-background-size: cover; 
+      background-size: cover; 
+    }
+    div {
+      padding: 1rem;
+    }
+</style>
+</head>
+
+<body>
+  <div id="root">
+
+
+  </div>
+  <script type="text/babel">
+
+    function ActionLink() {
+  function handleClick1(e) {
+    e.preventDefault();
+    alert('Starting Download from Indian Server');
+  }
+
+  function handleClick2(e) {
+    e.preventDefault();
+    alert('Starting Download from Foreign Server');
+  }
+
+  return (
+    <h2>
+    <p><a href="#" onClick={handleClick1}>
+      Download from Indian Server
+    </a></p>
+    <p><a href="#" onClick={handleClick2}>
+      Download from Foreign Server
+    </a></p>
+    </h2>
+  );
+}
+ReactDOM.render(
+  <ActionLink />,
+  document.getElementById('root')
+);
+    
+    </script>
+</body>
+
+</html>
