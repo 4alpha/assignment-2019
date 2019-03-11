@@ -188,6 +188,9 @@ ________________________________________________________________________________
 
 * [Updated React Folder's README with Agenda for this week.](#React_README)
 
+* [Completed Udemy Course on NPM Basics.](#Udemy_NPM)
+
+* [Reading and Understanding Components and Props from React Docs.](#Components_and_Props)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
@@ -407,6 +410,16 @@ https://www.geeksforgeeks.org/reactjs-introduction-jsx/
 ### React_README
 ```sh
 https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/README.md
+```
+
+### Udemy_NPM
+```sh
+https://www.udemy.com/certificate/UC-Y2ZMO4I5/
+```
+
+### Components_and_Props
+```sh
+https://reactjs.org/docs/components-and-props.html
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

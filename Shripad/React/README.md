@@ -65,9 +65,11 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 ## Week : 11 March to 15 March
 --------------------------------------------------------------------------------
 ##### 11 March 2019
+* [Friday's Pending Presentations has been delivered today, by all 3 interns before Lunch Time.](#)
 
+* [Completed Udemy Course on NPM Basics.](#Udemy_NPM)
 
-
+* [Reading and Understanding Components and Props from React Docs.](#Components_and_Props)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
@@ -117,5 +119,15 @@ https://reactjs.org/docs/components-and-props.html
 ```sh
 https://www.geeksforgeeks.org/reactjs-reactdom/
 https://www.geeksforgeeks.org/reactjs-introduction-jsx/
+```
+
+### Udemy_NPM
+```sh
+https://www.udemy.com/certificate/UC-Y2ZMO4I5/
+```
+
+### Components_and_Props
+```sh
+https://reactjs.org/docs/components-and-props.html
 ```
 --------------------------------------------------------------------------------
