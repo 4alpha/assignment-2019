@@ -178,7 +178,7 @@ ________________________________________________________________________________
 
 ## College 
 ```sh
-(Vue.js Introduction, NPM, React Basics,JSX,ReactDOM.render())
+(Vue.js Introduction, NPM, React Basics, JSX, ReactDOM)
 ```
 
 --------------------------------------------------------------------------------
@@ -390,5 +390,6 @@ https://reactjs.org/docs/components-and-props.html
 https://www.geeksforgeeks.org/reactjs-reactdom/
 https://www.geeksforgeeks.org/reactjs-introduction-jsx/
 ```
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
