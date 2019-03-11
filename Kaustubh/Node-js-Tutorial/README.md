@@ -38,6 +38,13 @@
 * [Gave a presentation to seniors about nodejs]
 --------------------------------------------------------------------------------
 
+### Monday 11 March 2019
+* [Gave a presentation to Aslam sir about nodejs]
+* [Asked to read more concept related to nodejs]
+* [Asked to prepare a demo assignment which provides http server using nodejs]
+* [Downloaded a Udemy course which gives overview about nodejs]
+* [Read a video which describes coding convention in nodejs]
+
 ## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
