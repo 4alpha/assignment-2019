@@ -37,6 +37,39 @@ https://reactjs.org/docs/hello-world.html
 * [Sir was on leave today but I explained whatever I learnt till today to everyone present in the office as well as Took some reviews, questions, suggestions to work on.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+## Next Presentation
+--------------------------------------------------------------------------------
+### DATE :  FRIDAY, 15 MARCH 2019.
+--------------------------------------------------------------------------------
+## Agenda
+--------------------------------------------------------------------------------
+```sh 
+How ReactDOM creates copy from BrowserDOM ?
+```
+```sh 
+Components and Props from React Docs.
+```
+```sh 
+State and Life Cycle from React Docs.
+```
+```sh 
+Create simple Web App with 2 navigations and pass the file to Kaustubh.
+```
+```sh 
+Do comparative study of Angular while reading React.
+```
+```sh 
+You should be able to work on small piece of work from Mr. MUKUND's Angular Project.
+```
+--------------------------------------------------------------------------------
+## Week : 11 March to 15 March
+--------------------------------------------------------------------------------
+##### 11 March 2019
+
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
 https://www.udemy.com/home/my-courses/learning/
