@@ -1,6 +1,12 @@
-# Presentation
+# Reports
 --------------------------------------------------------------------------------
-## DATE :  FRIDAY, 8 MARCH 2019.
+--------------------------------------------------------------------------------
+## React
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+## Presentation
+--------------------------------------------------------------------------------
+### DATE :  FRIDAY, 8 MARCH 2019.
 --------------------------------------------------------------------------------
 ### Topic :
 #### React ➡ Main Concepts
@@ -9,9 +15,9 @@ https://reactjs.org/docs/hello-world.html
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-## Week : 4 March to 8 March
+### Week : 4 March to 8 March
 --------------------------------------------------------------------------------
-##### 6 March 2019
+#### 6 March 2019
 * [After Lunch time Sir told me to Start React instead of Vue. And I am asked to deliver presentation on Main Concepts of React Docs.](#React_Main_Concepts)
 
 * [Added few React Courses on my Personal Udemy Account.](#Udemy_Courses)
@@ -20,14 +26,14 @@ https://reactjs.org/docs/hello-world.html
 
 * [Completed till Section 4 Lecture 11 of Udemy Course React Basic. Getting the logic behind the syntax and trying to remember it.](#Starting_React_Basic)
 --------------------------------------------------------------------------------
-##### 7 March 2019
+#### 7 March 2019
 * [Completed Udemy Course React Basic, This course was way better then Previous Course. In this course instructor showed one example of every basic thing to do in React (ex. Button, form, props, methods, alerts, refs, array etc.)](#UdemyCourse_React_Basic)
 
 * [Read A re-introduction to JavaScript, before starting React as it was recommended. Now going to start reading Main Concepts of React.](#re-introduction_to_JavaScript)
 
 * [Completed Hello World, Introducing JSX, some part of Rendering Elements from React Docs.](#7_March_React_Progress)
 --------------------------------------------------------------------------------
-##### 8 March 2019
+#### 8 March 2019
 * [Completed Rendering Elements and some part of components-and-props from React Docs.](#8_March_React_Progress)
 
 * [As I looked at Hello World program there were few keywords I didn't knew about. So I googled for more information about those and Now I understood every line of code from Hello World](#Hello_World)
@@ -44,7 +50,7 @@ https://reactjs.org/docs/hello-world.html
 ## Agenda
 --------------------------------------------------------------------------------
 ```sh 
-How ReactDOM creates copy from BrowserDOM ?
+How ReactDOM creates copy from BrowserDOM ? ✔️
 ```
 ```sh 
 Components and Props from React Docs.
@@ -53,18 +59,18 @@ Components and Props from React Docs.
 State and Life Cycle from React Docs.
 ```
 ```sh 
-Create simple Web App with 2 navigations and pass the file to Kaustubh.
+Create simple Web App with 2 navigations and pass the file to Kaustubh. ✔️
 ```
 ```sh 
-Do comparative study of Angular while reading React.
+Do comparative study of Angular along with React.
 ```
 ```sh 
 You should be able to work on small piece of work from Mr. MUKUND's Angular Project.
 ```
 --------------------------------------------------------------------------------
-## Week : 11 March to 15 March
+### Week : 11 March to 15 March
 --------------------------------------------------------------------------------
-##### 11 March 2019
+#### 11 March 2019
 * [Friday's Pending Presentations has been delivered today, by all 3 interns before Lunch Time.](#)
 
 * [Completed Udemy Course on NPM Basics.](#Udemy_NPM)
@@ -72,6 +78,10 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 * [Reading and Understanding Components and Props from React Docs.](#Components_and_Props)
 
 * [Created Webpage for Kaustubh's Node JS Server Side Rendering.](#)
+--------------------------------------------------------------------------------
+#### 12 March 2019
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
