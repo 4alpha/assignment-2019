@@ -1,59 +1,85 @@
 <html>
 
 <head>
-  <title>Webpage for NodeJS</title>
+  <title>Webpage for Node JS</title>
   <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
   <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
   </script>
   <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   <style>
-    body { 
-      background: url("React_Dark.jpeg") no-repeat center center fixed; 
-      webkit-background-size: cover; 
-      moz-background-size: cover; 
-      o-background-size: cover; 
-      background-size: cover; 
+
+    img.bg {
+  /* Set rules to fill background */
+      min-height: 100%;
+      min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
+	
+  /* Set up positioning */
+      position: relative;
+      top: 0;
+      left: 0;
     }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+}
+
     div {
-      padding: 1rem;
+      padding: 0px;
     }
+    
+    a {    
+    margin-left:200px; 
+  }
 </style>
 </head>
 
 <body>
-  <div id="root">
-
-
-  </div>
+  <div id="root"></div>
   <script type="text/babel">
 
-    function ActionLink() {
-  function handleClick1(e) {
-    e.preventDefault();
-    alert('Starting Download from Indian Server');
-  }
-
-  function handleClick2(e) {
-    e.preventDefault();
-    alert('Starting Download from Foreign Server');
-  }
-
-  return (
-    <h2>
-    <p><a href="#" onClick={handleClick1}>
-      Download from Indian Server
-    </a></p>
-    <p><a href="#" onClick={handleClick2}>
-      Download from Foreign Server
-    </a></p>
+    var BackgroundImage = React.createClass({
+  componentWillMount:function(){
+    var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    
+    this.setState({x:x,y:y});
+  },
+  
+  render:function(){
+    return (
+      <div>
+      <h2>
+    <a href="#" onClick={this.handleClick1}>
+      Download this image from Indian Server
+    </a>
+    
+    <a href="#" onClick={this.handleClick2}>
+      Download this image from Foreign Server
+    </a>
     </h2>
-  );
-}
+  
+    
+    <img className='bg' src={'https://source.unsplash.com/'+this.state.x+'x'+this.state.y+'/?nature'} />
+      </div>)
+  }  
+});
+  
 ReactDOM.render(
-  <ActionLink />,
+  <BackgroundImage />,
   document.getElementById('root')
 );
-    
+
     </script>
 </body>
 

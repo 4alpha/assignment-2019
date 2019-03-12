@@ -77,9 +77,10 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 
 * [Reading and Understanding Components and Props from React Docs.](#Components_and_Props)
 
-* [Created Webpage for Kaustubh's Node JS Server Side Rendering.](#)
+* [Started to design Webpage for Kaustubh's Node JS Server Side Rendering.](#Webpage_for_NodeJS)
 --------------------------------------------------------------------------------
 #### 12 March 2019
+* [Completed Design of Webpage for Kaustubh's Node JS Server Side Rendering.](#Webpage_for_NodeJS)
 
 
 --------------------------------------------------------------------------------
@@ -141,5 +142,10 @@ https://www.udemy.com/certificate/UC-Y2ZMO4I5/
 ### Components_and_Props
 ```sh
 https://reactjs.org/docs/components-and-props.html
+```
+
+### Webpage_for_NodeJS
+```sh
+https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Webpage_for_NodeJS.html
 ```
 --------------------------------------------------------------------------------
