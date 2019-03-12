@@ -82,6 +82,11 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 #### 12 March 2019
 * [Completed Design of Webpage for Kaustubh's Node JS Server Side Rendering.](#Webpage_for_NodeJS)
 
+* [Sir has given modification in the Webpage which requires Conditional Rendering from React Docs. So Now I am going to work on Webpage after I reach that section.](#)
+
+* [Completed 'Getting Started' Section from Angular and did CLI installation.](#Getting_Started)
+
+* [Completed Components and Props section from React Docs.](#Components_and_Props)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -147,5 +152,10 @@ https://reactjs.org/docs/components-and-props.html
 ### Webpage_for_NodeJS
 ```sh
 https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Webpage_for_NodeJS.html
+```
+
+### Getting_Started
+```sh
+https://angular.io/guide/quickstart
 ```
 --------------------------------------------------------------------------------
