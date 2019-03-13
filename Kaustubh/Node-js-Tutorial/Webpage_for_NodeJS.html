@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <title>Webpage for Node JS</title>
+  <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
+  </script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <style>
+
+    img.bg {
+  /* Set rules to fill background */
+      min-height: 100%;
+      min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
+	
+  /* Set up positioning */
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+}
+
+    div {
+      padding: 0px;
+    }
+    
+    a {    
+    margin-left:100px; 
+  }
+</style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+
+    var BackgroundImage = React.createClass({
+  componentWillMount:function(){
+    var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    
+    this.setState({x:x,y:y});
+  },
+  
+  render:function(){
+    return (
+      <div>
+      <h2>
+    <a href="#" onClick={this.handleClick1}>
+      Download this image from Indian Server
+    </a>
+    
+    <a href="#" onClick={this.handleClick2}>
+      Download this image from Foreign Server
+    </a>
+    </h2>
+  
+    
+    <img className='bg' src={'https://source.unsplash.com/'+this.state.x+'x'+this.state.y+'/?nature'} />
+      </div>)
+  }  
+});
+  
+ReactDOM.render(
+  <BackgroundImage />,
+  document.getElementById('root')
+);
+
+    </script>
+</body>
+
+</html>

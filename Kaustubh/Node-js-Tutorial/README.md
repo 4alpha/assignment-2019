@@ -44,6 +44,22 @@
 * [Asked to prepare a demo assignment which provides http server using nodejs]
 * [Downloaded a Udemy course which gives overview about nodejs]
 * [Watched a video which describes coding convention in nodejs]
+--------------------------------------------------------------------------------
+
+### Tuesday 12 March 2019 
+* [Read a tutorial about buffers in node.js]
+* [Performed some operations on buffers in node.js]
+* [Performed timer related operations in node.js]
+* [Wrote a script that renders Reactjs file on server side using nodejs]
+* [Read about server side rendering]
+* [Watched a video related to Server side rendering](#Server-side-rendering)
+--------------------------------------------------------------------------------
+
+### Wednesday 13 March 2019 
+* [Wrote a script of Streams in nodejs]
+* [Used gzip module in above script]
+* [Read a little about Date in JavaScript]
+--------------------------------------------------------------------------------
 
 ## Udemy-course-link
 ```sh
@@ -58,4 +74,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 ## Nodejs-tutorial
 ```sh
 https://openclassrooms.com/en/courses/2504541-ultra-fast-applications-using-node-js
+```
+
+## Server-side-rendering
+```sh
+https://www.youtube.com/watch?v=GQzn7XRdzxY
 ```
