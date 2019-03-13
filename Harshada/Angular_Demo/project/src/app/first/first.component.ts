@@ -11,5 +11,5 @@ export class FirstComponent implements OnInit {
 
   ngOnInit() {
   }
-  url = "assets/nature1.jpeg";
+  url = "https://source.unsplash.com/1366x637/?nature";
 }
