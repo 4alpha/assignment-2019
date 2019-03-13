@@ -15,6 +15,11 @@
 
 * [Did some practical on my-app (first app with Angular) which helped me to understand the linking of files.](#)
 --------------------------------------------------------------------------------
+#### 13 Mar.
+* [ran Harshada's Webpage on my Machine and understood the execution process.](#)
+
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Hello_World
 ```sh

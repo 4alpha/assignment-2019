@@ -204,6 +204,11 @@ ________________________________________________________________________________
 * [Completed Components and Props section from React Docs.](#Components_and_Props)
 
 --------------------------------------------------------------------------------
+#### 13 March 2019
+* [Completed State and Lifecycle section from React Docs.](#State_And_Lifecycle)
+
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
@@ -442,6 +447,11 @@ https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Webpage_for_
 ### Getting_Started
 ```sh
 https://angular.io/guide/quickstart
+```
+
+### State_And_Lifecycle
+```sh
+https://reactjs.org/docs/state-and-lifecycle.html
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
