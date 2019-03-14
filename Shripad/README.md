@@ -212,12 +212,14 @@ ________________________________________________________________________________
 
 * [Added Udemy Course Angular for Beginners to my personal account. ](#Angular_for_Beginners)
 
+* [Watched few min.s of Udemy Course, some part of Youtube Video and I got confused. So I asked Seniors they told me to follow Documentation only regarding Angular.](#)
 
+* [Completed Introduction and Application shell part from Tutorial Section.](#Tutorial_Introduction)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
-(Components and Props, Angular CLI, )
+(Components and Props, Angular CLI, State and Lifecycle of React Component)
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -462,6 +464,12 @@ https://reactjs.org/docs/state-and-lifecycle.html
 ### Angular_for_Beginners
 ```sh
 https://www.udemy.com/angular-for-beginners-course/learn/v4/content
+```
+
+### Tutorial_Introduction
+```sh
+https://angular.io/tutorial
+https://angular.io/tutorial/toh-pt0
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

@@ -53,19 +53,19 @@ https://reactjs.org/docs/hello-world.html
 How ReactDOM creates copy from BrowserDOM ? ✔️
 ```
 ```sh 
-Components and Props from React Docs.
+Components and Props from React Docs. ✔️
 ```
 ```sh 
-State and Life Cycle from React Docs.
+State and Life Cycle from React Docs. ✔️
 ```
 ```sh 
-Create simple Web App with 2 navigations and pass the file to Kaustubh. ✔️
+Create simple Web App with 2 navigations and pass the file to Kaustubh. ❌
 ```
 ```sh 
-Do comparative study of Angular along with React.
+Do comparative study of Angular along with React. ✔️
 ```
 ```sh 
-You should be able to work on small piece of work from Mr. MUKUND's Angular Project.
+You should be able to work on small piece of work from Mr. MUKUND's Angular Project. 🚫
 ```
 --------------------------------------------------------------------------------
 ### Week : 11 March to 15 March
@@ -92,7 +92,9 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 * [Tried to run every example given in the Docs.](#)
 --------------------------------------------------------------------------------
 #### 14 March 2019
-* [Tried few programs related to Clock from State and Lifecycle, And Hence I completed Documentation till Friday's Presentation Target.](#State_And_Lifecycle)
+* [Tried few programs related to Clock from State and Lifecycle.](#State_And_Lifecycle)
+
+* [And hence I completed Documentation till Friday's Presentation Target.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
