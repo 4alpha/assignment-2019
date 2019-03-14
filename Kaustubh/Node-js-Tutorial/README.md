@@ -61,6 +61,11 @@
 * [Read a little about Date in JavaScript]
 --------------------------------------------------------------------------------
 
+### Thursday 14 March 2019
+* [Wrote a script that performs operations on url]
+* [Explored the difference between Legacy API and WHATWG API of url module in nodejs (Previously unknown to me)]
+* [Wrote a script that performed some methods in timer module of nodejs]
+
 ## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
