@@ -91,6 +91,9 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 
 * [Tried to run every example given in the Docs.](#)
 --------------------------------------------------------------------------------
+#### 14 March 2019
+* [Tried few programs related to Clock from State and Lifecycle, And Hence I completed Documentation till Friday's Presentation Target.](#State_And_Lifecycle)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
@@ -160,4 +163,5 @@ https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Webpage_for_
 ```sh
 https://reactjs.org/docs/state-and-lifecycle.html
 ```
+
 --------------------------------------------------------------------------------

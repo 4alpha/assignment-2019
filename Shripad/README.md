@@ -205,7 +205,12 @@ ________________________________________________________________________________
 
 --------------------------------------------------------------------------------
 #### 13 March 2019
-* [Completed State and Lifecycle section from React Docs.](#State_And_Lifecycle)
+* [Completed whole State and Lifecycle section from React Docs.](#State_And_Lifecycle)
+--------------------------------------------------------------------------------
+#### 14 March 2019
+* [Tried few programs related to Clock from State and Lifecycle, And Hence I completed Documentation till Friday's Presentation Target.](#State_And_Lifecycle)
+
+* [Added Udemy Course Angular for Beginners to my personal account. ](#Angular_for_Beginners)
 
 
 --------------------------------------------------------------------------------
@@ -452,6 +457,11 @@ https://angular.io/guide/quickstart
 ### State_And_Lifecycle
 ```sh
 https://reactjs.org/docs/state-and-lifecycle.html
+```
+
+### Angular_for_Beginners
+```sh
+https://www.udemy.com/angular-for-beginners-course/learn/v4/content
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
