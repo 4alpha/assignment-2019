@@ -204,17 +204,28 @@ ________________________________________________________________________________
 * [Completed Components and Props section from React Docs.](#Components_and_Props)
 
 --------------------------------------------------------------------------------
-#### 13 March 2019
+##### 13 March 2019
 * [Completed whole State and Lifecycle section from React Docs.](#State_And_Lifecycle)
 --------------------------------------------------------------------------------
-#### 14 March 2019
+##### 14 March 2019
 * [Tried few programs related to Clock from State and Lifecycle, And Hence I completed Documentation till Friday's Presentation Target.](#State_And_Lifecycle)
 
 * [Added Udemy Course Angular for Beginners to my personal account. ](#Angular_for_Beginners)
 
 * [Watched few min.s of Udemy Course, some part of Youtube Video and I got confused. So I asked Seniors they told me to follow Documentation only regarding Angular.](#)
 
-* [Completed Introduction and Application shell part from Tutorial Section.](#Tutorial_Introduction)
+* [Completed Introduction and Application shell part of Angular from Tutorial Section.](#Tutorial_Introduction)
+--------------------------------------------------------------------------------
+##### 15 March 2019
+* [Started Handling Events section from React Documentation.](#Handling_Events)
+
+* [I was stuck at one subpoint then, Mr. MUKUND explained how preventDefault() method works.](#)
+
+* [This concept of adding EventListener to element was difficult to understand again Mr. MUKUND cleared some part of it.](#)
+
+* [Mr. SAURABH explained concept of Javascript function callback stack with example.](#)
+
+* [Started The Hero Editor subpoint from Tutorial Section of Angular.](#Hero_Editor)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
@@ -470,6 +481,16 @@ https://www.udemy.com/angular-for-beginners-course/learn/v4/content
 ```sh
 https://angular.io/tutorial
 https://angular.io/tutorial/toh-pt0
+```
+
+### Handling_Events
+```sh
+https://reactjs.org/docs/handling-events.html
+```
+
+### Hero_Editor
+```sh
+https://angular.io/tutorial/toh-pt1
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

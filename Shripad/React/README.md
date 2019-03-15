@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 ## Presentation
 --------------------------------------------------------------------------------
-### DATE :  FRIDAY, 8 MARCH 2019.
+### DATE :  FRIDAY, 8 MARCH 2019. ✔️
 --------------------------------------------------------------------------------
 ### Topic :
 #### React ➡ Main Concepts
@@ -96,6 +96,13 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 
 * [And hence I completed Documentation till Friday's Presentation Target.](#)
 --------------------------------------------------------------------------------
+#### 15 March 2019
+* [Started Handling Events section from React Documentation.](#Handling_Events)
+
+* [I was stuck at one subpoint then, Mr. MUKUND explained how preventDefault() method works.](#)
+
+* [This concept of adding EventListener to element was difficult to understand again Mr. MUKUND cleared some part of it.](#)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
@@ -164,6 +171,11 @@ https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Webpage_for_
 ### State_And_Lifecycle
 ```sh
 https://reactjs.org/docs/state-and-lifecycle.html
+```
+
+### Handling_Events
+```sh
+https://reactjs.org/docs/handling-events.html
 ```
 
 --------------------------------------------------------------------------------
