@@ -65,6 +65,13 @@
 * [Wrote a script that performs operations on url]
 * [Explored the difference between Legacy API and WHATWG API of url module in nodejs (Previously unknown to me)]
 * [Wrote a script that performed some methods in timer module of nodejs]
+--------------------------------------------------------------------------------
+
+### Friday 15 March 2019 
+
+* [Wrote a script about event module in nodejs]
+* [Read function and control-loops section in JavaScript document of MDN]
+* [Wrote script which performs operations of above module]
 
 ## Udemy-course-link
 ```sh
