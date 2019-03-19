@@ -72,6 +72,13 @@
 * [Wrote a script about event module in nodejs]
 * [Read function and control-loops section in JavaScript document of MDN]
 * [Wrote script which performs operations of above module]
+--------------------------------------------------------------------------------
+
+### Tuesday 19 March 2019 
+
+* [Read JS Documentation]
+* [Started a new Udemy course on nodejs]
+* [Finished assignment of Udemy Course]
 
 ## Udemy-course-link
 ```sh
