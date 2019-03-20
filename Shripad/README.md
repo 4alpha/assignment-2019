@@ -244,7 +244,7 @@ ________________________________________________________________________________
 #### On Leave
 --------------------------------------------------------------------------------
 ##### 20 Mar.
-* [Started Udemy Course Modern React with Redux.](#Udemy_React&Redux)
+* [Started Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
 
 
 --------------------------------------------------------------------------------
@@ -514,7 +514,7 @@ https://reactjs.org/docs/handling-events.html
 https://angular.io/tutorial/toh-pt1
 ```
 
-### Udemy_React&Redux
+### Udemy_React_and_Redux
 ```sh
 https://www.udemy.com/react-redux/learn/v4/content
 ```
