@@ -68,17 +68,27 @@
 --------------------------------------------------------------------------------
 
 ### Friday 15 March 2019 
-
 * [Wrote a script about event module in nodejs]
 * [Read function and control-loops section in JavaScript document of MDN]
 * [Wrote script which performs operations of above module]
 --------------------------------------------------------------------------------
 
-### Tuesday 19 March 2019 
+### Monday 18 March 2019 
+* [Holiday]
+--------------------------------------------------------------------------------
 
+### Tuesday 19 March 2019 
 * [Read JS Documentation]
 * [Started a new Udemy course on nodejs]
-* [Finished assignment of Udemy Course]
+* [Finished assignment of Udemy Course section 2]
+--------------------------------------------------------------------------------
+
+### Wednesday 20 March 2019 
+* [Watched section 3 Udemy nodejs tutorial]
+* [The section 3 involves using npm module viz Chalk and yargs]
+* [The chalk module is useful in printing message in desired font style and color on terminal]
+* [The yargs module is analogous to nodejs built in argv module but with better functionalities]
+* [Performed assignment given in section 3]
 
 ## Udemy-course-link
 ```sh
