@@ -19,17 +19,30 @@
 * [ran Harshada's Webpage on my Machine and understood the execution process.](#)
 
 --------------------------------------------------------------------------------
-#### 14 March 2019
+#### 14 Mar.
 * [Added Udemy Course Angular for Beginners to my personal account.](#Angular_for_Beginners)
 
 * [Watched few min.s of Udemy Course, some part of Youtube Video and I got confused. So I asked Seniors they told me to follow Documentation only regarding Angular.](#)
 
 * [Completed Introduction and Application shell part of Angular from Tutorial Section.](#Tutorial_Introduction)
 --------------------------------------------------------------------------------
-#### 15 March 2019
+#### 15 Mar.
 * [Mr. SAURABH explained concept of Javascript function callback stack with example.](#)
 
 * [Started The Hero Editor subpoint from Tutorial Section of Angular.](#Hero_Editor)
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+### Week : 18 Mar. to 22 Mar.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+#### 18 Mar.
+### Holiday
+--------------------------------------------------------------------------------
+#### 19 Mar.
+### On Leave
+--------------------------------------------------------------------------------
+#### 20 Mar.
 
 
 --------------------------------------------------------------------------------

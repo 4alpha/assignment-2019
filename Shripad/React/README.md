@@ -104,6 +104,20 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 * [This concept of adding EventListener to element was difficult to understand again Mr. MUKUND cleared some part of it.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+### Week : 18 March to 22 March
+--------------------------------------------------------------------------------
+#### 18 March 2019
+### Holiday
+--------------------------------------------------------------------------------
+#### 19 March 2019
+### On Leave
+--------------------------------------------------------------------------------
+#### 20 March 2019
+* [Started Udemy Course Modern React with Redux.](#Udemy_React&Redux)
+
+* [Completed 'Our First App' from Section 1.](#First_App)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
 https://www.udemy.com/home/my-courses/learning/
@@ -176,6 +190,16 @@ https://reactjs.org/docs/state-and-lifecycle.html
 ### Handling_Events
 ```sh
 https://reactjs.org/docs/handling-events.html
+```
+
+### Udemy_React&Redux
+```sh
+https://www.udemy.com/react-redux/learn/v4/content
+```
+
+### First_App
+```sh
+https://codepen.io/anon/pen/ywxEMZ
 ```
 
 --------------------------------------------------------------------------------
