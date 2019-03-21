@@ -194,7 +194,7 @@ ________________________________________________________________________________
 
 * [Started to design Webpage for Kaustubh's Node JS Server Side Rendering.](#Webpage_for_NodeJS)
 --------------------------------------------------------------------------------
-##### 12 March 2019
+##### 12 Mar.
 * [Completed Design of Webpage for Kaustubh's Node JS Server Side Rendering.](#Webpage_for_NodeJS)
 
 * [Sir has given modification in the Webpage which requires Conditional Rendering from React Docs.](#)
@@ -204,10 +204,10 @@ ________________________________________________________________________________
 * [Completed Components and Props section from React Docs.](#Components_and_Props)
 
 --------------------------------------------------------------------------------
-##### 13 March 2019
+##### 13 Mar.
 * [Completed whole State and Lifecycle section from React Docs.](#State_And_Lifecycle)
 --------------------------------------------------------------------------------
-##### 14 March 2019
+##### 14 Mar.
 * [Tried few programs related to Clock from State and Lifecycle, And Hence I completed Documentation till Friday's Presentation Target.](#State_And_Lifecycle)
 
 * [Added Udemy Course Angular for Beginners to my personal account. ](#Angular_for_Beginners)
@@ -216,7 +216,7 @@ ________________________________________________________________________________
 
 * [Completed Introduction and Application shell part of Angular from Tutorial Section.](#Tutorial_Introduction)
 --------------------------------------------------------------------------------
-##### 15 March 2019
+##### 15 Mar.
 * [Started Handling Events section from React Documentation.](#Handling_Events)
 
 * [I was stuck at one subpoint then, Mr. MUKUND explained how preventDefault() method works.](#)
@@ -250,6 +250,13 @@ ________________________________________________________________________________
 * [Completed React Course till Lecture 9, Section 1.](#)
 
 * [Tried all commands and Built First App following instructions from Course.](#)
+--------------------------------------------------------------------------------
+##### 21 Mar.
+* [Completed Section 1 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
+
+* [Added Updated Conditional Rendering Assignment Webpage for NodeJS.](#)
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 

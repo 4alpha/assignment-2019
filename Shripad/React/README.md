@@ -119,6 +119,12 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 
 * [Completed Udemy Course till Lecture 9 from Section 1.](#)
 --------------------------------------------------------------------------------
+#### 21 March 2019
+* [Completed Section 1 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
+
+* [Added Updated Conditional Rendering Assignment Webpage for NodeJS.](#Webpage_for_NodeJS)
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh
@@ -204,4 +210,8 @@ https://www.udemy.com/react-redux/learn/v4/content
 https://codepen.io/anon/pen/ywxEMZ
 ```
 
+### Webpage_for_NodeJS
+```sh
+https://github.com/4alpha/assignment-2019/blob/master/Shripad/React/Updated Webpage_for_NodeJS.html
+```
 --------------------------------------------------------------------------------
