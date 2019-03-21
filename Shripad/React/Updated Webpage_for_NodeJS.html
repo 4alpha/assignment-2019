@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <title>Webpage for Node JS</title>
+  <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
+  </script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <style>
+
+    img.bg {
+  /* Set rules to fill background */
+      min-height: 100%;
+      min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
+	
+  /* Set up positioning */
+      position: relative;
+      top: 5px;
+      left: 0;
+    }
+    
+  
+  button {
+  height: 35px;
+  width: 150px;
+  }	
+
+</style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+class ImageSwitcher extends React.Component {
+  constructor(props) {
+    super(props);
+    this.imageOneClick = this.imageOneClick.bind(this);
+    this.imageTwoClick = this.imageTwoClick.bind(this);
+    this.state = {imageOne: false};
+  }
+
+  imageOneClick() {
+    this.setState({imageOne: true});
+  }
+
+  imageTwoClick() {
+    this.setState({imageOne: false});
+  }
+
+  render() {
+    const imageOne = this.state.imageOne;
+    let button;
+
+    if (imageOne) {
+      button = <ImageOneButton onClick={this.imageTwoClick} />;
+    } else {
+      button = <ImageTwoButton onClick={this.imageOneClick} />;
+    }
+
+    return (
+      <div>
+        <center>{button}</center>
+        <Greeting imageOne={imageOne} />
+      </div>
+    );
+  }
+}
+
+function UserGreeting(props) {
+  return (<div> <img className='bg' src={'https://source.unsplash.com/1366x637/?nature'} /> </div>);
+}
+
+function GuestGreeting(props) {
+  return (<div> <img className='bg' src={'https://source.unsplash.com/1366x637/?natural'} /> </div>);
+}
+
+function Greeting(props) {
+  const imageOne = props.imageOne;
+  if (imageOne) {
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
+
+function ImageTwoButton(props) {
+  return (
+    <button onClick={props.onClick}>
+      Switch
+    </button>
+  );
+}
+
+function ImageOneButton(props) {
+  return (
+    <button onClick={props.onClick}>
+      Switch
+    </button>
+  );
+}
+
+ReactDOM.render(
+  <ImageSwitcher />,
+  document.getElementById('root')
+);
+
+
+  </script>
+</body>
+
+</html>

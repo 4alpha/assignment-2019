@@ -43,6 +43,10 @@
 ### On Leave
 --------------------------------------------------------------------------------
 #### 20 Mar.
+### Didn't get time to Read Anything related to Angular as I started and continued Udemy Course of React whole day.
+--------------------------------------------------------------------------------
+#### 21 Mar.
+* [Completed The Hero Editor subpoint from Tutorial Section of Angular.](#Hero_Editor)
 
 
 --------------------------------------------------------------------------------
