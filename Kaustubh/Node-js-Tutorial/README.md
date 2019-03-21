@@ -89,7 +89,15 @@
 * [The chalk module is useful in printing message in desired font style and color on terminal]
 * [The yargs module is analogous to nodejs built in argv module but with better functionalities]
 * [Performed assignment given in section 3]
+--------------------------------------------------------------------------------
 
+### Thursday 21 March 2019 
+
+* [Started section 4 of Udemy nodejs tutorial]
+* [Finished sections of assignment given in above section]
+* [This assignment involves adding and removing a note from note taking application]
+* [Learned about filter method in array, a very useful method]
+* [Explored JSON and its method viz JSON.parse() and JSON.stringify()]
 ## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
