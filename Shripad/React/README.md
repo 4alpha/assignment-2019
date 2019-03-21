@@ -59,7 +59,7 @@ Components and Props from React Docs. ✔️
 State and Life Cycle from React Docs. ✔️
 ```
 ```sh 
-Create simple Web App with 2 navigations and pass the file to Kaustubh. ❌
+Create simple Web App and pass the file to Kaustubh. ✔️
 ```
 ```sh 
 Do comparative study of Angular along with React. ✔️

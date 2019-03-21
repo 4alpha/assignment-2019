@@ -256,6 +256,9 @@ ________________________________________________________________________________
 
 * [Added Updated Conditional Rendering Assignment Webpage for NodeJS.](#)
 
+* [Read new tags introduced in HTML5 for better understanding in Angular.](#)
+
+* [Completed subpoint Displaying a List from Tuturial of Angular.](#)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

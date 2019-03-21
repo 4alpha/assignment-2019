@@ -48,7 +48,9 @@
 #### 21 Mar.
 * [Completed The Hero Editor subpoint from Tutorial Section of Angular.](#Hero_Editor)
 
+* [Read new tags introduced in HTML5 for better understanding in Angular.](#)
 
+* [Completed subpoint Displaying a List from Tuturial of Angular.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Hello_World
