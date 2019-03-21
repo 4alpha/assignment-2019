@@ -1,14 +1,16 @@
-const mod=require('./notes');
+const notes = require('./notes');
 
 //console.log(mod.fd);
+/*
 const data=mod.fd();
 console.log(data);
-
-/*This example involves how to read file from another .js file
 */
 
-const chalk=require('chalk');
-const yargs=require('yargs');
+/*This example involves how to read file from another .js file
+ */
+
+const chalk = require('chalk');
+const yargs = require('yargs');
 
 /*Demonstrating the diiference between displaying arguments using process.argv and yargs.argv
 As it turns out, yargs is better :)
@@ -22,20 +24,28 @@ yargs.version('1.1.0');
 
 //Create a add command
 yargs.command({
-command: 'add',
-describe: 'Add a new note',
-//Use builder which adds title
-builder: {
-    title: {
-      describe:  'Note title',
-      type: string //This implies that we've to accept title in string
+    command: 'add',
+    describe: 'Add a new note',
+    //Use builder which helps to  add title of note
+    //Please note that type must be enclosed within quotes ' ' otherwise it throws runtime error
+    builder: {
+        title: {
+            describe: 'Note title',
+            demandOption: true, //This forces us to accept title in specific format
+            type: 'string' //This implies that we've to accept title in string
+        },
+        //The below is asked to do for assignment, which involves creating body of note
+        body: {
+            describe: 'Note body',
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler: (argv) => {
+        // console.log('Title '+argv.title+'\nBody '+argv.body);
+        notes.addNote(argv.title, argv.body);
     }
-},
-handler: ()=>{
-    console.log('This will add a new note');
-}
-}
-);
+});
 /*
 In above, I tried to insert another command (i.e remove) in second argument
 It throw an error which asks to insert second argument as either string or boolean value
@@ -44,12 +54,20 @@ In another scenario, I tried to insert the same command at the end of first argu
 */
 
 //Command to remove the note
+//In the next section of assignment, we'll remove a note by using title
 yargs.command({
     command: 'remove',
     describe: 'Remove the note',
-    handler: ()=>
-    {
-        console.log('This will remove a note');
+    builder: {
+        title: {
+            describe: 'Remove by title',
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler: (argv) => {
+       // console.log('This will remove a note');
+       notes.removeNote(argv.title);
     }
 })
 
@@ -59,8 +77,7 @@ yargs.command({
 yargs.command({
     command: 'read',
     describe: 'Read a note',
-    handler: ()=>
-    {
+    handler: () => {
         console.log('This will read a note');
     }
 })
@@ -69,8 +86,7 @@ yargs.command({
 yargs.command({
     command: 'list',
     describe: 'list the notes',
-    handler: ()=>
-    {
+    handler: () => {
         console.log('This will list all notes');
     }
 })
@@ -80,4 +96,7 @@ yargs.command({
 We need this line to display all arguments
 console.log(yargs.argv);
 */
-console.log(yargs.argv);
+yargs.parse()
+/*The above will parse yargs
+This is important because not doing so will not print anything
+*/
