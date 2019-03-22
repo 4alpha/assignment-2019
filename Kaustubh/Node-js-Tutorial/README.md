@@ -92,12 +92,18 @@
 --------------------------------------------------------------------------------
 
 ### Thursday 21 March 2019 
-
 * [Started section 4 of Udemy nodejs tutorial]
 * [Finished sections of assignment given in above section]
 * [This assignment involves adding and removing a note from note taking application]
 * [Learned about filter method in array, a very useful method]
 * [Explored JSON and its method viz JSON.parse() and JSON.stringify()]
+
+### Friday 22 March 2019 
+* [Completed Section 4 and 5 of Udemy nodejs tutorial]
+* [Completed assignment given in section 4]
+* [Learned about debugging in nodejs]
+* [Use of debugger keyword and it's use in Chrome browser]
+
 ## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
