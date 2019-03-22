@@ -1,5 +1,9 @@
 const notes = require('./notes');
 
+/**
+ * Do look for debugger at the end of file (EOF), it'll be useful
+ */
+
 //console.log(mod.fd);
 /*
 const data=mod.fd();
@@ -11,6 +15,7 @@ console.log(data);
 
 const chalk = require('chalk');
 const yargs = require('yargs');
+
 
 /*Demonstrating the diiference between displaying arguments using process.argv and yargs.argv
 As it turns out, yargs is better :)
@@ -41,7 +46,8 @@ yargs.command({
             type: 'string'
         }
     },
-    handler: (argv) => {
+    //This is ES6 recommendation, which doesn't require ':' or prefix 'function' or '=>' function (or symbol)
+    handler(argv) {
         // console.log('Title '+argv.title+'\nBody '+argv.body);
         notes.addNote(argv.title, argv.body);
     }
@@ -65,9 +71,9 @@ yargs.command({
             type: 'string'
         }
     },
-    handler: (argv) => {
-       // console.log('This will remove a note');
-       notes.removeNote(argv.title);
+    handler(argv) {
+        // console.log('This will remove a note');
+        notes.removeNote(argv.title);
     }
 })
 
@@ -77,8 +83,16 @@ yargs.command({
 yargs.command({
     command: 'read',
     describe: 'Read a note',
-    handler: () => {
-        console.log('This will read a note');
+    builder: {
+        title: {
+            describe: 'Read a note by title',
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler(argv) {
+        //console.log('This will read a note');
+        notes.readNote(argv.title);
     }
 })
 
@@ -86,8 +100,9 @@ yargs.command({
 yargs.command({
     command: 'list',
     describe: 'list the notes',
-    handler: () => {
-        console.log('This will list all notes');
+    handler() {
+        //console.log('This will list all notes');
+        notes.listNotes();
     }
 })
 
@@ -99,4 +114,14 @@ console.log(yargs.argv);
 yargs.parse()
 /*The above will parse yargs
 This is important because not doing so will not print anything
+*/
+
+debugger
+/*
+The above keyword is very useful in debugging your code
+Including this keyword will not stop execution
+To make it work, run following command in terminal/command prompt
+'node inspect <file_name>'
+It's compatible with V8 engine
+As it's compatble with V8 engine, we can monitor it in Chrome browser
 */
