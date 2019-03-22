@@ -123,6 +123,17 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 * [Completed Section 1 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
 
 * [Added Updated Conditional Rendering Assignment Webpage for NodeJS.](#Webpage_for_NodeJS)
+--------------------------------------------------------------------------------
+#### 22 March 2019
+* [Completed Section 2 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
+
+* [Did JSX Exercise Correctly.](#)
+
+* [Did React Documentation revision for Presentation.](#)
+
+* [Presentation is postponed due to absence of Harshada.](#) 
+
+* [Presentation Day : Monday.](#)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

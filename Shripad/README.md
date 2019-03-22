@@ -259,12 +259,20 @@ ________________________________________________________________________________
 * [Read new tags introduced in HTML5 for better understanding in Angular.](#)
 
 * [Completed subpoint Displaying a List from Tuturial of Angular.](#)
+--------------------------------------------------------------------------------
+##### 22 Mar.
+* [Completed Section 2 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
 
+* [Did JSX Exercise Correctly.](#)
+
+* [Did Angular revision for Presentation.](#)
+
+* [Presentation is postponed due to absence of Harshada.](#) 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
-( )
+( Application Shell and Hero Editor from Angular, First App in React.)
 ```
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
