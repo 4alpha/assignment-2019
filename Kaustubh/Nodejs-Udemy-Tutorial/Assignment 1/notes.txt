@@ -1,8 +1,0 @@
-Welcome to my notes, it means that we're successfully reading the notes
-
-TO-DO 
-1. Read this note
-2. Create a new task
-3. Execute it
-4. Re-do it
-
