@@ -97,12 +97,22 @@
 * [This assignment involves adding and removing a note from note taking application]
 * [Learned about filter method in array, a very useful method]
 * [Explored JSON and its method viz JSON.parse() and JSON.stringify()]
+--------------------------------------------------------------------------------
 
 ### Friday 22 March 2019 
 * [Completed Section 4 and 5 of Udemy nodejs tutorial]
 * [Completed assignment given in section 4]
 * [Learned about debugging in nodejs]
 * [Use of debugger keyword and it's use in Chrome browser]
+--------------------------------------------------------------------------------
+
+### Monday 25 March 2019 
+* [Started section 6 of nodejs udemy tutorial]
+* [In this tutorial, we're going to prepare a weather application which shows weather related info of respective geographical area]
+* [Signed up for online portal 'Dark Sky']
+* [The above portal is going to be used in query (queryString in specific) with the help of unique key I've receceived by signing up]
+* [Signed up for another web portal 'Mapbox']
+* [Using above service, I've fetched longitude and latitude of location]
 
 ## Udemy-course-link
 ```sh
