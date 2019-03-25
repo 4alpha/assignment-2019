@@ -123,7 +123,41 @@ You should be able to work on small piece of work from Mr. MUKUND's Angular Proj
 * [Completed Section 1 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
 
 * [Added Updated Conditional Rendering Assignment Webpage for NodeJS.](#Webpage_for_NodeJS)
+--------------------------------------------------------------------------------
+#### 22 March 2019
+* [Completed Section 2 of Udemy Course Modern React with Redux.](#Udemy_React_and_Redux)
 
+* [Did JSX Exercise Correctly.](#)
+
+* [Did React Documentation revision for Presentation.](#)
+
+* [Presentation is postponed due to absence of Harshada.](#) 
+
+* [Presentation Day : Monday.](#)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+## Next Presentation
+--------------------------------------------------------------------------------
+### DATE :  FRIDAY, 29 MARCH 2019.
+--------------------------------------------------------------------------------
+## Agenda
+--------------------------------------------------------------------------------
+```sh 
+Why props are Read-Only in React ?
+```
+```sh 
+How components work in Angular ?
+```
+```sh 
+Do Comparative study of Whatever point you are studying with same point from Angular.
+```
+--------------------------------------------------------------------------------
+### Week : 25 March to 29 March
+--------------------------------------------------------------------------------
+#### 25 March 2019
+* [Started 3rd Section of Udemy Course of React.](#Udemy_React_and_Redux)
+
+* [Tried every example and Assignment from Course.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
