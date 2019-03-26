@@ -1,14 +1,5 @@
-/**
- *
- *setTimeout example in nodejs
-console.log('Welcome to my Weather app');
-
-setTimeout(()=>console.log('Thank you for visiting'),2000);
-
-setTimeout(()=>console.log('Wait for the end'),0); 
- */
-
- const request=require('request');
+/*
+const request=require('request');
 
  
  //To add optional parameters such as SI unit, language,Latitude, Longitude, we write it at the end of url which is known btw 'queryString'
@@ -24,7 +15,7 @@ setTimeout(()=>console.log('Wait for the end'),0);
      /*
      To display data using response
      console.log(data);
-     */
+     
      //To display current information
      
      //console.log(data);
@@ -39,7 +30,7 @@ setTimeout(()=>console.log('Wait for the end'),0);
     {
         //Here in this case, I've not inserted latitude, hence website returned error
         console.log('Unable to find location, please insert appropriate inputs');
-    }*/
+    }
 
     //let's check whether error returned using error code
     //Test successful, it also checks for error code
@@ -57,11 +48,12 @@ setTimeout(()=>console.log('Wait for the end'),0);
      /**
       * Now we're going to access daily weather forecasts, which is situated at 0th index in data array 
       */
-     
-   // console.log('The weather today is ',response.body.daily.data[0].summary+' Current temperature '+temperature+' Rain forecast',rainProbability)
-    //Now let's display above report in french language by modifying url into accepting lang=fr
 
-    console.log('The weather today is ',response.body.daily.data[0].summary+' Current temperature '+temperature+' Rain forecast',rainProbability)
+// console.log('The weather today is ',response.body.daily.data[0].summary+' Current temperature '+temperature+' Rain forecast',rainProbability)
+//Now let's display above report in french language by modifying url into accepting lang=fr
+
+/*console.log('The weather today is ',response.body.daily.data[0].summary+' Current temperature '+temperature+' Rain forecast',rainProbability)
+    
 
     //In this section, we're going to access Latitude and Longitude of a location
     //This can achieved using third party API viz MapBox//Let's create a new URL which will accepts attributes as Longitude and Latitude   
@@ -87,3 +79,68 @@ setTimeout(()=>console.log('Wait for the end'),0);
     }
  }
  )
+ */
+
+const geocode=require('./Utils/geocode')
+const weatherForecast=require('./Utils/forecast')
+//Let's accept location using command line arguments
+const location=process.argv[2];//At index 2 is where our arguments will be
+/*
+error prone URL
+geocode('Pune#',(data)=>console.log('The location of  data is: ',data))
+*/
+
+/*
+geocode.geo('Shelgi,Solapur',(error,data)=>{
+    if(error)
+    console.log('Error',error);
+    console.log('The location of data is: ',data)
+})
+
+//Here we retrieve location with the help of co-ordinates provided as arguments list
+geocode.fcast('-75.7088', '44.1545', (error, data) => {
+    if(error)
+    console.log('Error', error)
+    console.log('Data', data)
+  })
+
+  //Now we'll retrieve weather related info
+//Here, First arg is latitude, second is longitude
+  weatherForecast.forcast('17.691662','75.930927', (error, data) => {
+    if(error)
+    console.log('Error', error)
+    console.log(data)
+  })
+
+*/
+
+//Now let's use callback chaining
+//In this, first we'll call geocode method to get location co-ordinates 
+//then we'll use those co-ordinates to find weather conditions using forecast method
+
+if(!location)
+{
+    return console.log('Please provide city as an argument');
+}
+//geocode.geo(location,(error,data)=>
+//Using object destructuring, we get three attributes viz. latitude,longitude and location
+geocode.geo(location,(error,{latitude,longitude,location})=>
+{
+    if(error)
+    console.log(error);
+    else
+    {
+        //console.log(data);
+        weatherForecast.forcast(latitude,longitude,(error,forecastdata)=>
+        {
+                if(error)
+                console.log(error)
+                else
+                {
+                    // Since we dont' take data as a paramter, we don't use console.log(data.location); instead we do as follows
+                    console.log(location);
+                    console.log(forecastdata);
+                }
+        })
+    }
+})
