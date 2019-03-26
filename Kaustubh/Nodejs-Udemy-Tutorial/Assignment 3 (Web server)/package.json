@@ -1,0 +1,11 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "A web server using Exprees.js framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K D Zagade",
+  "license": "ISC"
+}
