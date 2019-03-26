@@ -113,6 +113,15 @@
 * [The above portal is going to be used in query (queryString in specific) with the help of unique key I've receceived by signing up]
 * [Signed up for another web portal 'Mapbox']
 * [Using above service, I've fetched longitude and latitude of location]
+--------------------------------------------------------------------------------
+
+### Tuesday 26 March 2019 
+* [Learned about chaining of callbacks]
+* [Explored ES6 objects]
+* [Javascript's es6 destructuring and property shorthand]
+* [Implemented above concepts in my weather app]
+* [Finished section 6 of nodejs udemy course]
+* [Started section 7 of nodejs udemy course]
 
 ## Udemy-course-link
 ```sh
