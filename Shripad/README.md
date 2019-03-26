@@ -284,6 +284,13 @@ ________________________________________________________________________________
 
 * [Started reading Components and Templates subpoint from Fundamentals of Angular Documentation.](#)
 --------------------------------------------------------------------------------
+##### 26 Mar.
+* [Completed reading Master/Detail Components from Angular Docs.](#Master_Detail_component)
+
+* [Completed reading first 2 subpoints from Components and Templates of Angular Documentation.](#)
+
+* [Completed 3rd Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
@@ -554,5 +561,11 @@ https://angular.io/tutorial/toh-pt1
 ```sh
 https://www.udemy.com/react-redux/learn/v4/content
 ```
+
+### Master_Detail_component
+```sh
+https://angular.io/tutorial/toh-pt3
+```
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

@@ -159,6 +159,11 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 
 * [Tried every example and Assignment from Course.](#)
 --------------------------------------------------------------------------------
+#### 26 March 2019
+* [Completed 3rd Section of Udemy Course of React.](#Udemy_React_and_Redux)
+
+* [Performed and Added Assignment Folders to GitHub.](#)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh

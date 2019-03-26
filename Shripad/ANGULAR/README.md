@@ -63,6 +63,17 @@
 * [Started reading Components and Templates subpoint from Fundamentals of Angular Documentation.](#)
 
 --------------------------------------------------------------------------------
+#### 26 Mar.
+* [I found Components and Templates subpoint from Fundamentals of Angular Documentation difficult to understand.](#)
+
+* [Mr. MUKUND explained basic component's proporty binding from Tutorial Section.](#)
+
+* [Harshada explained Overview of Component and it's proporties from every section of Angular Docs.](#)
+
+* [Completed reading Master/Detail Components from Angular Docs.](#Master_Detail_component)
+
+* [Completed reading first 2 subpoints from Components and Templates of Angular Documentation.](#)
+--------------------------------------------------------------------------------
 
 
 
@@ -92,6 +103,11 @@ https://angular.io/tutorial/toh-pt0
 ### Hero_Editor
 ```sh
 https://angular.io/tutorial/toh-pt1
+```
+
+### Master_Detail_component
+```sh
+https://angular.io/tutorial/toh-pt3
 ```
 
 
