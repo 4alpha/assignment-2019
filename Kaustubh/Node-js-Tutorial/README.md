@@ -122,6 +122,13 @@
 * [Implemented above concepts in my weather app]
 * [Finished section 6 of nodejs udemy course]
 * [Started section 7 of nodejs udemy course]
+--------------------------------------------------------------------------------
+
+### Wednesday 27 March 2019 
+* [Learned about Express.js and its method]
+* [Used handlebars.js to render .hbs files]
+* [These .hbs files are useful in rendering dynamic content]
+* [Learned to give extension such as js,hbs in nodemon command]
 
 ## Udemy-course-link
 ```sh
