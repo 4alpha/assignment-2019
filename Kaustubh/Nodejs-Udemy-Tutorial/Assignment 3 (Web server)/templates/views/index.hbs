@@ -3,14 +3,17 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="/Assignment 3 (Web server)/icons/Weather_icon.png" type="image/gif">
     <link rel="stylesheet" href="./css/styles.css">
+    {{!-- Clien side app.js --}}
     <script src="./js/app.js"></script>
 </head>
 
 <body>
     <!-- Here let's add title dynamically-->
     <!--h1>{{title}}</h1-->
-    {{>header}}
-    <p>Created by {{name}}</p>
+    {{>header}}    
+     {{!-- Below we display footer--}}
+     <p>{{>footer}} with &spades;</p>
 </body>
 </html>
