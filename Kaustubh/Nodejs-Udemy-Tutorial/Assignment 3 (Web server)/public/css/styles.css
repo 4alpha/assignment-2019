@@ -1,4 +1,4 @@
-h1
+/* h1
 {
     color: coral;    
 }
@@ -6,4 +6,20 @@ img
 {
     width: 70%;
     
+} */
+
+
+body {
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+footer {
+    color: seagreen;
+    margin: 16px;
+    padding: 16px 0;
+    border-top: 1px solid gray;
 }
