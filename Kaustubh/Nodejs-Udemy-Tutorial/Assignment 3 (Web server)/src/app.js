@@ -1,20 +1,24 @@
-const express=require('express');
+const express = require('express');
+
+//Import forecast and geocode
+const forecast = require('./Utils/forecast');
+const geocode = require('./Utils/geocode');
 
 //Now to manipulate directory path, we use core module path
-const path=require('path');
+const path = require('path');
 
 //Let's import hbs
-const hbs=require('hbs')
-const app=express();
+const hbs = require('hbs')
+const app = express();
 
 //Define paths for Express.js
-const publicDirectoryPath=path.join(__dirname,'../public');
-const viewPath=path.join(__dirname,'../templates/views');
-const partialPath=path.join(__dirname,'../templates/partials')
+const publicDirectoryPath = path.join(__dirname, '../public');
+const viewPath = path.join(__dirname, '../templates/views');
+const partialPath = path.join(__dirname, '../templates/partials')
 
 //Setup handlebars engine and view locations 
-app.set('view engine','hbs');
-app.set('views',viewPath)
+app.set('view engine', 'hbs');
+app.set('views', viewPath)
 hbs.registerPartials(partialPath)
 
 //Setup static directory to serve
@@ -22,9 +26,8 @@ app.use(express.static(publicDirectoryPath))
 
 //To render a hbs(Handlebars) page, we do the following
 
-app.get('',(req,res)=>
-{
-    res.render('index',{
+app.get('', (req, res) => {
+    res.render('index', {
         title: 'Weather',
         name: 'Kaustubh D Zagade'
     });
@@ -32,31 +35,97 @@ app.get('',(req,res)=>
 
 //Let's render about page
 
-app.get('/about',(req,res)=>
-{
-    res.render('about',{
+app.get('/about', (req, res) => {
+    res.render('about', {
         title: 'About us',
         name: 'Proudly PM of India Shri Atal Bihari Vajpayee'
     });
 })
 
-app.get('/help',(req,res)=>{
-    res.render('help',{
+app.get('/help', (req, res) => {
+    res.render('help', {
         title: 'Help me out',
         name: 'Assured by the ultimate'
     })
 })
-/*
-app.use(express.static(publicDirectoryPath+'/help.html'))
 
+//In challenge section, we're asked to do 404 for specific pages
+//Suppose, help/text is 404 (which we know), but we can show something different message
+//Say Help aricle not found
 
-app.use(express.static(publicDirectoryPath+'/about.html'))
-app.get('/weather',(req,res)=>
-{
-    res.send('Weather report');
+//Now let's get weather details using url
+
+app.get('/weather', (req, res) => {
+    if (!req.query.address)
+        return res.send({
+            error_message: 'no address provided'
+        })
+    else {
+        //Here let's just assign null to body(lat,long,loc) attribute so that it'll not take undefined ->
+        //->or faulty value 
+        geocode.geo(req.query.address,(error,{latitude,longitude,location}={})=>
+        {
+            if(error)
+            return res.send({
+                error_message_address: error
+            })
+            else
+            {
+                    forecast.forcast(latitude,longitude,(error,{temperature,humidity}={})=>{
+                        if(error)
+                        return res.send({
+                            error_message_forecast: error,
+                            latitude: latitude
+                        })
+                        else
+                        {//console.log(latitude,longitude);
+                            res.send({
+                                location: location,
+                                temperature: temperature,
+                                humidity: humidity
+                            })
+                        }
+                    })
+            }
+        });
+        
+        // res.send({
+        //     address: req.query.address
+        // })
+    }
 })
-*/
-app.listen(8000,()=>console.log('Server listening at port 8000'))
+
+//Here we write /help/*, means faulty url trailing with help will display something
+app.get('/help/*', (req, res) => {
+    //We find this in views directory
+    res.render('help_error', {
+        error_title: 'Help related article not found',
+        error_body: 'It seems you\'ve entered wrong url, traverse back to help page'
+    })
+})
+
+//Let's write error files for about page
+app.get('/about/*', (req, res) => {
+    res.render('about_error', {
+        error_title: 'Something about us not found',
+        error_body: 'Please traverse back to about us'
+    })
+})
+
+
+//Let's write 404(i.e. Page not found) page
+//In order to work, we write this at the end of all app.get
+//It contains * (wildcard) character, which means match all
+//As we write this at an end, it checks all other files first and then if nothing matches
+//It assumes that everything is unmatched
+
+app.get('*', (req, res) => {
+    res.send('My 404, Page not found');
+})
+
+
+
+app.listen(9000, () => console.log('Server listening at port 9000'))
 
 //The below will print absolute path of a directory
 //console.log(__dirname);
@@ -115,5 +184,16 @@ app.get('/help',(req,res)=>{
     //Let's route to help page
     console.log(publicDirectoryPath+'/help.html')
     
+})
+*/
+
+/*
+app.use(express.static(publicDirectoryPath+'/help.html'))
+
+
+app.use(express.static(publicDirectoryPath+'/about.html'))
+app.get('/weather',(req,res)=>
+{
+    res.send('Weather report');
 })
 */
