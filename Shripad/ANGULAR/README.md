@@ -74,7 +74,11 @@
 
 * [Completed reading first 2 subpoints from Components and Templates of Angular Documentation.](#)
 --------------------------------------------------------------------------------
+#### 27 Mar.
+* [Understood few component and event related concepts from Mr. MUKUND.](#)
 
+--------------------------------------------------------------------------------
+#### 28 Mar.
 
 
 --------------------------------------------------------------------------------

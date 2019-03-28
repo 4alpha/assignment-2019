@@ -164,6 +164,15 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 
 * [Performed and Added Assignment Folders to GitHub.](#)
 --------------------------------------------------------------------------------
+#### 27 March 2019
+* [Completed 4th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+
+* [Understood few component and event related concepts from Mr. MUKUND.](#)
+--------------------------------------------------------------------------------
+#### 28 March 2019
+* [Completed 5th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
 ```sh

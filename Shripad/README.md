@@ -291,6 +291,16 @@ ________________________________________________________________________________
 
 * [Completed 3rd Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
 --------------------------------------------------------------------------------
+##### 27 Mar.
+* [Completed 4th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+
+* [Understood few component and event related concepts from Mr. MUKUND.](#)
+--------------------------------------------------------------------------------
+##### 28 Mar.
+* [Completed 5th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+
+* [.](#)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
