@@ -299,7 +299,7 @@ ________________________________________________________________________________
 ##### 28 Mar.
 * [Completed 5th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
 
-* [.](#)
+* [Started Reading fundamentals from Angular Docs.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
