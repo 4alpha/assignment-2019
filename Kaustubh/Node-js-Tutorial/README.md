@@ -129,6 +129,12 @@
 * [Used handlebars.js to render .hbs files]
 * [These .hbs files are useful in rendering dynamic content]
 * [Learned to give extension such as js,hbs in nodemon command]
+--------------------------------------------------------------------------------
+
+### Thursday 28 March 2019 
+* [Learned about ES6 functions with default parameter]
+* [Retrieved weather info with the help of querystring]
+* [Styled hbs pages with the help of CSS]
 
 ## Udemy-course-link
 ```sh

@@ -48,9 +48,13 @@ const product={
     price: undefined
 }
 
-const transaction=(type,{brand,made,price=500000})=>
+const transaction=(type,{brand,made,price=500000}={})=>
 {
-    console.log('Car type is ',type,'with price ',price)
-};
+    console.log('Car type is ',type,'with price ',price,'along brand ',brand)
+};''
 
+//transaction('Commercial',product);
+//In default parameters, let's just not pass the object product and see what happens
+//As we can see later, JS throws TypeError stating that it cannot destructure property of undefined
+//Therefore give something default value, here an empty array{}
 transaction('Commercial',product);
