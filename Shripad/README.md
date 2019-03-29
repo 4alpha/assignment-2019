@@ -301,6 +301,13 @@ ________________________________________________________________________________
 
 * [Started Reading fundamentals from Angular Docs.](#)
 --------------------------------------------------------------------------------
+##### 29 Mar.
+* [Completed Service from Angular Docs Tutorial Section.](#)
+
+* [Completed Routing from Angular Docs Tutorial Section.](#)
+
+* [Completed HTTP from Angular Docs Tutorial Section.](#)
+--------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ## College 
 ```sh
