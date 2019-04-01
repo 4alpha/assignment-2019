@@ -171,7 +171,11 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 --------------------------------------------------------------------------------
 #### 28 March 2019
 * [Completed 5th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
+--------------------------------------------------------------------------------
+#### 28 March 2019
+* [Read about setState() for presentation.](#)
 
+* [Prepared and delivered Weekly Presentation on React.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ### Udemy_Courses
