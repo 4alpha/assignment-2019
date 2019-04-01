@@ -135,6 +135,24 @@
 * [Learned about ES6 functions with default parameter]
 * [Retrieved weather info with the help of querystring]
 * [Styled hbs pages with the help of CSS]
+--------------------------------------------------------------------------------
+
+### Friday 29 March 2019 
+* [Gave presentation to sir about topics covered in current week]
+* [Read documentation of Express.js]
+* [Read documentation of request, Handlebars.js]
+* [We're asked to submit a list of tasks that are going to be done in next week]
+--------------------------------------------------------------------------------
+
+### Monday 01 April 2019 
+* [Finished section 8 of nodejs udemy course]
+* [Started section 9 of git and heroku]
+* [Learned about heroku and hosting application on it]
+* [Made changes in Weather app to host on Heroku]
+* [Finished Section 9]
+* [Started section 10 about MongoDB and NOSQL Databases]
+* [Understood differences between SQL and NOSQL Databases]
+* [Installation of MongoDB]
 
 ## Udemy-course-link
 ```sh
