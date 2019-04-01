@@ -4,16 +4,27 @@
 
 <head>
     <link rel="icon" href="/Assignment 3 (Web server)/icons/Weather_icon.png" type="image/gif">
-    <link rel="stylesheet" href="./css/styles.css">
-    {{!-- Clien side app.js --}}
-    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">   
 </head>
 
 <body>
+    <div class="main-content">
     <!-- Here let's add title dynamically-->
     <!--h1>{{title}}</h1-->
     {{>header}}    
+
+    {{!-- Adding a search box --}}
+    <form>
+    <input placeholder="Type location">
+    <button type="submit">Search</button>     
+     </form>
+    <h2 id="city-name"></h2>
+     <p id="temperature-details"></p>
+     <p id="humidity-details"></p>
+     </div>
      {{!-- Below we display footer--}}
+      {{!-- Clien side app.js, it's placed below because it gets executed before we take any action on form --}}
+    <script src="./js/app.js"></script>
      <p>{{>footer}} with &spades;</p>
 </body>
 </html>
