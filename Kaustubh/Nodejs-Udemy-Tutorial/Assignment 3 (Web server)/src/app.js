@@ -24,6 +24,13 @@ hbs.registerPartials(partialPath)
 //Setup static directory to serve
 app.use(express.static(publicDirectoryPath))
 
+//Let's define Port number 
+//The below port number consists two parts
+//First part is useful to run application on Heroku (which hosts application)
+//Second part is port on which we run application locally
+
+const portNumber=process.env.PORT || 9000;
+
 //To render a hbs(Handlebars) page, we do the following
 
 app.get('', (req, res) => {
@@ -125,7 +132,9 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(9000, () => console.log('Server listening at port 9000'))
+
+//This is used to host application
+app.listen(portNumber, () => console.log('Server listening at port ',portNumber))
 
 //The below will print absolute path of a directory
 //console.log(__dirname);

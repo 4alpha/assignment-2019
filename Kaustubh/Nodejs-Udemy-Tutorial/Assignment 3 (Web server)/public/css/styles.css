@@ -17,9 +17,26 @@ body {
     padding: 0 16px;
 }
 
+.main-content
+{
+    flex-grow: 1;
+}
 footer {
     color: seagreen;
     margin: 16px;
     padding: 16px 0;
     border-top: 1px solid gray;
+}
+
+input{
+    border: 1px solid royalblue;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid sienna;
+    background: rebeccapurple;
+    color: whitesmoke;
+    padding: 8px;
 }

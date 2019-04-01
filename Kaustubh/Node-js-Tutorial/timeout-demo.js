@@ -32,6 +32,7 @@ var intervalCount=setInterval(()=>
 
 //Let's use setInterval() and clearInterval() for another event
 
+/*
 var count=0;
 
 var interval=setInterval(()=>
@@ -45,3 +46,13 @@ var interval=setInterval(()=>
         clearInterval(interval);
     }
 },1000);
+*/
+setTimeout(()=> console.log('0 secs'),0)
+
+setImmediate(()=>console.log('Immediate'))
+
+const fs=require('fs');
+fs.readFile(__filename,()=>{
+    setTimeout(()=>console.log(__dirname),0)
+    setImmediate(()=>console.log('Immediate'))
+})
