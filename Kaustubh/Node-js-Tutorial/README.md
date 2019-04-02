@@ -153,6 +153,11 @@
 * [Started section 10 about MongoDB and NOSQL Databases]
 * [Understood differences between SQL and NOSQL Databases]
 * [Installation of MongoDB]
+--------------------------------------------------------------------------------
+
+### Tuesday 02 April 2019
+* [Learned about some MongoDB concepts]
+* [These concepts include Inserting and fetching document]
 
 ## Udemy-course-link
 ```sh
