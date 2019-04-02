@@ -66,3 +66,16 @@ add(1, 4, (sum) => {
     console.log(sum) // Should print: 5
 })
 
+const doWorkCallBack=(callback)=>{
+
+    setTimeout(()=>{
+        // callback('This is an error message',undefined)
+        callback(undefined,'Hurrah, you won')
+    },2000);
+}
+
+doWorkCallBack((error,result)=>{
+    if(error)
+    return console.log("Error is ",error);
+    console.log('Result is ',result);
+});
