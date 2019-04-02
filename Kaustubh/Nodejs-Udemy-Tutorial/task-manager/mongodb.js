@@ -9,14 +9,6 @@ const {MongoClient,ObjectID}=require('mongodb');
 //In below URL. we avoid writing localhost (instead of IP address) which causes certain issues
 const connectionURL="mongodb://127.0.0.1:27017 ";
 const databaseName='task-manager';
-
-// Create a new ObjectID instance
-const id=new ObjectID();
-//console.log('The ID is ',id);
-//Binary no in ID is
-console.log('The ID is ',id.id.length);
-console.log('The ID is ',id.toHexString().length);
-console.log('Timestamp is ',id.getTimestamp());
 //useNewUrlParser parses URL in connectionURL (previously it was UrlParser which is deprecated now)
 MongoClient.connect(connectionURL,{useNewUrlParser: true},(error,client)=>{
 
@@ -25,86 +17,46 @@ MongoClient.connect(connectionURL,{useNewUrlParser: true},(error,client)=>{
 
    // console.log('Connected successfully');
    const db=client.db(databaseName)
-//Inserts one record
-  
-/*db.collection('users').insertOne({
-       name: 'Kaustubh',
-       age: 22
-   },(error,resultData)=>
-   {
+   db.collection('users').findOne({
+       //I've done below in wrong way, the result will be null
+       //To avoid this, let's wrap the ID into binary format(in which string is stored in MongoDB)
+       //_id: '5ca30a0862f5ca237f0e315b'
+       _id: new ObjectID('5ca30a0862f5ca237f0e315b')
+   },(error,user)=>{
+    if(error)
+    return console.log('Cannot find data');
+
+    console.log(user);
+   })
+
+   //find returns array of object we intended to find
+   db.collection('users').find({
+    name: 'Kaustubh'
+   }).toArray((error,userData)=>{
        if(error)
-       return console.log('Error while inserting data');
+       return console.log('Unable to find user ',error);
+    //If you print like following, every property of that JSON object gets returned, it's called Cursor (a pointer, which points to the result)
+    //Be specific to what you want to return
+       console.log('The data is \n',userData);
+   })
 
-       /**
-        * resultData object contains different properties such as 
-                
-        *  insertedCount 	Number 	The total amount of documents inserted.
-        */
-       /*.ops below is of array type
-       All the documents inserted using insertOne/insertMany/replaceOne.
-        Documents contain the _id field if forceServerObjectId == false for insertOne/insertMany
-       */
-       //console.log(resultData.ops);
-   //})
+   //To get count of documents
 
-   //Insert many records
-//    db.collection('users').insertMany([
-//        {
-//            name: 'Kaustubh',
-//            age: 22
-//        },
-//        {
-//            name: 'Pranjan',
-//            age: 22
-//        },
-//        {
-//            name: 'Tejashri',
-//            age: 24
-//        },
-//        {
-//            name: 'Apurwa',
-//            age: 25
-//        }
-//    ],(error,result)=>{
-//        if(error)
-//        return console.log('Error occured in inserting multiple records');
+   db.collection('users').find({
+       age: 22
+   }).count((error,count)=>{
+    if(error)
+    return console.log('Unable to find user ',error);
 
-//        //Prints Hash number of documents
-//        console.log('Total Inserted IDs are ',result.insertedIds);    
-//    })
+    console.log('Count is ',count);
+   })
+  
+   db.collection('work').find({
+       status: false
+   }).toArray((error,workStatus)=>{
+       if(error)
+       return console.log('Nothing found ',error);
 
-//In challenge section , I've asked to add new table with different documents
-
-// db.collection('work').insertMany([
-//     {
-//         description: 'Adding multiple documents',
-//         status: true
-//     },
-//     {
-//         description: 'Taking lunch',
-//         status: false
-//     },
-//     {
-//         description: 'Enjoying day',
-//         status: true
-//     }
-// ],(error,result)=>{
-
-//     if(error)
-//     return console.log('Error occured in inserting data');
-
-//     console.log('The data inserted is as follows\n',result.ops);
-// });
-
-// db.collection('users').insertOne(
-//     {
-//         _id: id,
-//         name: 'Arjun',
-//         age: 24
-//     },(error,result)=>{
-//             if(error)
-//             return console.log('Error while entering inside Users');
-//         console.log('The result is ',result.ops);
-//     }
-// )
+       console.log('The task(s) are as follows\n',workStatus);
+   })
 })
