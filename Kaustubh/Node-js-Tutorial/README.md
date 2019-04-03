@@ -158,6 +158,13 @@
 ### Tuesday 02 April 2019
 * [Learned about some MongoDB concepts]
 * [These concepts include Inserting and fetching document]
+--------------------------------------------------------------------------------
+
+### Wednesday 03 April 2019 
+* [Finished section 10 about MongoDB]
+* [Learned about Updating and deleting documents]
+* [Done some examples of above]
+* [Learned some concepts about Git]
 
 ## Udemy-course-link
 ```sh
