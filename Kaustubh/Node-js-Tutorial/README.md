@@ -165,6 +165,12 @@
 * [Learned about Updating and deleting documents]
 * [Done some examples of above]
 * [Learned some concepts about Git]
+--------------------------------------------------------------------------------
+
+### Thursday 04 April 2019 
+* [Learned about Mongoose]
+* [Performed assignment of CRUD operations on Mongoose]
+* [Difference between SQL and NOSQL]
 
 ## Udemy-course-link
 ```sh
