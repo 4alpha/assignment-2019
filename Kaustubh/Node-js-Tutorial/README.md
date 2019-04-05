@@ -171,6 +171,11 @@
 * [Learned about Mongoose]
 * [Performed assignment of CRUD operations on Mongoose]
 * [Difference between SQL and NOSQL]
+--------------------------------------------------------------------------------
+
+### Friday 05 April 2019 
+* [Installed Postman and tested my work (by passing parameters in URL and fetching results)]
+* [Discussion with colleagues about work done in this week]
 
 ## Udemy-course-link
 ```sh
