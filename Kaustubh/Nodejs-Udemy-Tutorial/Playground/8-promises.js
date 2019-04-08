@@ -18,21 +18,46 @@
 // });
 
 
-const add=function(a,b){
- return   new Promise((resolve,reject)=>{
-        const sum=a+b;
-        if(typeof sum==='number')
-        resolve (sum);
-        else
-        reject(new Error('Something went Wrong'));
+// const add=function(a,b){
+//  return   new Promise((resolve,reject)=>{
+//         const sum=a+b;
+//         if(typeof sum==='number')
+//         resolve (sum);
+//         else
+//         reject(new Error('Something went Wrong'));
 
-}).then((resolve1)=>{
-   console.log(resolve1);
-   return resolve1;
-}).then((resolve2)=>{
-    console.log(resolve2*4);
-}).catch((reject)=>{
-    console.log('Error details ',reject);
-})
+// }).then((resolve1)=>{
+//    console.log(resolve1);
+//    return resolve1;
+// }).then((resolve2)=>{
+//     console.log(resolve2*4);
+// }).catch((reject)=>{
+//     console.log('Error details ',reject);
+// })
+// }
+
+const add=(a,b)=>{
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve(a+b);
+        },3000)
+    })
 }
-console.log('The result after addition, multiplying twice is ',add('A',3));
+// One way to use promises
+// add(2,3).then((sum)=>{
+// console.log('Sum is ',sum);
+
+// add(sum,4).then((sum1)=>{
+//     console.log('Sum1 is ',sum1);    
+// }).catch((error)=>console.log('Another error is ',error))
+// }).catch((error)=>console.log(error)
+// )
+// console.log('The result after addition, multiplying twice is ',add('A',3));
+
+add(2,3).then((sum)=>{
+    console.log('Sum is ',sum);
+   return add(sum,5); 
+    }).then((sum2)=>console.log('New sum is',sum2)
+    ).catch((error)=>console.log(error)
+    )
+    
