@@ -172,12 +172,43 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 #### 28 March 2019
 * [Completed 5th Section of Udemy Course of React, Added Assignment Folders as well.](#Udemy_React_and_Redux)
 --------------------------------------------------------------------------------
-#### 28 March 2019
+#### 29 March 2019
 * [Read about setState() for presentation.](#)
 
 * [Prepared and delivered Weekly Presentation on React.](#)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+### Week : 8 April to 12 April
+--------------------------------------------------------------------------------
+#### 8 April 2019
+* [Headlines of Topics from Section 6.](#)
+```sh
+**Spinner**
+```
+```sh
+**Default Props**
+```
+```sh
+**Helper Function for Conditional Rendering**
+```
+* [Headlines of Topics from Section 7 : forms.](#)
+```sh
+**Callback Function for Input Field**
+```
+```sh
+**Event Handling with Arrow Fucntion**
+```
+```sh
+**e.preventDefault()**
+```
+
+--------------------------------------------------------------------------------
+#### 9 April 2019
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
 ### Udemy_Courses
 ```sh
 https://www.udemy.com/home/my-courses/learning/
