@@ -158,6 +158,24 @@
 ### Tuesday 02 April 2019
 * [Learned about some MongoDB concepts]
 * [These concepts include Inserting and fetching document]
+--------------------------------------------------------------------------------
+
+### Wednesday 03 April 2019 
+* [Finished section 10 about MongoDB]
+* [Learned about Updating and deleting documents]
+* [Done some examples of above]
+* [Learned some concepts about Git]
+--------------------------------------------------------------------------------
+
+### Thursday 04 April 2019 
+* [Learned about Mongoose]
+* [Performed assignment of CRUD operations on Mongoose]
+* [Difference between SQL and NOSQL]
+--------------------------------------------------------------------------------
+
+### Friday 05 April 2019 
+* [Installed Postman and tested my work (by passing parameters in URL and fetching results)]
+* [Discussion with colleagues about work done in this week]
 
 ## Udemy-course-link
 ```sh
