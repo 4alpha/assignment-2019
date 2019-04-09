@@ -64,6 +64,5 @@ const findUser=((name)=>{
 
 module.exports= {
     newUser: User,
-    findUser: findUser,
-    findUserById: findUserById   
+    findUser: findUser,   
 }
