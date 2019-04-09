@@ -62,18 +62,6 @@ const findUser=((name)=>{
     })
 })
 
-const findUserById=((id)=>{
-    User.findById(id).then((userDetails)=>{
-        if(!userDetails)
-        {
-            return 404;
-        }
-        console.log(userDetails);        
-        return userDetails;
-    }).catch(()=>{
-        return 500;
-    })    
-})
 module.exports= {
     newUser: User,
     findUser: findUser,
