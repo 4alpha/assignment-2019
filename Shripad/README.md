@@ -345,7 +345,15 @@ ________________________________________________________________________________
 
 --------------------------------------------------------------------------------
 ##### 9 Apr.
-* [](#)
+* [Last concept from 7th Section was difficult to understand i.e. Communicating Child to Parent so watched last 3 videos again and again.](#)
+
+* [Mr. MUKUND explained Child to Parent Communication in Angular to clear the concept.](#)
+
+* [Now Reading React Documentation for Forms.](#)
+
+--------------------------------------------------------------------------------
+##### 10 Apr.
+
 
 --------------------------------------------------------------------------------
 ## College 
