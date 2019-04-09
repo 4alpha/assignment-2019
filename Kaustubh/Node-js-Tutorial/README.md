@@ -176,6 +176,12 @@
 ### Friday 05 April 2019 
 * [Installed Postman and tested my work (by passing parameters in URL and fetching results)]
 * [Discussion with colleagues about work done in this week]
+--------------------------------------------------------------------------------
+
+### Monday 08 April 2019 
+* [Learned about Promise chaining]
+* [Created endpoints for Reading data in REST API]
+* [Tested above endpoints using Postman]
 
 ## Udemy-course-link
 ```sh
