@@ -188,12 +188,12 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 * [Headlines of Topics from Section 7 : forms.](#)
 > 1. Callback Function for Input Field
 > 2. Event Handling with Arrow Fucntion
+--------------------------------------------------------------------------------
+#### 9 April 2019
 > 3. preventDefault()
 > 4. this keyword is JavaScript
 > 5. communicating child to parent
---------------------------------------------------------------------------------
-#### 9 April 2019
-
+> 6. Reading React Documentation for forms
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
