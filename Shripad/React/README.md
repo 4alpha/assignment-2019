@@ -182,15 +182,9 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 --------------------------------------------------------------------------------
 #### 8 April 2019
 * [Headlines of Topics from Section 6.](#)
-```sh
 **Spinner**
-```
-```sh
 **Default Props**
-```
-```sh
 **Helper Function for Conditional Rendering**
-```
 * [Headlines of Topics from Section 7 : forms.](#)
 ```sh
 **Callback Function for Input Field**
