@@ -182,6 +182,12 @@
 * [Learned about Promise chaining]
 * [Created endpoints for Reading data in REST API]
 * [Tested above endpoints using Postman]
+--------------------------------------------------------------------------------
+
+### Tuesday 09 April 2019 
+* [Learned about async-await and read its documentation]
+* [Made changes in code of Car App with respect to async await]
+* [Learned about findByIdAndUpdate method of Mongoose]
 
 ## Udemy-course-link
 ```sh
