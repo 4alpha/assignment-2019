@@ -182,20 +182,15 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 --------------------------------------------------------------------------------
 #### 8 April 2019
 * [Headlines of Topics from Section 6.](#)
-> 1. Spinner
-> 2. Default Props
-> 3. Helper Function for Conditional Rendering
+> Spinner
+> Default Props
+> Helper Function for Conditional Rendering
 * [Headlines of Topics from Section 7 : forms.](#)
-```sh
-**Callback Function for Input Field**
-```
-```sh
-**Event Handling with Arrow Fucntion**
-```
-```sh
-**e.preventDefault()**
-```
-
+> Callback Function for Input Field
+> Event Handling with Arrow Fucntion
+> preventDefault()
+> this keyword is JavaScript
+> communicating child to parent
 --------------------------------------------------------------------------------
 #### 9 April 2019
 
