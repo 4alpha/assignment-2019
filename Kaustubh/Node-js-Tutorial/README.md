@@ -188,6 +188,21 @@
 * [Learned about async-await and read its documentation]
 * [Made changes in code of Car App with respect to async await]
 * [Learned about findByIdAndUpdate method of Mongoose]
+--------------------------------------------------------------------------------
+
+### Wednesday 10 April 2019 
+* [was on leave]
+--------------------------------------------------------------------------------
+
+### Thursday 11 April 2019 
+* [Used PATCH method to update records by providing specific ID]
+* [Used DELETE method to delete records by providing specific ID]
+* [With the use of express.Router(), configured separate files of HTTP methods (GET,POST,PATCH,DELETE)]
+* [Finished section 11 (REST APIs and Mongoose (Task App))]
+* [Started section 12 (API Authentication and Security (Task App))]
+* [Learned about uses of bcryptjs and hashed password]
+* [Implemented above inside program]
+* [Learned about User authentication using a simple login program]
 
 ## Udemy-course-link
 ```sh
