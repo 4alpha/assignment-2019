@@ -1,5 +1,6 @@
 const mongoose=require('mongoose');
-const Car=mongoose.model('Car',{
+
+const carSchema=new mongoose.Schema({
     carName: {
         type: String,
         required: true,
@@ -14,6 +15,7 @@ const Car=mongoose.model('Car',{
         default: false
     }
 })
+const Car=mongoose.model('Car',carSchema)
 
 module.exports={
     createNewCar:Car

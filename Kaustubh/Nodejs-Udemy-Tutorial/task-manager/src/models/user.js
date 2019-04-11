@@ -1,8 +1,14 @@
 const mongoose=require('mongoose');
 const validator=require('validator');
+const bcrypt=require('bcryptjs');
+// Let's define schema to define a middleware function
+/**
+ * Middleware (also called pre and post hooks) are functions which are passed control
+ *  during execution of asynchronous functions. Middleware is specified on the schema level
+ *  and is useful for writing plugins.
+ */
 
-//To define a model
-const User=mongoose.model('User',{
+ const userSchema=new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -24,6 +30,7 @@ const User=mongoose.model('User',{
     email: {
         type: String,
         required: true,
+        unique: true,
         trim: true,
         lowercase: true,
         validate(value){
@@ -48,7 +55,39 @@ const User=mongoose.model('User',{
             }
         }
     }
+});
+// To validate/filter schema before saving data
+// Here we don't want to use => function as the function involves use of 'this' operator
+// => doesn't support 'this'
+userSchema.pre('save',async function(next){
+    const user=this;
+    // Below, let's check whether if password is first time created or updated
+if(user.isModified('password'))
+    // console.log('Just before saving:');
+    {
+      user.password=await bcrypt. hash(user.password,8);
+    }
+    
+    next();
 })
+// Let's define a function to retrieve user's login credentials
+userSchema.statics.findByCredentials= async (email,password)=>{
+    //Getting document using findOne provided email as an attribute
+    const getUser=await User.findOne({ email });
+    if(!getUser)
+    {
+        throw new Error('Unable to login');
+    }
+// Let's match password
+    const isMatchedPassword=bcrypt.compare(password,getUser.password);
+    if(!isMatchedPassword)
+    throw new Error('Unable to login');//We've kept both error messages same as we won't expose much details to annonymous user
+
+    return getUser;
+}
+//To define a model
+const User=mongoose.model('User',userSchema)
+
 const findUser=((name)=>{
     console.log(name);
     
