@@ -194,6 +194,19 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 > 4. this keyword is JavaScript
 > 5. communicating child to parent
 > 6. Reading React Documentation for forms
+--------------------------------------------------------------------------------
+#### 10 April 2019
+> 7. Axios vs. Fetch
+> 8. Viewing Request Result (JSON Object)
+> 9. Handling Requests with Async await
+
+--------------------------------------------------------------------------------
+#### 11 April 2019
+
+
+--------------------------------------------------------------------------------
+#### 12 April 2019
+
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
