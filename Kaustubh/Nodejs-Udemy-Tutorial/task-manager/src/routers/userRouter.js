@@ -5,39 +5,44 @@ const express = require('express');
 const User = require('../models/user');
 //Creating a new router
 const router = new express.Router();
+
+// Import authentication file
+// Not to add for Login and signup
+// Add authentication as 2nd argument in route handler functions
+const auth=require('../middleware/auth');
+
 router.get('/test', (req, res) => {
     res.send("Test route for User");
 });
 
-router.post('/users', async (req, res) => {
-    const user = new User.newUser(req.body);
-    //    user.save().then(()=>{       
-    //     //    201=Created
-    //     res.status(201).send(user);
-    //    }).catch((error)=>{
-    //     //Shorthand expression  
-    //     res.status(400).send('Error details\n',error);
-    //     //    res.send('Error details\n',error);
-    //    });
+router.post('/users', async (req, res) => {   
     try {
+        const user = new User.newUser(req.body);
         await user.save();
-        res.status(201).send(user);
+
+        // Let's get token to authenticate
+        const token=await user.generateAuthToken();
+        
+        // To send user and token details        
+        res.status(201).send({user,token});
+        // res.status(201).send(user);
         //The below can also work
         //  const newUser= await user.save();
         // res.status(201).send(newUser);
-    } catch (error) {
+        } catch (error) {
         res.status(400).send('Error details\n' + error);
     }
 });
 
 //Creating a route to return user details based on user name
-router.get('/users', async (req, res) => {
-    try {
-        const users = await User.newUser.find({});
-        res.status(201).send(users);
-    } catch (error) {
-        res.status(400).send('Error while getting Users ' + error);
-    }
+router.get('/users/me',auth, async (req, res) => {
+    // try {
+    //     const users = await User.newUser.find({});
+    //     res.status(201).send(users);
+    // } catch (error) {
+    //     res.status(400).send('Error while getting Users ' + error);
+    // }
+    res.send(req.user);
 })
 
 // A route for finding user by ID
@@ -110,7 +115,12 @@ router.delete('/users/:id', async (req, res) => {
 router.post('/users/login', async (req, res) => {
     try {
         const user = await User.newUser.findByCredentials(req.body.email, req.body.password);
-        res.send(user);
+          
+        // Let's get token to authenticate
+        const token=await user.generateAuthToken();
+        
+        // To send user and token details
+        res.send({user,token});
     } catch (error) {
         res.status(400).send('Error occured ' + error);
     }
