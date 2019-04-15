@@ -14,30 +14,50 @@ const app = express();
 //Configure server to parse data in JSON
 app.use(express.json());
 
+// The function includes an array of requestHandlers
+// app.use((req,res,next)=>{
+//     console.log(req.method,req.path);    
+//     if(req.method === 'GET')
+//     {
+//         res.send('GET requests are disabled');
+//     }
+//     else
+//     {
+//     next();
+//     }
+// })
+
+// Let's write a route to show that site's under maintainance
+// app.use((req,res,next)=>{
+//     // My code is long written, below is optimized code
+//     // const methodName=req.method;
+    
+//     // switch(methodName){
+//     //     case 'POST':
+//     //     case 'GET':
+//     //     case 'PATCH':
+//     //     case 'DELETE':res.status(503).send('Site\'s under maintainance\nTry again later');
+//     // }
+
+//     res.status(503).send('Site\'s under maintainance\nTry again later');
+// })
+
 //userRouters & carRouters will contain all POST,PATCH,GET & DELETE for Users & Car resp.
 app.use(userRouters);
 app.use(carRouters);
 
-
-
 app.listen(portNumber, () => console.log('Server listening at port ', portNumber))
 
-// const bcrypt=require('bcryptjs');
+
 const jwt = require('jsonwebtoken');
 const myFunction = async () => {
-    // const password='Imceobitch';
-    // const hashedPassword=await bcrypt.hash(password,8);
 
-    // console.log('Original text password is ',password);
-    // console.log('Hashed password is ',hashedPassword);
-    // // Let's match password
-    // // const isMatched=await bcrypt.compare('Imceobitch1',hashedPassword);
-    // // console.log(isMatched?'Password matched':'Password mismatch');    
-    // console.log(await bcrypt.compare('Imceobitch1',hashedPassword)?'Password matched':'Password mismatch'); 
     const token = jwt.sign({
         _id: 'abcd1234'
-    }, 'hellofraands');
+    }, 'hellofraands',{expiresIn: '7 days'});
     console.log(token);
+    const data=jwt.verify(token,'hellofraands');
 
+    console.log(data);    
 }
 myFunction();
