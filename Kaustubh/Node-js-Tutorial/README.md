@@ -203,6 +203,15 @@
 * [Learned about uses of bcryptjs and hashed password]
 * [Implemented above inside program]
 * [Learned about User authentication using a simple login program]
+--------------------------------------------------------------------------------
+
+### Friday 12 April 2019
+* [Revised everything done in this week]
+--------------------------------------------------------------------------------
+
+### Monday 15 April 2019 
+* [Used authentication middleware routes for HTTP methods]
+* [Revised node.js concepts]
 
 ## Udemy-course-link
 ```sh
