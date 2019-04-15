@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
+// To define authentication tokens, JSONWebToken module is used
+const jwt=require('jsonwebtoken');
 // Let's define schema to define a middleware function
 /**
  * Middleware (also called pre and post hooks) are functions which are passed control
@@ -53,7 +55,13 @@ const userSchema = new mongoose.Schema({
                 throw new Error('Keyword \"password\" must not be included in Password');
             }
         }
-    }
+    },
+    tokens: [{
+        token: {
+            type: String,
+            required: true
+        }
+    }]
 });
 // To validate/filter schema before saving data
 // Here we don't want to use => function as the function involves use of 'this' operator
@@ -84,6 +92,19 @@ userSchema.statics.findByCredentials = async (email, password) => {
         throw new Error('Unable to login'); //We've kept both error messages same as we won't expose much details to annonymous user
 
     return getUser;
+}
+
+// Writing a new method to generate auth tokens
+// Here methods will work as instance methods
+
+userSchema.methods.generateAuthToken=async function(){
+        const user=this;
+
+        const token=jwt.sign({_id: user._id.toString()},'thisismyfantasticnewcourse');
+
+        user.tokens=user.tokens.concat({token})
+        await user.save();
+        return token;
 }
 //To define a model
 const User = mongoose.model('User', userSchema)
