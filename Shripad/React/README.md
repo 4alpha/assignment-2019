@@ -196,13 +196,13 @@ Do Comparative study of Whatever point you are studying with same point from Ang
 > 6. Reading React Documentation for forms
 --------------------------------------------------------------------------------
 #### 10 April 2019
-> 7. Axios vs. Fetch
-> 8. Viewing Request Result (JSON Object)
-> 9. Handling Requests with Async await
-
+* [Headlines of Topics from Section 8 : Making API requests.](#)
+> 1. Axios vs. Fetch
+> 2. Viewing Request Result (JSON Object)
+> 3. Handling Requests with Async await
 --------------------------------------------------------------------------------
 #### 11 April 2019
-
+> 4. Binding Callbacks.
 
 --------------------------------------------------------------------------------
 #### 12 April 2019
