@@ -49,15 +49,15 @@ app.use(carRouters);
 app.listen(portNumber, () => console.log('Server listening at port ', portNumber))
 
 
-const jwt = require('jsonwebtoken');
-const myFunction = async () => {
+// const jwt = require('jsonwebtoken');
+// const myFunction = async () => {
 
-    const token = jwt.sign({
-        _id: 'abcd1234'
-    }, 'hellofraands',{expiresIn: '7 days'});
-    console.log(token);
-    const data=jwt.verify(token,'hellofraands');
+//     const token = jwt.sign({
+//         _id: 'abcd1234'
+//     }, 'hellofraands',{expiresIn: '7 days'});
+//     console.log(token);
+//     const data=jwt.verify(token,'hellofraands');
 
-    console.log(data);    
-}
-myFunction();
+//     console.log(data);    
+// }
+// myFunction();
