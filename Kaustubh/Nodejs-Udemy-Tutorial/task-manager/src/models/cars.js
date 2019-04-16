@@ -13,6 +13,11 @@ const carSchema=new mongoose.Schema({
     carAvailable: {
         type: Boolean,
         default: false
+    },
+    owner: {
+        // Set Owner's Object ID
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
     }
 })
 const Car=mongoose.model('Car',carSchema)
