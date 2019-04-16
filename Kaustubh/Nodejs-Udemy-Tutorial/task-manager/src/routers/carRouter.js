@@ -7,12 +7,17 @@ const Car = require('../models/cars');
 //Creating a new router
 const router = new express.Router();
 
+// Importing a new auth module
 
+const auth=require('../middleware/auth');
 
 // Creating another route to display Cars and it's details
-router.post('/cars', async (req, res) => {
-    const newCar = new Car.createNewCar(req.body);
-
+router.post('/cars', auth, async (req, res) => {
+    // const newCar = new Car.createNewCar(req.body);
+    const newCar=new Car.createNewCar({
+        ...req.body,
+        owner: req.user._id
+    })
     try {
         await newCar.save();
         res.status(201).send(newCar);
