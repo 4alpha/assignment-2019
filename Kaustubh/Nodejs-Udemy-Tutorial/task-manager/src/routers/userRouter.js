@@ -35,6 +35,7 @@ router.post('/users', async (req, res) => {
 });
 
 //Creating a route to return user details based on user name
+// We send ID as request parameters
 router.get('/users/me',auth, async (req, res) => {
     // try {
     //     const users = await User.newUser.find({});
@@ -45,24 +46,9 @@ router.get('/users/me',auth, async (req, res) => {
     res.send(req.user);
 })
 
-// A route for finding user by ID
-router.get('/users/:id', async (req, res) => {
-    // Don't give () next to User.newUser
-
-    try {
-        const userDetails = await User.newUser.findById(req.params.id);
-        if (!userDetails)
-            res.status(404).send('No user found by ID');
-        else
-            res.status(200).send(userDetails);
-    } catch (error) {
-        res.status(500).send("Server Error, Invalid url parameter" + error);
-    }
-
-})
-
 //A route to update User details using  ID by PATCH method
-router.patch('/users/:id', async (req, res) => {
+// In next phase, we're not going to use ID to update
+router.patch('/users/me',auth, async (req, res) => {
     try {
         // To avoid or to send flawed status code even when not updated from schema, we add certain filters
         const updates = Object.keys(req.body);
@@ -80,31 +66,42 @@ router.patch('/users/:id', async (req, res) => {
         //  A simple query (given below) can bypass middleware function
         // In order to avoid that, we do the following
         //  const userUpdatedData=await User.newUser.findByIdAndUpdate(req.params.id,req.body,{new: true,runValidators: true});
-        const userUpdatedData = await User.newUser.findById(req.params.id);
+        
+        // The following won't be required as we're using auth as middleware
+        // const userUpdatedData = await User.newUser.findById(req.params.id);
 
         // To update user
-        updates.forEach((update) => userUpdatedData[update] = req.body[update])
+        updates.forEach((update) => req.user[update] = req.body[update])
         // To save data
-        await userUpdatedData.save();
-        if (!userUpdatedData)
-            return res.status(404).send('User not found by ID');
-        res.status(200).send(userUpdatedData);
+        await req.user.save();
+
+        // As middleware will surely return valid ID, there won't be necessity of below code
+        // if (!userUpdatedData)
+        //     return res.status(404).send('User not found by ID');
+        res.status(200).send(req.user);
     } catch (error) {
         res.status(500).send("Server error while updating User data" + error);
     }
 })
 
 //An endpoint to delete user by ID
-
-router.delete('/users/:id', async (req, res) => {
+// In next phases, we don't delete by ID
+// Here if auth is not satisfied, it'll not execute next async function
+router.delete('/users/me',auth, async (req, res) => {
 
     try {
-        const beforeDeleteCount = await User.newUser.countDocuments();
-        const userDetails = await User.newUser.findByIdAndDelete(req.params.id);
-        if (!userDetails)
-            return res.status(404).send('No User found by ID');
-        const afterDeleteCount = await User.newUser.countDocuments();
-        res.status(200).send('User Deleted successfully\nTotal Users (Before deletion): ' + beforeDeleteCount + '\t (After deletion): ' + afterDeleteCount);
+        // const beforeDeleteCount = await User.newUser.countDocuments();
+        // //Here req.user is returned by auth and it's ID is used to delete 
+        // const userDetails = await User.newUser.findByIdAndDelete(req.user._id);
+        // if (!userDetails)
+        //     return res.status(404).send('No User found by ID');
+        // const afterDeleteCount = await User.newUser.countDocuments();
+        // res.status(200).send('User Deleted successfully\nTotal Users (Before deletion): ' + beforeDeleteCount + '\t (After deletion): ' + afterDeleteCount);
+
+        // Let's use remove method of Mongoose
+
+        await req.user.remove();
+        res.send(req.user);
     } catch (error) {
         res.status(500).send('Error occured check your Input' + error);
     }
@@ -123,6 +120,36 @@ router.post('/users/login', async (req, res) => {
         res.send({user,token});
     } catch (error) {
         res.status(400).send('Error occured ' + error);
+    }
+})
+
+// A route to logout
+router.post('/users/logout',auth,async (req,res)=>{
+     try {
+        //  Let's filter token array by removing authToken we've used to login
+        // Here we've already fetched user in auth (using req.user=user)
+        // Let's fetch token array of user
+        req.user.tokens=req.user.tokens.filter((token)=> token.token !== req.token);
+        await req.user.save();
+        res.send();
+     } catch (error) {
+         res.status(500).send('');
+     }
+})
+
+// A route to logout from all
+
+router.post('/users/logoutall',auth,async(req,res)=>{
+    // Let's empty token array
+    try
+    {
+    req.user.tokens=[];
+    await req.user.save();
+
+    res.status(200).send('Successfully logged out from all');
+    }
+    catch(e){
+        res.status(500).send({error: 'Error occured during logging out from all'});
     }
 })
 module.exports = router;
