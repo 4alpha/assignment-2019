@@ -20,6 +20,8 @@ const auth=async (req,res,next)=>{
         // Now as we fetched user, there's no need to re-retrieve user in userRouter
         // Let's send that user as a result
         req.user=user;
+        // To logout, let's send token as well
+        req.token=token;
         next();
     } catch (error) {
         res.status(401).send({error: 'Please authenticate your crendentials'});
