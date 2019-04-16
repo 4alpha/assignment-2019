@@ -106,6 +106,21 @@ userSchema.methods.generateAuthToken=async function(){
         await user.save();
         return token;
 }
+
+// Writing a new method to return only important details back to user
+// Converts data into JSON format
+userSchema.methods.toJSON= function(){
+
+    const user=this;
+    // Documents have a toObject method which converts the mongoose document
+    //  into a plain javascript object.    
+    const userObject=user.toObject();
+    // Delete parameters such as password and tokens
+    delete userObject.password;
+    delete userObject.tokens;
+    return userObject;
+}
+
 //To define a model
 const User = mongoose.model('User', userSchema)
 
