@@ -212,6 +212,13 @@
 ### Monday 15 April 2019 
 * [Used authentication middleware routes for HTTP methods]
 * [Revised node.js concepts]
+--------------------------------------------------------------------------------
+
+### Tuesday 16 April 2019 
+* [Added an authentication middleware to other HTTP methods]
+* [Learned about POSTMAN Environment and it's settings]
+* [Wrote some code to set Environment variables in POSTMAN]
+
 
 ## Udemy-course-link
 ```sh
