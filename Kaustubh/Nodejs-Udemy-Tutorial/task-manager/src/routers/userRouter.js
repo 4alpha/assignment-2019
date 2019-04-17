@@ -87,6 +87,7 @@ router.patch('/users/me',auth, async (req, res) => {
 //An endpoint to delete user by ID
 // In next phases, we don't delete by ID
 // Here if auth is not satisfied, it'll not execute next async function
+// In next phase, we're going to delete cars as well that are associated with user
 router.delete('/users/me',auth, async (req, res) => {
 
     try {
