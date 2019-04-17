@@ -218,7 +218,13 @@
 * [Added an authentication middleware to other HTTP methods]
 * [Learned about POSTMAN Environment and it's settings]
 * [Wrote some code to set Environment variables in POSTMAN]
+--------------------------------------------------------------------------------
 
+### Wednesday 17 April 2019
+* [Use of populate() to make SQL like Joins]
+* [Made changes to User and Car model]
+* [Used a pre hook (middleware functions) while deleting User records and also deleting it's car documents]
+* [Finished Section 12]
 
 ## Udemy-course-link
 ```sh
