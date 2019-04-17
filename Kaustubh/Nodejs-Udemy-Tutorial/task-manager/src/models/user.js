@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 // To define authentication tokens, JSONWebToken module is used
-const jwt=require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
+
+const Car=require('./cars');
 // Let's define schema to define a middleware function
 /**
  * Middleware (also called pre and post hooks) are functions which are passed control
@@ -77,6 +79,23 @@ userSchema.pre('save', async function (next) {
 
     next();
 })
+// Virtuals are document properties that you can get and set
+//  but that do not get persisted to MongoDB.
+//  The getters are useful for formatting or combining fields,
+//  while setters are useful for de-composing a single value into multiple values for storage.
+userSchema.virtual('cars', {
+    ref: 'Car',
+    localField: '_id',
+    foreignField: 'owner'
+});
+
+// Define a function which deletes an user and all its cars
+
+userSchema.pre('remove', async function (next) {
+    const user = this;
+    await Car.createNewCar.deleteMany({owner: user._id});
+    next();
+})
 // Let's define a function to retrieve user's login credentials
 userSchema.statics.findByCredentials = async (email, password) => {
     //Getting document using findOne provided email as an attribute
@@ -97,24 +116,28 @@ userSchema.statics.findByCredentials = async (email, password) => {
 // Writing a new method to generate auth tokens
 // Here methods will work as instance methods
 
-userSchema.methods.generateAuthToken=async function(){
-        const user=this;
+userSchema.methods.generateAuthToken = async function () {
+    const user = this;
 
-        const token=jwt.sign({_id: user._id.toString()},'thisismyfantasticnewcourse');
+    const token = jwt.sign({
+        _id: user._id.toString()
+    }, 'thisismyfantasticnewcourse');
 
-        user.tokens=user.tokens.concat({token})
-        await user.save();
-        return token;
+    user.tokens = user.tokens.concat({
+        token
+    })
+    await user.save();
+    return token;
 }
 
 // Writing a new method to return only important details back to user
 // Converts data into JSON format
-userSchema.methods.toJSON= function(){
+userSchema.methods.toJSON = function () {
 
-    const user=this;
+    const user = this;
     // Documents have a toObject method which converts the mongoose document
     //  into a plain javascript object.    
-    const userObject=user.toObject();
+    const userObject = user.toObject();
     // Delete parameters such as password and tokens
     delete userObject.password;
     delete userObject.tokens;
