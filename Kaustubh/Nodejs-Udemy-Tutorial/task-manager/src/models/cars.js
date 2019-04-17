@@ -17,7 +17,8 @@ const carSchema=new mongoose.Schema({
     owner: {
         // Set Owner's Object ID
         type: mongoose.Schema.Types.ObjectId,
-        required: true
+        required: true,
+        ref: 'User'
     }
 })
 const Car=mongoose.model('Car',carSchema)
