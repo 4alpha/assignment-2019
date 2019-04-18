@@ -225,6 +225,16 @@
 * [Made changes to User and Car model]
 * [Used a pre hook (middleware functions) while deleting User records and also deleting it's car documents]
 * [Finished Section 12]
+--------------------------------------------------------------------------------
+
+### Thursday 18 April 2019
+* [Started section 13 Sorting, Pagination, and Filtering (Task App)]
+* [All above operations are performed at populate method as an optional part]
+* [To sort, we use sort, for pagination we use limit and skip]
+* [Use of parseInt to parse string data into Integer, say limit=2 will be taken as string in query parameters will be converted into integer]
+* [Finished section 13 Sorting, Pagination, and Filtering (Task App)]
+* [Started section 14 File uploads]
+* [Installed multer module which is useful for uploading files(text,jpg etc) to server]
 
 ## Udemy-course-link
 ```sh
