@@ -11,6 +11,12 @@ const router = new express.Router();
 // Add authentication as 2nd argument in route handler functions
 const auth=require('../middleware/auth');
 
+// Importing a new module for uploading file to server
+// Multer is a node.js middleware for handling multipart/form-data,
+//  which is primarily used for uploading files
+const multer=require('multer');
+
+
 router.get('/test', (req, res) => {
     res.send("Test route for User");
 });
@@ -152,5 +158,17 @@ router.post('/users/logoutall',auth,async(req,res)=>{
     catch(e){
         res.status(500).send({error: 'Error occured during logging out from all'});
     }
+})
+
+// A new route to upload picture for Profile
+// Setting up an upload directory
+
+const upload = multer({
+    dest: 'avatar'
+})
+
+// Here upload.single() will act as middleware
+router.post('/users/me/avatar',upload.single('avatar'),(req,res)=>{
+    res.status(200).send();
 })
 module.exports = router;
