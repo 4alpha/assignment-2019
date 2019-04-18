@@ -20,6 +20,8 @@ const carSchema=new mongoose.Schema({
         required: true,
         ref: 'User'
     }
+},{
+    timestamps: true
 })
 const Car=mongoose.model('Car',carSchema)
 

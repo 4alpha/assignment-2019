@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 // To define authentication tokens, JSONWebToken module is used
 const jwt = require('jsonwebtoken');
 
-const Car=require('./cars');
+const Car = require('./cars');
 // Let's define schema to define a middleware function
 /**
  * Middleware (also called pre and post hooks) are functions which are passed control
@@ -12,6 +12,8 @@ const Car=require('./cars');
  *  and is useful for writing plugins.
  */
 
+//  Adding a new fields "timestamps" which will save time and Date of user creation
+// This will be added as an option to Schema constructor
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -64,6 +66,8 @@ const userSchema = new mongoose.Schema({
             required: true
         }
     }]
+}, {
+    timestamps: true
 });
 // To validate/filter schema before saving data
 // Here we don't want to use => function as the function involves use of 'this' operator
@@ -93,7 +97,9 @@ userSchema.virtual('cars', {
 
 userSchema.pre('remove', async function (next) {
     const user = this;
-    await Car.createNewCar.deleteMany({owner: user._id});
+    await Car.createNewCar.deleteMany({
+        owner: user._id
+    });
     next();
 })
 // Let's define a function to retrieve user's login credentials
@@ -106,7 +112,12 @@ userSchema.statics.findByCredentials = async (email, password) => {
         throw new Error('Unable to login');
     }
     // Let's match password
-    const isMatchedPassword = bcrypt.compare(password, getUser.password);
+    // forgot to add await, causing wrong password to return correct message
+    // Ismatched  Promise { <pending> } is the result getting returned
+    // Unable to fulfill conditions or Promise
+    const isMatchedPassword = await bcrypt.compare(password, getUser.password);
+    // console.log('Ismatched ',!isMatchedPassword);
+    
     if (!isMatchedPassword)
         throw new Error('Unable to login'); //We've kept both error messages same as we won't expose much details to annonymous user
 
