@@ -65,7 +65,11 @@ const userSchema = new mongoose.Schema({
             type: String,
             required: true
         }
-    }]
+    }],
+    // To store an image in schema
+    avatar:{
+        type: Buffer//To store binary image data, we use buffer
+    }
 }, {
     timestamps: true
 });
@@ -150,8 +154,10 @@ userSchema.methods.toJSON = function () {
     //  into a plain javascript object.    
     const userObject = user.toObject();
     // Delete parameters such as password and tokens
+    // Deletin user avatar also
     delete userObject.password;
     delete userObject.tokens;
+    delete userObject.avatar;
     return userObject;
 }
 
