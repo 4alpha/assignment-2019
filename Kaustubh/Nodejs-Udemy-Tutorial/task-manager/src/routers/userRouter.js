@@ -164,7 +164,13 @@ router.post('/users/logoutall',auth,async(req,res)=>{
 // Setting up an upload directory
 
 const upload = multer({
-    dest: 'avatar'
+    // Destination folder
+    dest: 'avatar',
+    // An object specifying the size limits
+    // Specifying the limits can help protect your site against denial of service (DoS) attacks..
+    limits:{
+        fileSize: 1000000 //Here it's 1MB i.e 1*10^6
+    }
 })
 
 // Here upload.single() will act as middleware
