@@ -235,6 +235,11 @@
 * [Finished section 13 Sorting, Pagination, and Filtering (Task App)]
 * [Started section 14 File uploads]
 * [Installed multer module which is useful for uploading files(text,jpg etc) to server]
+--------------------------------------------------------------------------------
+
+### Friday 19 April 2019
+* [Applied filter such as fileSize and extension of file in uploading file to server]
+* [Send appropriate error messages from Express server to client side in JSON format]
 
 ## Udemy-course-link
 ```sh
