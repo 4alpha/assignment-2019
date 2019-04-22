@@ -13,7 +13,15 @@ const carSchema=new mongoose.Schema({
     carAvailable: {
         type: Boolean,
         default: false
+    },
+    owner: {
+        // Set Owner's Object ID
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User'
     }
+},{
+    timestamps: true
 })
 const Car=mongoose.model('Car',carSchema)
 

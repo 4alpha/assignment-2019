@@ -203,6 +203,43 @@
 * [Learned about uses of bcryptjs and hashed password]
 * [Implemented above inside program]
 * [Learned about User authentication using a simple login program]
+--------------------------------------------------------------------------------
+
+### Friday 12 April 2019
+* [Revised everything done in this week]
+--------------------------------------------------------------------------------
+
+### Monday 15 April 2019 
+* [Used authentication middleware routes for HTTP methods]
+* [Revised node.js concepts]
+--------------------------------------------------------------------------------
+
+### Tuesday 16 April 2019 
+* [Added an authentication middleware to other HTTP methods]
+* [Learned about POSTMAN Environment and it's settings]
+* [Wrote some code to set Environment variables in POSTMAN]
+--------------------------------------------------------------------------------
+
+### Wednesday 17 April 2019
+* [Use of populate() to make SQL like Joins]
+* [Made changes to User and Car model]
+* [Used a pre hook (middleware functions) while deleting User records and also deleting it's car documents]
+* [Finished Section 12]
+--------------------------------------------------------------------------------
+
+### Thursday 18 April 2019
+* [Started section 13 Sorting, Pagination, and Filtering (Task App)]
+* [All above operations are performed at populate method as an optional part]
+* [To sort, we use sort, for pagination we use limit and skip]
+* [Use of parseInt to parse string data into Integer, say limit=2 will be taken as string in query parameters will be converted into integer]
+* [Finished section 13 Sorting, Pagination, and Filtering (Task App)]
+* [Started section 14 File uploads]
+* [Installed multer module which is useful for uploading files(text,jpg etc) to server]
+--------------------------------------------------------------------------------
+
+### Friday 19 April 2019
+* [Applied filter such as fileSize and extension of file in uploading file to server]
+* [Send appropriate error messages from Express server to client side in JSON format]
 
 ## Udemy-course-link
 ```sh
