@@ -240,6 +240,15 @@
 ### Friday 19 April 2019
 * [Applied filter such as fileSize and extension of file in uploading file to server]
 * [Send appropriate error messages from Express server to client side in JSON format]
+--------------------------------------------------------------------------------
+
+### Monday 22 April 2019
+* [Started section 14 Sending Emails (Task App)]
+* [Create a free account on SendGrid which is useful in sending email via node.js application]
+* [Send some dummy emails]
+* [Added a new config folder and in it, created a new Dev.env file which will include all environment variables like port on which application is hoisted]
+* [Created an account on MongoDB atlas to host MongoDB Database on cloud]
+* [All configurations related to account setup has been made]
 
 ## Udemy-course-link
 ```sh
