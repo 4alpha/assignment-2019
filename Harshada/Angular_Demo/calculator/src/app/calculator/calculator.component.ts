@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CaclService } from './cacl.service';
 
 @Component({
   selector: 'app-calculator',
@@ -8,23 +9,22 @@ import { Component, OnInit } from '@angular/core';
 export class CalculatorComponent implements OnInit {
   title="Welcome to calculator!";
   sum: number = 0;
-  constructor() { }
+  constructor(private calcService: CaclService) { }
 
   add(one: number, two: number) {
-    console.log("in add function");
-    this.sum = +one + +two ;
-  }
-
-  sub(one: number, two: number) {
-    this.sum = +one - +two ;
+    this.sum = this.calcService.add(one,two);
   }
   
+  sub(one: number, two: number) {
+    this.sum = this.calcService.sub(one,two);
+  }
+
   mult(one: number, two: number) {
-    this.sum = +one * +two ;
+    this.sum = this.calcService.mult(one,two);
   }
 
   div(one: number, two: number) {
-    this.sum = +one / +two ;
+    this.sum = this.calcService.div(one,two);
   }
 
   ngOnInit() {
