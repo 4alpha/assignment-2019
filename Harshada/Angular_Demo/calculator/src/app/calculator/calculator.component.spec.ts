@@ -3,6 +3,33 @@ import { CalculatorComponent } from './calculator.component';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
+class MockCalcService {
+  sum: number = 0;
+  
+  add(one: number, two: number): number {
+    this.sum = +one + +two;
+    return this.sum;
+  }
+
+  sub(one: number, two: number): number {
+    this.sum = +one - +two;
+    return this.sum;
+  }
+
+  mult(one: number, two: number): number {
+    this.sum = +one * +two;
+    return this.sum;
+  }
+
+  div(one: number, two: number): number {
+    if (two == 0) {
+      return 0;
+    }
+    this.sum = +one / +two;
+    return this.sum;
+  }
+}
+
 describe('CalculatorComponent', () => {
   let component: CalculatorComponent;
   let fixture: ComponentFixture < CalculatorComponent > ;
@@ -52,7 +79,6 @@ describe('CalculatorComponent', () => {
     expect(button[1].nativeElement.innerText).toBe('Sub');
     expect(button[2].nativeElement.innerText).toBe('Mult');
     expect(button[3].nativeElement.innerText).toBe('Div');
-
   });
 
   it('button should be enabled on form load', () => {
@@ -91,49 +117,90 @@ describe('CalculatorComponent', () => {
     });
   });
 
-  describe('Calculator Methods', function() {
-    var calculator = new CalculatorComponent();
+  // describe('Calculator Methods', function() {
+  //   var calculator = new CalculatorComponent();
      
-    it('contains an add method', function() {
-      expect(calculator.add).toBeDefined();
+  //   it('contains an add method', function() {
+  //     expect(calculator.add).toBeDefined();
+  //   });
+
+  //   it('contains an sub method', function() {
+  //     expect(calculator.sub).toBeDefined();
+  //   });
+
+  //   it('contains an mult method', function() {
+  //     expect(calculator.mult).toBeDefined();
+  //   });
+
+  //   it('contains an div method', function() {
+  //     expect(calculator.div).toBeDefined();
+  //   });
+  
+  // });
+
+  describe('service testing', ()=> {
+    let component: CalculatorComponent;
+    let service: MockCalcService;
+
+    beforeEach(() => { (2)
+      service = new MockCalcService();
+      component = new CalculatorComponent(service);
+    });
+  
+    afterEach(() => {
+      service = null;
+      component = null;
     });
 
-    it('contains an sub method', function() {
-      expect(calculator.sub).toBeDefined();
-    });
+    it('Methods are defined', () => {
+      expect(service.add(1,2)).toBeTruthy();
+      expect(service.sub(1,2)).toBeTruthy();
+      expect(service.mult(1,2)).toBeTruthy();
+      expect(service.div(1,2)).toBeTruthy();
 
-    it('contains an mult method', function() {
-      expect(calculator.mult).toBeDefined();
-    });
-
-    it('contains an div method', function() {
-      expect(calculator.div).toBeDefined();
+      expect(service.add(1,2)).toBeDefined();
+      expect(service.sub(1,2)).toBeDefined();
+      expect(service.mult(1,2)).toBeDefined();
+      expect(service.div(1,2)).toBeDefined();
     });
   
   });
 
+
   describe('operations on two numbers', function() {
-    var calculator = new CalculatorComponent();
+    let component: CalculatorComponent;
+    let service: MockCalcService;
+
+    beforeEach(() => { (2)
+      service = new MockCalcService();
+      component = new CalculatorComponent(service);
+    });
+  
+    afterEach(() => {
+      service = null;
+      component = null;
+    });
+
     var sum = 0;
  
     it('on adding correct answer is shown', function() {
-      calculator.add(1, 2);
-      expect(calculator.sum).toBe(3);
+      service.add(1, 2);
+      expect(service.sum).toBe(3);
     });
 
     it('on substracting correct answer is shown', function() {
-      calculator.sub(2, 1);
-      expect(calculator.sum).toBe(1);
+      service.sub(2, 1);
+      expect(service.sum).toBe(1);
     });
 
     it('on Multiplication correct answer is shown', function() {
-      calculator.mult(1, 2);
-      expect(calculator.sum).toBe(2);
+      service.mult(1, 2);
+      expect(service.sum).toBe(2);
     });
 
     it('on Division correct answer is shown', function() {
-      calculator.div(1, 1);
-      expect(calculator.sum).toBe(1);
+      service.div(1, 1);
+      expect(service.sum).toBe(1);
     });
   });
 
@@ -144,14 +211,24 @@ describe('CalculatorComponent', () => {
     inputTwo.nativeElement.value = 2;
     inputTwo.nativeElement.dispatchEvent(new Event('input'));
     fixture.detectChanges();
+    
+    //btn Add not called yet
+    expect(add.calls.any()).toEqual(false);
+    
     btnAdd.nativeElement.click();
+    //btn Add is called
+    expect(add.calls.any()).toEqual(true);
+  
     fixture.detectChanges();
 
     expect(add).toHaveBeenCalled();
+    //arguments passed to call
+    expect(add.calls.argsFor(0)).toEqual(['1', '2']);
+    
     expect(add).toHaveBeenCalledWith('1','2');
     
     let result = fixture.debugElement.nativeElement.querySelector('#result');
-    expect(result.innerText).toEqual('Result: 3');
+    expect(result.innerText).toEqual('Result:3');
  
   });
 
@@ -165,10 +242,62 @@ describe('CalculatorComponent', () => {
     btnSub.nativeElement.click();
     fixture.detectChanges();
 
+    expect(inputOne).toBeGreaterThan(inputTwo.nativeElement.value);
     expect(sub).toHaveBeenCalled();
     expect(sub).toHaveBeenCalledWith('1','1');
 
     let result = fixture.debugElement.nativeElement.querySelector('#result');
-    expect(result.innerText).toEqual('Result: 0');
+    expect(result.innerText).toEqual('Result:0');
   });
+
+  it('call through mult method', () => {
+    let mult = spyOn(component, 'mult').and.callThrough();
+    inputOne.nativeElement.value = 1;
+    inputOne.nativeElement.dispatchEvent(new Event('input'));
+    inputTwo.nativeElement.value = 2;
+    inputTwo.nativeElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+    btnMult.nativeElement.click();
+    fixture.detectChanges();
+
+    expect(mult).toHaveBeenCalled();
+    expect(mult).toHaveBeenCalledWith('1','2');
+    
+    let result = fixture.debugElement.nativeElement.querySelector('#result');
+    expect(result.innerText).toEqual('Result:2');
+ 
+  });
+
+  it('call through div method', () => {
+    let div = spyOn(component, 'div').and.callThrough();
+    inputOne.nativeElement.value = 1;
+    inputOne.nativeElement.dispatchEvent(new Event('input'));
+    inputTwo.nativeElement.value = 2;
+    inputTwo.nativeElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+    btnDiv.nativeElement.click();
+    fixture.detectChanges();
+
+    expect(div).toHaveBeenCalled();
+    expect(div).toHaveBeenCalledWith('1','2');
+    
+    let result = fixture.debugElement.nativeElement.querySelector('#result');
+    expect(result.innerText).toEqual('Result:0.5');
+ 
+  });
+
+  it('Throw error for divide by 0', () =>{
+    let div = spyOn(component, 'div').and.callThrough();
+    inputOne.nativeElement.value=1;
+    inputOne.nativeElement.dispatchEvent(new Event('input'));
+    inputTwo.nativeElement.value=0;
+    inputOne.nativeElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+    btnDiv.nativeElement.click();
+    fixture.detectChanges();
+
+    expect(div).toThrow();
+  });
+  
+
 });

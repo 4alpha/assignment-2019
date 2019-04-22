@@ -4,12 +4,12 @@
 
 Number One:<input type="number" id="one" #one> 
 <br>
-Number Two:<input type="nuber" id="two" #two>
+Number Two:<input type="number" id="two" #two>
 <br> <br>
  <button id="add" (click)='add(one.value, two.value)'> Add </button>  &nbsp;
  <button id="sub" (click)='sub(one.value, two.value)'> Sub </button> &nbsp;
  <button id="mult" (click)='mult(one.value, two.value)'> Mult </button> &nbsp;
- <button id="div" (click)='div(one.value, two.value)'> Div </button> 
+ <button id="div" (click)='div(one.value, two.value)' > Div </button> 
  <br>
  <div id="result">
     Result:{{ sum }}
