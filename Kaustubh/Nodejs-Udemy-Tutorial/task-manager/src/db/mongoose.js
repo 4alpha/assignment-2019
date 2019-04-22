@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-const connectionURL = 'mongodb://127.0.0.1:27017';
+// Exported DB connection URL to .env file
+// const connectionURL = 'mongodb://127.0.0.1:27017';
+const connectionURL = process.env.DATABASE_CONNECTION_URL;
 //Let's concatenate Database name in below connectionURl
 mongoose.connect(connectionURL + '/task-manager-api', {
     useNewUrlParser: true,

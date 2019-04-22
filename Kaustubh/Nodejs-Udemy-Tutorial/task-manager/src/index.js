@@ -2,7 +2,10 @@ const express = require('express');
 //Include Mongoose to conncect to DB
 require("./db/mongoose");
 
-const portNumber = process.env.PORT || 9000;
+// Exporting port number to .env file
+// A simple node program for executing commands
+//  using an environment from an env file.
+const portNumber = process.env.PORT;
 // Import user's route
 const userRouters = require('../src/routers/userRouter');
 // Import car's route

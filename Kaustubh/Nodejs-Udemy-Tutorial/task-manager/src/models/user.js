@@ -136,7 +136,7 @@ userSchema.methods.generateAuthToken = async function () {
 
     const token = jwt.sign({
         _id: user._id.toString()
-    }, 'thisismyfantasticnewcourse');
+    }, process.env.JWT_SECRET_KEY);
 
     user.tokens = user.tokens.concat({
         token
