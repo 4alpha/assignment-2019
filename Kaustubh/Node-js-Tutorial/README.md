@@ -249,6 +249,16 @@
 * [Added a new config folder and in it, created a new Dev.env file which will include all environment variables like port on which application is hoisted]
 * [Created an account on MongoDB atlas to host MongoDB Database on cloud]
 * [All configurations related to account setup has been made]
+* [Completed section 14 Sending Emails (Task App)]
+--------------------------------------------------------------------------------
+
+### Tuesday 23 April 2019
+* [Started section 15 Testing Node.js (Task App)]
+* [Wrote some tests to check the output]
+* [Explored automated testing tool viz Jesjs.io and Mochajs.org]
+* [Started to write test-cases for Express server]
+* [Created a new folder for tests]
+--------------------------------------------------------------------------------
 
 ## Udemy-course-link
 ```sh
