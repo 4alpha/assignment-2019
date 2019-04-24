@@ -260,6 +260,10 @@
 * [Created a new folder for tests]
 --------------------------------------------------------------------------------
 
+### Wednesday 24 April 2019
+* [Performed assertion testing on routing path to create, insert and delete users]
+* [Some of the assertion methods such as expect().toBe(), expect(),not.toBe() are also explored]
+
 ## Udemy-course-link
 ```sh
 https://www.udemy.com/node-js-api-tutorial/learn/v4/overview
