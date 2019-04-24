@@ -10,12 +10,16 @@ const carRouters = require('../src/routers/carRouter');
 const app = express();
 
 //Configure server to parse data in JSON
+/**
+ * express.json parses incoming requests with JSON payloads.
+ *  NOTE: Available with Express 4.16.0+
+ */
 app.use(express.json());
 
 app.use(userRouters);
 app.use(carRouters);
 
-module.exports=app
+module.exports = app
 
 // No use of below line in this file
 // app.listen(portNumber, () => console.log('Server listening at port ', portNumber))
