@@ -237,6 +237,15 @@ router.post('/users/me/avatar', auth, upload.single('avatar'), async (req, res) 
     });
 }))
 
+
+/**
+ * The above is an error handling middleware
+ *  Error-handling middleware always takes four arguments.
+ *  You must provide four arguments to identify it as an error-handling middleware function.
+ *  Even if you don’t need to use the next object, you must specify it to maintain the signature.
+ *  Otherwise, the next object will be interpreted as regular middleware
+ *  and will fail to handle errors.
+ */
 // A router to delete user avatar
 
 router.delete('/users/me/avatar', auth, async (req, res) => {
