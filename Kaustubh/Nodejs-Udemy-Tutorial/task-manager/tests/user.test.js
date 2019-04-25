@@ -1,36 +1,32 @@
+/** Tip 1: toBe() is like equality operator (===) and not useful in comparing two objects
+ *  Tip 2: --runInBand in package.json
+ *  Run all tests serially in the current process,
+ *  rather than creating a worker pool of child processes that run tests
+ * */
+
 const request = require('supertest');
 
 // Import app module defined in app.js
 
 const app = require('../src/app');
 
-const jwt = require('jsonwebtoken');
 
-const mongoose = require('mongoose');
 // creating a new user
 
-const userOneId = new mongoose.Types.ObjectId();
-const userOne = {
-    _id: userOneId,
-    name: 'Vaishnavi',
-    email: 'vaishnavi1995@gmail.com',
-    password: 'Vaishnavi1234',
-    tokens: [{
-        token: jwt.sign({
-            _id: userOneId
-        }, process.env.JWT_SECRET_KEY)
-    }]
-}
 const User = require('../src/models/user');
+
+const {
+    userOne,
+    userOneId,
+    setupDatabase
+} = require('./fixtures/db');
 // beforeEach() afterEach() are lifecycle method
 // As the name suggests, it'll be called before and after each test
 // async- await is added as method below is asynchronous
 //  and will take time to return result.
 // deleteMany() is added to empty database
-beforeEach(async () => {
-    await User.newUser.deleteMany();
-    await new User.newUser(userOne).save();
-})
+// All above changes are added in new file db.js
+beforeEach(setupDatabase);
 
 afterEach(() => {
     console.log("AfterEach called");
@@ -105,14 +101,14 @@ test('Should not get user profile using unauthorized key', async () => {
 // Test for deleting an account
 
 test('Should delete an user account', async () => {
-    const response = await request(app)
+    await request(app)
         .delete('/users/me')
         .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
         .send()
         .expect(200);
-        // Here, we're logging in as userOne
-        const deletedUser=await User.newUser.findById(userOneId);
-        expect(deletedUser).toBeNull();
+    // Here, we're logging in as userOne
+    const deletedUser = await User.newUser.findById(userOneId);
+    expect(deletedUser).toBeNull();
 })
 
 // Test for not deleting user profile on unauthorized request
@@ -124,3 +120,53 @@ test('Should not delete an user profile on unauthorized request', async () => {
         .expect(401)
 })
 // afterEach(()=>console.log(userOne));
+
+// Test for uploading picture for user avatar
+
+test('Should upload a picture for user avatar', async () => {
+
+    await request(app)
+        .post('/users/me/avatar')
+        .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
+        // to send/upload an image or other file in test environment, we use attach
+        .attach('avatar', './tests/fixtures/womens-day.jpg')
+        //Don't use  send() after attach()
+        .expect(200)
+
+    // Let's fetch an user by ID
+    const modifiedUser = await User.newUser.findById(userOneId);
+    // expect({}).toBe({}) won't return equal result
+    /**Compared values have no visual difference.
+     *  Note that you are testing for equality with the stricter `toBe` matcher
+     *  using `Object.is`. For deep equality only, use `toEqual` instead. */
+
+    expect(modifiedUser.avatar).toEqual(expect.any(Buffer))
+})
+
+// A test for updating user fields
+
+test('Should update user for valid fields', async () => {
+    await request(app)
+        .patch('/users/me')
+        .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
+        .send({
+            name: 'Vaishnavi Kulkarni'
+        })
+        .expect(200)
+    // Verifying if user has been updated
+
+    const updatedUser = await User.newUser.findById(userOneId);
+    expect(updatedUser.name).toEqual('Vaishnavi Kulkarni')
+})
+
+// A test for not updating user for invalid fields
+
+test('Should not update user for invalid fields', async () => {
+    await request(app)
+        .patch('/users/me')
+        .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
+        .send({
+            location: 'Jalgaon'
+        })
+        .expect(400)
+})
