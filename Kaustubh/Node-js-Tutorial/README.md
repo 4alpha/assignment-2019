@@ -255,7 +255,7 @@
 ### Tuesday 23 April 2019
 * [Started section 15 Testing Node.js (Task App)]
 * [Wrote some tests to check the output]
-* [Explored automated testing tool viz Jesjs.io and Mochajs.org]
+* [Explored automated testing tool viz Jestjs.io and Mochajs.org]
 * [Started to write test-cases for Express server]
 * [Created a new folder for tests]
 --------------------------------------------------------------------------------
@@ -263,6 +263,16 @@
 ### Wednesday 24 April 2019
 * [Performed assertion testing on routing path to create, insert and delete users]
 * [Some of the assertion methods such as expect().toBe(), expect(),not.toBe() are also explored]
+--------------------------------------------------------------------------------
+
+### Thursday 25 April 2019
+* [Assertion testing for Updating user based on valid and invalid fields]
+* [Assertion testing for uploading picture for user avatar]
+* [Difference between toBe() and toEqual() (toBe() involves testing using equality operator)]
+* [Difference between attach() and send(), attach() is useful for uploading files and should not be followed by send()]
+* [Assertion testing for creating and deleting cars in Task Manager App]
+* [Completed section 15 Testing Node.js (Task App)]
+
 
 ## Udemy-course-link
 ```sh
